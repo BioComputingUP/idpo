@@ -1,45 +1,2002 @@
-Prefix(:=<http://purl.obolibrary.org/obo/idpo.owl#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
-Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
-Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
-Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
-Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
-Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dcterms:=<http://purl.org/dc/terms/>)
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/idpfun/ontologies/2019/08/idpontology_disprot_8#"
+     xml:base="http://www.semanticweb.org/idpfun/ontologies/2019/08/idpontology_disprot_8"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/idpo.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/idpo/releases/2019-08-01/idpo.owl"/>
+        <owl:versionInfo>Release 2019-08-01</owl:versionInfo>
+    </owl:Ontology>
+    
 
 
-Ontology(<http://purl.obolibrary.org/obo/idpo.owl>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-Import(<http://purl.obolibrary.org/obo/idpo/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/idpo/imports/go_import.owl>)
-Import(<http://purl.obolibrary.org/obo/idpo/imports/omo_import.owl>)
-
-
-Annotation(dcterms:description "None")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
-Annotation(dcterms:title "Intrinsically Disordered Proteins Ontology")
-
-
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000000>))
-Declaration(AnnotationProperty(dcterms:description))
-Declaration(AnnotationProperty(dcterms:license))
-Declaration(AnnotationProperty(dcterms:title))
-
-############################
-#   Annotation Properties
-############################
-
-AnnotationAssertion(rdfs:label dcterms:description "description")
-AnnotationAssertion(rdfs:label dcterms:license "license")
-AnnotationAssertion(rdfs:label dcterms:title "title")
-
-############################
-#   Classes
-############################
-
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000000> (root node)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000000> "root node"@en)
+    
 
 
-)
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00000">
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00000</oboInOwl:id>
+        <rdfs:label xml:lang="en">Disorder function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00000"/>
+        <obo:IAO_0000115 xml:lang="en">Directly function via disorder.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00001</oboInOwl:id>
+        <rdfs:label xml:lang="en">Entropic chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00001"/>
+        <obo:IAO_0000115 xml:lang="en">Provides separation and permits movement between adjacent binding elements/domains.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">flexible linker</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">flexible spacer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00002</oboInOwl:id>
+        <rdfs:label xml:lang="en">Flexible linker/spacer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00001"/>
+        <obo:IAO_0000115 xml:lang="en">A disordered region that creates a zone of exclusion by its entropic movement resisting compression.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00003</oboInOwl:id>
+        <rdfs:label xml:lang="en">Entropic bristle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00001"/>
+        <obo:IAO_0000115 xml:lang="en">Timing mechanism arising from random search by a binding element.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00004</oboInOwl:id>
+        <rdfs:label xml:lang="en">Entropic clock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00001"/>
+        <obo:IAO_0000115 xml:lang="en">Generation of restoring force resulting from randomization of bond torsion angles upon stretching.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00005</oboInOwl:id>
+        <rdfs:label xml:lang="en">Entropic spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00001"/>
+        <obo:IAO_0000115 xml:lang="en">Ribosomal proteins that fill the gaps and cracks of rRNA.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00006</oboInOwl:id>
+        <rdfs:label xml:lang="en">Structural mortar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00001"/>
+        <obo:IAO_0000115 xml:lang="en">Allows movement of proteins through membrane channels.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00007</oboInOwl:id>
+        <rdfs:label xml:lang="en">Self-transport through channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00000"/>
+        <obo:IAO_0000115 xml:lang="en">Assemble complexes and target activity.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00008</oboInOwl:id>
+        <rdfs:label xml:lang="en">Molecular recognition assembler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00008"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00010"/>
+        <obo:IAO_0000115 xml:lang="en">Binding more than one partner to assemble a functional complex.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00009</oboInOwl:id>
+        <rdfs:label xml:lang="en">Assembler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00008"/>
+        <obo:IAO_0000115 xml:lang="en">Changing the location of the protein.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00010</oboInOwl:id>
+        <rdfs:label xml:lang="en">Localization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00010"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00012"/>
+        <obo:IAO_0000115 xml:lang="en">Localizing the protein to  particular place in the cell.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00011</oboInOwl:id>
+        <rdfs:label xml:lang="en">Targeting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00010"/>
+        <obo:IAO_0000115 xml:lang="en">Reaching out to tether/capture a partner (&quot;fly casting&quot;).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00012</oboInOwl:id>
+        <rdfs:label xml:lang="en">Tethering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00000"/>
+        <obo:IAO_0000115 xml:lang="en">Store and/or neutralize small ligands.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">scavenger</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00013</oboInOwl:id>
+        <rdfs:label xml:lang="en">Molecular recognition scavenger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00013"/>
+        <obo:IAO_0000115 xml:lang="en">Binds toxic organic molecules to neutralize them.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00014</oboInOwl:id>
+        <rdfs:label xml:lang="en">Neutralization of toxic molecules</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00013"/>
+        <obo:IAO_0000115 xml:lang="en">Binds metal ions and or metal complexes for storage and/or delivery.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">metal sponge</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00015</oboInOwl:id>
+        <rdfs:label xml:lang="en">Metal binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00013"/>
+        <obo:IAO_0000115 xml:lang="en">Due to high hydration potential retains water in cells.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00016</oboInOwl:id>
+        <rdfs:label xml:lang="en">Water storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00000"/>
+        <obo:IAO_0000115 xml:lang="en">Modulate the activity of partner molecule.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00017</oboInOwl:id>
+        <rdfs:label xml:lang="en">Molecular recognition effector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00017"/>
+        <obo:IAO_0000115 xml:lang="en">Binding a partner to inhibit its activity.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00018</oboInOwl:id>
+        <rdfs:label xml:lang="en">Inhibitor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00018"/>
+        <obo:IAO_0000115 xml:lang="en">Short disordered regions binding to and regulating the activity of adjacent domains.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00019</oboInOwl:id>
+        <rdfs:label xml:lang="en">Cis-regulatory element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00017"/>
+        <obo:IAO_0000115 xml:lang="en">Binding a partner to prevent assembly or promote disassembly of complex.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00020</oboInOwl:id>
+        <rdfs:label xml:lang="en">Disassembler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00017"/>
+        <obo:IAO_0000115 xml:lang="en">Binding a partner to increase its activity.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00021</oboInOwl:id>
+        <rdfs:label xml:lang="en">Activator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00017"/>
+        <obo:IAO_0000115 xml:lang="en">Mediates DNA bending.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00022</oboInOwl:id>
+        <rdfs:label xml:lang="en">DNA bending</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00017"/>
+        <obo:IAO_0000115 xml:lang="en">Promotes the unwinding of DNA.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00023</oboInOwl:id>
+        <rdfs:label xml:lang="en">DNA unwinding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00000"/>
+        <obo:IAO_0000115 xml:lang="en">Targeting post-translational modification.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00024</oboInOwl:id>
+        <rdfs:label xml:lang="en">Molecular recognition display site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00024"/>
+        <obo:IAO_0000115 xml:lang="en">Guides the addition of a phosphate to the protein.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0006468</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">protein phosphorylation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00025</oboInOwl:id>
+        <rdfs:label xml:lang="en">Regulation of phosphorylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00024"/>
+        <obo:IAO_0000115 xml:lang="en">Guides the addition of an acetyl group to the protein.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0006473</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">protein acetylation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00026</oboInOwl:id>
+        <rdfs:label xml:lang="en">Regulation of acetylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00024"/>
+        <obo:IAO_0000115 xml:lang="en">Guides the addition of a methyl group to the protein.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0006479</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">protein methylation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00027</oboInOwl:id>
+        <rdfs:label xml:lang="en">Regulation of methylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00024"/>
+        <obo:IAO_0000115 xml:lang="en">Guides the addition of a sugar, such as a glycan, during chemical modification of the protein.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0006486</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">protein glycosylation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00028</oboInOwl:id>
+        <rdfs:label xml:lang="en">Regulation of glycosylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00024"/>
+        <obo:IAO_0000115 xml:lang="en">Guides the addition of a ubiquitin moiety for regulating the function and/or degradation of the protein.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0016567</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">protein ubiquitination</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00029</oboInOwl:id>
+        <rdfs:label xml:lang="en">Regulation of ubiquitination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00024"/>
+        <obo:IAO_0000115 xml:lang="en">Guides the addition of a fatty acyl group during chemical modification of the protein.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00030</oboInOwl:id>
+        <rdfs:label xml:lang="en">Regulation of fatty acylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00030"/>
+        <obo:IAO_0000115 xml:lang="en">Guides the addition of a myristoyl group during chemical modification of the protein.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0018377</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">protein myristoylation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00031</oboInOwl:id>
+        <rdfs:label xml:lang="en">Regulation of myristoylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00030"/>
+        <obo:IAO_0000115 xml:lang="en">Guides the addition of a palmitoyl group during chemical modification of the protein.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0018345</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">protein palmitoylation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00032</oboInOwl:id>
+        <rdfs:label xml:lang="en">Regulation of palmitoylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00024"/>
+        <obo:IAO_0000115 xml:lang="en">Guides the regulatory cleavage of the polypeptide chain.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0006508</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">proteolysis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00033</oboInOwl:id>
+        <rdfs:label xml:lang="en">Regulation of limited proteolysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00024"/>
+        <obo:IAO_0000115 xml:lang="en">Guides the addition of ADP-ribose moietie(s) to a protein, in cell signaling, DNA repair, gene regulation and apoptosis.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0006471</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">protein ADP-ribosylation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace xml:lang="en">Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00034</oboInOwl:id>
+        <rdfs:label xml:lang="en">Regulation of ADP-ribosylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00000"/>
+        <obo:IAO_0000115 xml:lang="en">Assist the folding of protein and/or RNA.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">chaperone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00035</oboInOwl:id>
+        <rdfs:label xml:lang="en">Molecular recognition chaperone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00035"/>
+        <obo:IAO_0000115 xml:lang="en">Binds to hydrophobic groups, thus making them more soluble.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">solvate layer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00036</oboInOwl:id>
+        <rdfs:label xml:lang="en">Protein detergent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00035"/>
+        <obo:IAO_0000115 xml:lang="en">By a combination transient binding, exclusion by its entropic movement resisting compression.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00037</oboInOwl:id>
+        <rdfs:label xml:lang="en">Space filling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00035"/>
+        <obo:IAO_0000115 xml:lang="en">Entropic bristle function embedded in a chaperone: a disordered region that creates a zone of exclusion preventing aggregation.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00038</oboInOwl:id>
+        <rdfs:label xml:lang="en">Entropic exclusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00035"/>
+        <obo:IAO_0000115 xml:lang="en">Transiently interacts with misfolded client to increase its entropy thus enabling its folding.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00039</oboInOwl:id>
+        <rdfs:label xml:lang="en">Entropy transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00000"/>
+        <obo:IAO_0000115 xml:lang="en">Protein undergoing a transition from a solution to a condensed phase, whether liquid, gel or aggregate.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00040</oboInOwl:id>
+        <rdfs:label xml:lang="en">Biological condensation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00040"/>
+        <obo:IAO_0000115 xml:lang="en">Undergoes phase separation from a solution resulting in a dynamic &quot;liquid droplet&quot;.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">liquid demixing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">phase separation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">self-assembly</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00041</oboInOwl:id>
+        <rdfs:label xml:lang="en">Liquid-liquid phase separation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00040"/>
+        <obo:IAO_0000115 xml:lang="en">Undergoes phase separation from a solution or liquid droplet state into a hydrogel (by gelation), characterized by a reduced dynamics and a system-wide cross-linking network.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00042</oboInOwl:id>
+        <rdfs:label xml:lang="en">Hydrogel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00040"/>
+        <obo:IAO_0000115 xml:lang="en">Undergoes phase separation from a solution or hydrogel state to a rigid (amorphous or fibrillar) solid state.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">aggregation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00043</oboInOwl:id>
+        <rdfs:label xml:lang="en">Aggregate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00040"/>
+        <obo:IAO_0000115 xml:lang="en">A cellular protein condensate, most often, but not necessarily in the aggregated state.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">inclusion body</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00044</oboInOwl:id>
+        <rdfs:label xml:lang="en">Granule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00040"/>
+        <obo:IAO_0000115 xml:lang="en">A cellular condensate of not clearly defined material state (droplet or aggregate) mostly reported in cell-biological experiments.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00045</oboInOwl:id>
+        <rdfs:label xml:lang="en">Cellular puncta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00040"/>
+        <obo:IAO_0000115 xml:lang="en">Physiological or pathological function encompassing the formation of a highly ordered fibrillar state dominated by cross-beta structure.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00046</oboInOwl:id>
+        <rdfs:label xml:lang="en">Amyloid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00040"/>
+        <obo:IAO_0000115 xml:lang="en">Capable of undergoing autocatalytic, self-maintaining and transmissible conformational change that can form the basis of the non-genetic inheritance of a biological trait. Can be physiological or pathological. The structural correlate is often the formation of a self-seeding amyloid.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00047</oboInOwl:id>
+        <rdfs:label xml:lang="en">Prion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00040"/>
+        <obo:IAO_0000115 xml:lang="en">Function through the formation of large heterologous signaling complex of loosely defined stoichiometry.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">signaling body</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">signalosome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00048</oboInOwl:id>
+        <rdfs:label xml:lang="en">Signaling complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00049">
+        <obo:IAO_0000115 xml:lang="en">Molecular transition necessary for function.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">secondary structure population</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00049</oboInOwl:id>
+        <rdfs:label xml:lang="en">Structural transition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00049"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00056"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">disorder-to-order</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00050</oboInOwl:id>
+        <rdfs:label xml:lang="en">Disorder to order</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00050"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">disorder to molten-globule</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">disorder-to-molten-globule</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00051</oboInOwl:id>
+        <rdfs:label xml:lang="en">Disorder to molten globule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00050"/>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00052</oboInOwl:id>
+        <rdfs:label xml:lang="en">Disorder to pre-molten globule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00050"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">molten-globule to order</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">molten-globule-to-order</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00053</oboInOwl:id>
+        <rdfs:label xml:lang="en">Molten globule to order</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00050"/>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00054</oboInOwl:id>
+        <rdfs:label xml:lang="en">Molten globule to pre-molten globule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00050"/>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00055</oboInOwl:id>
+        <rdfs:label xml:lang="en">Pre-molten globule to order</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00049"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">order-to-disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00056</oboInOwl:id>
+        <rdfs:label xml:lang="en">Order to disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00056"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">order to molten-globule</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">order-to-molten-globule</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00057</oboInOwl:id>
+        <rdfs:label xml:lang="en">Order to molten globule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00056"/>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00058</oboInOwl:id>
+        <rdfs:label xml:lang="en">Order to pre-molten globule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00056"/>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00059</oboInOwl:id>
+        <rdfs:label xml:lang="en">Pre-molten globule to disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00056"/>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00060</oboInOwl:id>
+        <rdfs:label xml:lang="en">Pre-molten globule to molten globule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00056"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">molten-globule to disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">molten-globule-to-disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Structural transition</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00061</oboInOwl:id>
+        <rdfs:label xml:lang="en">Molten globule to disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00062">
+        <obo:IAO_0000115 xml:lang="en">Molecular partner recognized by the IDP/IDR.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00062</oboInOwl:id>
+        <rdfs:label xml:lang="en">Interaction partner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00062"/>
+        <oboInOwl:hasDbXref>GO:0005515</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">protein binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00063</oboInOwl:id>
+        <rdfs:label xml:lang="en">Protein binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00062"/>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00064</oboInOwl:id>
+        <rdfs:label xml:lang="en">Nucleic acid binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00064"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00066"/>
+        <oboInOwl:hasDbXref>GO:0003677</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">DNA binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00065</oboInOwl:id>
+        <rdfs:label xml:lang="en">DNA binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00064"/>
+        <oboInOwl:hasDbXref>GO:0003723</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">RNA binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00066</oboInOwl:id>
+        <rdfs:label xml:lang="en">RNA binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00066"/>
+        <oboInOwl:hasDbXref>GO:0003729</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">mRNA binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00067</oboInOwl:id>
+        <rdfs:label xml:lang="en">mRNA binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00066"/>
+        <oboInOwl:hasDbXref>GO:0019843</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">rRNA binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00068</oboInOwl:id>
+        <rdfs:label xml:lang="en">rRNA binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00066"/>
+        <oboInOwl:hasDbXref>GO:0000049</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">tRNA binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00069</oboInOwl:id>
+        <rdfs:label xml:lang="en">tRNA binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00066"/>
+        <oboInOwl:hasDbXref>GO:0001069</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">regulatory region RNA binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00070</oboInOwl:id>
+        <rdfs:label xml:lang="en">Regulatory region RNA binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00062"/>
+        <oboInOwl:hasDbXref>GO:0001069</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">lipid binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00071</oboInOwl:id>
+        <rdfs:label xml:lang="en">Lipid binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00062"/>
+        <oboInOwl:hasDbXref>GO:0043167</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">ion binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00072</oboInOwl:id>
+        <rdfs:label xml:lang="en">Ion binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00072"/>
+        <oboInOwl:hasDbXref>GO:0046872</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">metal ion binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00073</oboInOwl:id>
+        <rdfs:label xml:lang="en">Metal ion binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00062"/>
+        <oboInOwl:hasDbXref>GO:0036094</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">small molecule binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Interaction partner</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00074</oboInOwl:id>
+        <rdfs:label xml:lang="en">Small molecule binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00075">
+        <oboInOwl:hasOBONamespace>Structural state</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00075</oboInOwl:id>
+        <rdfs:label xml:lang="en">Structural state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00075"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00079"/>
+        <obo:IAO_0000115 xml:lang="en">A non-compact state in which atoms lack a fixed or ordered three-dimensional structure.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Structural state</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00076</oboInOwl:id>
+        <rdfs:label xml:lang="en">Disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00076"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00078"/>
+        <obo:IAO_0000115 xml:lang="en">A compact state, with native secondary structure but lacking specific native tertiary interactions.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">MG</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Structural state</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00077</oboInOwl:id>
+        <rdfs:label xml:lang="en">Molten globule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00076"/>
+        <obo:IAO_0000115 xml:lang="en">A condensed but not compact state, with residual secondary structure, describing many native and non-native conformations in rapid equilibrium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">PMG</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Structural state</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00078</oboInOwl:id>
+        <rdfs:label xml:lang="en">Pre-molten globule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00075"/>
+        <obo:IAO_0000115 xml:lang="en">A compact state in which atoms have a stable three-dimensional structure.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>Structural state</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00079</oboInOwl:id>
+        <rdfs:label xml:lang="en">Order</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00080">
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00080</oboInOwl:id>
+        <rdfs:label xml:lang="en">Detection method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00080"/>
+        <obo:IAO_0000115 xml:lang="en">Separation, identification or quantification about protein composition and structure.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">ANALCHEM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00081</oboInOwl:id>
+        <rdfs:label xml:lang="en">Analytical chemistry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00081"/>
+        <obo:IAO_0000115 xml:lang="en">Analysis of real-time sedimentation of proteins to estimate shape and molecular weight, determine hydrodynamic and thermodynamic parameters and monitor conformational changes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">AU</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00082</oboInOwl:id>
+        <rdfs:label xml:lang="en">Analytical ultracentrifugation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00081"/>
+        <obo:IAO_0000115 xml:lang="en">Study of the nature, functions and interactions relative to the immune system, including conformational antibodies specific for the secondary or tertiary structure and thus useful to inspect the structural state of a protein.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">IMMUNO</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00083</oboInOwl:id>
+        <rdfs:label xml:lang="en">Immunochemistry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00081"/>
+        <obo:IAO_0000115 xml:lang="en">Detection of enzymatic activity using radio-labelled proteins or substrates.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">RAA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00084</oboInOwl:id>
+        <rdfs:label xml:lang="en">Radio-labeled enzyme activity assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00081"/>
+        <obo:IAO_0000115 xml:lang="en">Limited proteolysis experiments to probe enhanced backbone flexibility and other conformational features of proteins.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">SP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00085</oboInOwl:id>
+        <rdfs:label xml:lang="en">Sensitivity to proteolysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00081"/>
+        <obo:IAO_0000115 xml:lang="en">Protein separation by mass in denaturating condition. Aberrant mobility on SDS-PAGE gels suggests protein intrinsic disorder.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">SDSPAGE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">aberrant SDS-PAGE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">anomalous SDS-PAGE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00086</oboInOwl:id>
+        <rdfs:label xml:lang="en">Sodium dodecyl sulfate polyacrylamide gel electrophoresis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00081"/>
+        <obo:IAO_0000115 xml:lang="en">Protein separation by mass and hydrodynamic volumes in native condition.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">SEC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Size exclusion chromatography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Size-exclusion chromatography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">gel filtration chromatography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00087</oboInOwl:id>
+        <rdfs:label xml:lang="en">Size exclusion/gel filtration chromatography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00081"/>
+        <obo:IAO_0000115 xml:lang="en">Structural changes (folding/unfolding, aggregation, precipitation) at extreme pH values due to residue composition.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">PH</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00088</oboInOwl:id>
+        <rdfs:label xml:lang="en">Stability at pH extremes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00081"/>
+        <obo:IAO_0000115 xml:lang="en">Structural changes (folding/unfolding, aggregation, precipitation) at extreme temperature values due to residue composition.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">TEMP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00089</oboInOwl:id>
+        <rdfs:label xml:lang="en">Stability at thermal extremes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00081"/>
+        <obo:IAO_0000115 xml:lang="en">Study of protein weight, shape and conformation by its resistance to flow under an applied force.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">VISCO</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00090</oboInOwl:id>
+        <rdfs:label xml:lang="en">Viscometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00080"/>
+        <obo:IAO_0000115 xml:lang="en">Study of structural changes with temperature.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">THERMAL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00091</oboInOwl:id>
+        <rdfs:label xml:lang="en">Thermal analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00091"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00093"/>
+        <obo:IAO_0000115 xml:lang="en">Folding analysis based on measurement of change in heat capacity upon heating/cooling of proteins.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MI:1311</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">DSC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">differential scanning calorimetry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00092</oboInOwl:id>
+        <rdfs:label xml:lang="en">Differential scanning calorimetry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00091"/>
+        <obo:IAO_0000115 xml:lang="en">Folding analysis based on measurement of change in heat capacity upon heating/cooling of proteins, with addition of an extrinsically fluorescent as probe of environment polarity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">DSF</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Differential scanning fluorimetry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">thermal shift assay</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00093</oboInOwl:id>
+        <rdfs:label xml:lang="en">Differential scanning fluorimetry thermal shift assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00080"/>
+        <obo:IAO_0000115 xml:lang="en">Structural studies by optical methods.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">OPT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00094</oboInOwl:id>
+        <rdfs:label xml:lang="en">Optical analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00094"/>
+        <obo:IAO_0000115 xml:lang="en">Assessment of conformational properties of proteins by differential absorption of left and right circularly polarized light.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MI:0016</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">CD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00095</oboInOwl:id>
+        <rdfs:label xml:lang="en">Circular dichroism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00095"/>
+        <obo:IAO_0000115 xml:lang="en">Circular dichroism on the far-UV region (190-230 nm) that scans absorbance of amide (peptide) bonds to estimate secondary structure content.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">FCD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00096</oboInOwl:id>
+        <rdfs:label xml:lang="en">Circular dichroism spectroscopy far-UV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00095"/>
+        <obo:IAO_0000115 xml:lang="en">Circular dichroism on the near-UV region (250-350 nm) that scans absorbance of aromatic residues to estimate tertiary structure properties.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">NCD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00097</oboInOwl:id>
+        <rdfs:label xml:lang="en">Circular dichroism spectroscopy near-UV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00095"/>
+        <obo:IAO_0000115 xml:lang="en">Circular dichroism using intense light from a synchrotron beam, providing more structural information by measuring at lower wavelengths.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">SRCD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">synchrotron radiation circular dichroism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00098</oboInOwl:id>
+        <rdfs:label xml:lang="en">Synchrotron radiation circular dichroism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00094"/>
+        <obo:IAO_0000115 xml:lang="en">Detection of fluorescence emission.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">FLUO</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00099</oboInOwl:id>
+        <rdfs:label xml:lang="en">Fluorescence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00099"/>
+        <obo:IAO_0000115 xml:lang="en">Conformational analysis of proteins based on intensity and wavelength of maximal fluorescence of tryptophan (also possibly tyrosine and phenylalanine), dependent on solvent polarity, pH, presence of quenchers and other environmental factors.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MI:0017</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">IFLUO</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">classical fluorescence spectroscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">intrinsic fluorescence</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00100</oboInOwl:id>
+        <rdfs:label xml:lang="en">Fluorescence intrinsic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00099"/>
+        <obo:IAO_0000115 xml:lang="en">Conformational analysis of proteins based on change in fluorescent intensities of parallel and perpendicular polarization against the initial, excitation polarization, measured on internal or external chromophores.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MI:0053</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">FLUOPA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">fluorescence polarization spectroscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00101</oboInOwl:id>
+        <rdfs:label xml:lang="en">Fluorescence polarization/anisotropy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00099"/>
+        <obo:IAO_0000115 xml:lang="en">Measures the efficiency of the distance-dependent transfer of energy between two chromophores by resonance, useful for monitoring changes in distance between atoms associated to folding events.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MI:0055</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">FRET</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">fluorescent resonance energy transfer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00102</oboInOwl:id>
+        <rdfs:label xml:lang="en">Fluorescence resonance energy transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00099"/>
+        <obo:IAO_0000115 xml:lang="en">The use of chemical or physical means to depopulate the excited state thereby abrogating fluorescence emission, which helps to describe the relative compactness and dynamics of a protein molecule.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">FDQ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00103</oboInOwl:id>
+        <rdfs:label xml:lang="en">Fluorescent dynamic quenching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00099"/>
+        <obo:IAO_0000115 xml:lang="en">Conformational analysis based on incorporation of a fluorescent probe into the core of a protein, with changes in the environment of the probe (dependent on rigidity of the structure) can be detected as changes in fluorescence.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">FPROBE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Fluorescent probes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">extrinsic fluorescence</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00104</oboInOwl:id>
+        <rdfs:label xml:lang="en">Fluorescent probes extrinsic fluorescence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00099"/>
+        <obo:IAO_0000115 xml:lang="en">Analysis of internal dynamics and distances of a protein by insertion of a unique tryptophan, cysteine or disulphide bond at selected sites, followed by the measurement of the decay after laser excitation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">TTQ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00105</oboInOwl:id>
+        <rdfs:label xml:lang="en">Tryptophan triplet quenching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00094"/>
+        <obo:IAO_0000115 xml:lang="en">Direct observation of structures.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">MICRO</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00106</oboInOwl:id>
+        <rdfs:label xml:lang="en">Microscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00106"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00108"/>
+        <obo:IAO_0000115 xml:lang="en">A type of scanning probe microscopy that allows direct visualization of proteins in physiological conditions at nanometer resolution.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MI:0872</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">AFM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">atomic force microscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00107</oboInOwl:id>
+        <rdfs:label xml:lang="en">Atomic force microscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00106"/>
+        <obo:IAO_0000115>An electron microscopy technique that allows direct visualization of the 3D shape of a protein by interpreting how the electron beams are blocked by the sample, previously covered with a heavy metal of varying thickness according to the surface topography.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">RSEM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Rotary shadowing-electron microscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Rotary shadowing/electron microscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00108</oboInOwl:id>
+        <rdfs:label xml:lang="en">Rotary shadowing electron microscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00094"/>
+        <obo:IAO_0000115 xml:lang="en">Measures the optical dispersion caused by a protein on polarized light of varying wavelength, to determine the presence and amount of secondary structures.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">ORDISP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00109</oboInOwl:id>
+        <rdfs:label xml:lang="en">Optical rotatory dispersion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00080"/>
+        <obo:IAO_0000115 xml:lang="en">Analytical techniques to separate and measure spectral components of a sample.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">SPEC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00110</oboInOwl:id>
+        <rdfs:label xml:lang="en">Spectrometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00110"/>
+        <obo:IAO_0000115 xml:lang="en">Measures the mass-to-charge ratio of ionised proteins in gas phase, which varies with the folding state.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">ESI FT ICR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ESI FT ICR MS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ESI FT-ICR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ESI FT-ICR MS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ESI-FT-ICR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ESI-FT-ICR-MS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ESI-FTICR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ESI-FTICR-MS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ESIFTICR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ESIFTICRMS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00111</oboInOwl:id>
+        <rdfs:label xml:lang="en">Electrospray ionization fourier transform ion cyclotron resonance mass spectrometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00110"/>
+        <obo:IAO_0000115>Collects the infrared spectrum of absortion of a protein by measuring absorption in a wide spectral range simultaneously, providing information on the vibrational movements of functional groups in the protein and allowing identification of secondary structures.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>FTIRS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00112</oboInOwl:id>
+        <rdfs:label xml:lang="en">Fourier transform infrared spectroscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00110"/>
+        <obo:IAO_0000115>NMR-based measurement of the exchange rate between deuterium in the solvent and hydrogen in the main chain amides, with faster exchange rates indicating more flexibility.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">NMR Hydrogen deuterium exchange</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">NMR Hydrogen/deuterium exchange</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">NMRHDE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00113</oboInOwl:id>
+        <rdfs:label xml:lang="en">NMR-based hydrogen-deuterium exchange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00110"/>
+        <obo:IAO_0000115>Mass spectrometry-based measurment of the exchange rate between deuterium in the solvent and hydrogen in the main chain amides, with faster exchange rates indicating more flexibility.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MI:0944</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">MSHDE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">mass spectrometry study of hydrogen/deuterium exchange</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00114</oboInOwl:id>
+        <rdfs:label xml:lang="en">Mass spectrometry-based high resolution hydrogen-deuterium exchange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00110"/>
+        <obo:IAO_0000115 xml:lang="en">A technique to study the scattering of light by vibrating molecules.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">RAMAN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00115</oboInOwl:id>
+        <rdfs:label xml:lang="en">Raman</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00115"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00117"/>
+        <obo:IAO_0000115>Study of protein dynamics by measuring the difference in Raman scattering of right and left circularly polarised light associated with protein chirality.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">ROA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00116</oboInOwl:id>
+        <rdfs:label xml:lang="en">Raman optical activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00115"/>
+        <obo:IAO_0000115>A spectroscopic technique based on Raman scattering to determine vibrational modes of proteins, which can be used to measure secondary structure content.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">RSPEC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00117</oboInOwl:id>
+        <rdfs:label xml:lang="en">Raman spectroscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00110"/>
+        <obo:IAO_0000115>Detection of unpaired electrons using a paramagnetic group introduced at a selected protein site, that allows the inference of the mobility of the spin probe and thus the study of global flexibility, local structure or induced folding.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">EPR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">EPR spectroscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">SDSL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Site-directed spin-labeling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00118</oboInOwl:id>
+        <rdfs:label xml:lang="en">Site-directed spin-labelling electron paramagnetic resonance spectroscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00110"/>
+        <obo:IAO_0000115>Analysis of IR absorption bands using cyanylated cisteines that allows to infer solvent exposure and degree of structure.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">VS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00119</oboInOwl:id>
+        <rdfs:label xml:lang="en">Vibrational spectroscopy of cyanylated cysteines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00110"/>
+        <obo:IAO_0000115>Detection of connectivity between neighboring residues by resonance at atomic resolution.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MI:0077</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">NMR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">nuclear magnetic resonance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00120</oboInOwl:id>
+        <rdfs:label xml:lang="en">Nuclear magnetic resonance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00110"/>
+        <obo:IAO_0000115>Determination of secondary and tertiary structure of proteins based on NOESY spectra obtained from application of NMR spectroscopy with respect to hydrogen nuclei closer than 5 Å to each other.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">PNMR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Proton based NMR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00121</oboInOwl:id>
+        <rdfs:label xml:lang="en">Proton-based nuclear magnetic resonance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00080"/>
+        <obo:IAO_0000115 xml:lang="en">Experimental techniques that measures the scattering of a beam by a sample.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">SCAT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00122</oboInOwl:id>
+        <rdfs:label xml:lang="en">Scattering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00122"/>
+        <obo:IAO_0000115>Measures the extent of polarized light scattering by a protein in solution to determine its hydrodynamic radius, dependent upon its size and conformation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MI:0038</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">DLS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">dynamic light scattering</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00123</oboInOwl:id>
+        <rdfs:label xml:lang="en">Dynamic light scattering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00122"/>
+        <obo:IAO_0000115>Measures the extent of neutron scattering by a protein in solution on very small scales, to obtain details on the size, shape, and orientation of the protein.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MI:0888</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">SANS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">small angle neutron scattering</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00124</oboInOwl:id>
+        <rdfs:label xml:lang="en">Small-angle neutron scattering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00122"/>
+        <obo:IAO_0000115>Measures the extent of x-ray scattering by a protein in solution on nanoscale, to obtain details on the diameter, the radius of gyration and the degree of globularity of the protein.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">MI:0826</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">SAXS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">small angle x-ray scattering</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">small angle xray scattering</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00125</oboInOwl:id>
+        <rdfs:label xml:lang="en">Small-angle X-ray scattering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00122"/>
+        <obo:IAO_0000115>Measures the extent of scattering of a high-intensity monochromatic light (usually a laser) by a protein in solution, to obtain details on the hydrodynamic radius of the protein, which is dependent upon the size and conformation of the protein.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MI:0104</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">SLS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">static light scattering</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00126</oboInOwl:id>
+        <rdfs:label xml:lang="en">Static light scattering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00080"/>
+        <obo:IAO_0000115 xml:lang="en">Determines the arrangement of atoms in crystal solids.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">CRYST</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00127</oboInOwl:id>
+        <rdfs:label xml:lang="en">Crystallography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00127"/>
+        <obo:IAO_0000115 xml:lang="en">Direct visualization of a protein in physiological state by using transmission electron microscopy on a frozen protein sample.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">CEM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">CryoEM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">cryo-electron microscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">cryogenic electron microscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">electron cryomicroscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00128</oboInOwl:id>
+        <rdfs:label xml:lang="en">Electron cryomicroscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00127"/>
+        <obo:IAO_0000115 xml:lang="en">Measures the degree in which the electron density is spread out for individual atoms or groups of atoms within a sample, with higher B-factors indicating higher relative flexibility.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">BF</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">high b factor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">high b-factor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">high bfactor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">high temperature factor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00129</oboInOwl:id>
+        <rdfs:label xml:lang="en">High relative B-factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/idpo.owl#DO:00130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/idpo.owl#DO:00127"/>
+        <obo:IAO_0000115 xml:lang="en">A structure with atoms or residues that are not declared, although present in the source material, due to the absence of electron density.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">MISS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">missing electron densities</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">missing electron density</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>Detection method</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DO:00130</oboInOwl:id>
+        <rdfs:label xml:lang="en">Missing electron density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>Disorder Ontology</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00000"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00049"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00062"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00075"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00080"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00001"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00008"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00013"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00017"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00024"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00035"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00040"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00002"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00003"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00004"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00005"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00006"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00007"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00014"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00015"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00016"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00025"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00026"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00027"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00028"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00029"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00030"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00033"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00034"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00036"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00037"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00038"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00039"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00041"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00042"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00043"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00044"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00045"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00046"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00047"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00048"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00051"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00052"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00053"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00054"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00055"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00057"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00058"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00059"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00060"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00061"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00063"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00064"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00071"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00072"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00074"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00067"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00068"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00069"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00070"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00082"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00083"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00084"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00085"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00086"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00087"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00088"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00089"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00090"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00095"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00099"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00106"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00109"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00096"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00097"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00098"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00100"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00101"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00102"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00103"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00104"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00105"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00111"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00112"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00113"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00114"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00115"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00118"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/idpo.owl#DO:00119"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
