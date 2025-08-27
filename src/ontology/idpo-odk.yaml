@@ -1,0 +1,28 @@
+id: idpo
+title: "Intrinsically Disordered Proteins Ontology"
+github_org: BioComputingUP
+git_main_branch: main
+repo: idpo
+release_artefacts:
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  products:
+    - id: ro
+    - id: go
+    - id: omo
+documentation:
+  documentation_system: mkdocs
+robot_java_args: "-Xmx8G"
+robot_report:
+  use_labels: TRUE
+  fail_on: ERROR
+  custom_profile: TRUE
+  report_on:
+    - edit
