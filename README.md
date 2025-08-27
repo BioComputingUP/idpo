@@ -2,8 +2,11 @@
 ![Build Status](https://github.com/BioComputingUP/idpo/actions/workflows/qc.yml/badge.svg)
 # Intrinsically Disordered Proteins Ontology
 
-Description: The Intrinsically Disordered Proteins Ontology (IDPO) defines concepts and relationships that describe the structural states, dynamic transitions, and functional roles of intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs). Its terms and definitions are grounded in the terminology used by the IDP research community and derived from scientific literature in the field.
-IDPO aims to standardize vocabulary across experimental and computational studies, promote consistent annotation of IDP-related data, and facilitate integration and interoperability across biomedical and structural biology databases. It serves as a foundational resource for supporting research, data sharing, and knowledge discovery in the study of protein disorder.
+The Intrinsically Disordered Proteins Ontology (IDPO) defines concepts and relationships that describe the structural states, dynamic transitions, and functional roles of intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs). Its terms and definitions are grounded in the terminology used by the IDP research community and derived from scientific literature in the field.
+
+IDPO’s primary goal is to harmonize vocabulary across experimental and computational studies, enabling consistent annotation of IDP-related data and supporting integration and interoperability across biomedical and structural biology resources. By standardizing terms, IDPO facilitates data sharing, knowledge discovery, and collaboration within the protein disorder research community. IDPO is used by the [DisProt database](https://disprot.org/) to provide ontology-driven, standardized annotation of intrinsically disordered proteins and regions, improving data consistency and enabling richer cross-database integration.
+
+IDPO is maintained by the [IDP Community](https://elixir-europe.org/communities/intrinsically-disordered-proteins) and supported by the [ELIXIR Infrastructure](https://elixir-europe.org/).
 
 
 More information can be found at http://obofoundry.org/ontology/idpo
