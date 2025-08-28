@@ -7,9 +7,13 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/idpo.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/idpo/releases/2019-08-01/idpo.owl"/>
+        <terms:description>This is the description of DO</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:title>IDPO (DO)</terms:title>
         <owl:versionInfo>Release 2019-08-01</owl:versionInfo>
     </owl:Ontology>
     
@@ -29,6 +33,24 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
@@ -510,8 +532,8 @@
         <obo:IAO_0000115 xml:lang="en">Guides the addition of ADP-ribose moietie(s) to a protein, in cell signaling, DNA repair, gene regulation and apoptosis.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0006471</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">protein ADP-ribosylation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace xml:lang="en">Disorder function</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>Disorder function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace xml:lang="en">Disorder function</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DO:00034</oboInOwl:id>
         <rdfs:label xml:lang="en">Regulation of ADP-ribosylation</rdfs:label>
     </owl:Class>
