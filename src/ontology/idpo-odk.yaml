@@ -17,6 +17,7 @@ import_group:
     - id: ro
     - id: go
     - id: omo
+    - id: dcterms
 documentation:
   documentation_system: mkdocs
 robot_java_args: "-Xmx8G"
