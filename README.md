@@ -1,10 +1,9 @@
 
 ![Build Status](https://github.com/BioComputingUP/idpo/actions/workflows/qc.yml/badge.svg)
-# Intrinsically Disordered Proteins Ontology
+# Disorder Ontology
 
-Description: None
+This ontology is deprecated. It has been archived for historical reference and should not be used for new annotations or development.
 
-More information can be found at http://obofoundry.org/ontology/idpo
 
 ## Versions
 
@@ -14,7 +13,6 @@ The latest version of the ontology can always be found at:
 
 http://purl.obolibrary.org/obo/idpo.owl
 
-(note this will not show up until the request has been approved by obofoundry.org)
 
 ### Editors' version
 

@@ -11,9 +11,9 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/idpo.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/idpo/releases/2019-08-01/idpo.owl"/>
-        <terms:description>This is the description of DO</terms:description>
+        <terms:description>It describes structural aspects of an IDP/IDR, self-functions and functions directly associated with their disordered state.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <terms:title>IDPO (DO)</terms:title>
+        <terms:title>Disorder Ontology</terms:title>
         <owl:versionInfo>Release 2019-08-01</owl:versionInfo>
     </owl:Ontology>
     
