@@ -1,6 +1,6 @@
 
 ![Build Status](https://github.com/BioComputingUP/idpo/actions/workflows/qc.yml/badge.svg)
-# Intrinsically Disordered Proteins Ontology v0.2.1
+# Intrinsically Disordered Proteins Ontology v0.3.0
 
 This ontology is deprecated. It has been archived for historical reference and should not be used for new annotations or development.
 
