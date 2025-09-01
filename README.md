@@ -1,5 +1,11 @@
-
+[![CC BY 4.0][cc-by-shield]][cc-by]
 ![Build Status](https://github.com/BioComputingUP/idpo/actions/workflows/qc.yml/badge.svg)
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+
 # Intrinsically Disordered Proteins Ontology
 
 The Intrinsically Disordered Proteins Ontology (IDPO) defines concepts and relationships that describe the structural states, dynamic transitions, and functional roles of intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs). Its terms and definitions are grounded in the terminology used by the IDP research community and derived from scientific literature in the field.
@@ -26,7 +32,8 @@ Editors of this ontology should use the edit version, [src/ontology/idpo-edit.ow
 
 ## License
 
-[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
 
 ## Contact
 
