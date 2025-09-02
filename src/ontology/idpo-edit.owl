@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://purl.obolibrary.org/obo/idpo.owl"
-     versionIRI="http://purl.obolibrary.org/obo/idpo/releases/2022-03-03/idpo.owl">
+     versionIRI="http://purl.obolibrary.org/obo/idpo/releases/2025-06-01/idpo.owl">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -35,7 +35,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal>Release 2022-03-03</Literal>
+        <Literal>Release 2025-06-01</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
@@ -150,6 +150,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00508"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00511"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -304,7 +307,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00505"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00511"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00506"/>
@@ -316,7 +319,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00508"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00505"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00511"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00511"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1082,6 +1089,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00508</IRI>
         <Literal>self-assembly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00511</IRI>
+        <Literal>Protein intramolecular interaction where one region of the protein engages with another region within the same protein, affecting its assembly or function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00511</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00511</IRI>
+        <Literal>IDPO:00511</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00511</IRI>
+        <Literal>self-interaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
