@@ -155,7 +155,28 @@
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00511"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002233"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002234"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
@@ -230,48 +251,216 @@
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00049"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00051"/>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00050"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00050"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00051"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00051"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00051"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00052"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00050"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00052"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00052"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00053"/>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00050"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00053"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00053"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00054"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00054"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00054"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00055"/>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00050"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00055"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00055"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00057"/>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00057"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00057"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00058"/>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00058"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00058"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00059"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00059"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00059"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00060"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00050"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00060"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00060"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00061"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00061"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00061"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
@@ -325,6 +514,46 @@
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00511"/>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00075"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00075"/>
+    </ObjectPropertyDomain>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002233"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002234"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
+    </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000115</IRI>
@@ -1109,6 +1338,41 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00511</IRI>
         <Literal>self-interaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00512</IRI>
+        <IRI>https://orcid.org/0000-0003-4423-4370</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00512</IRI>
+        <Literal xml:lang="en">disorder to disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00513</IRI>
+        <Literal xml:lang="en">transition from structural state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00514</IRI>
+        <Literal xml:lang="en">transition to structural state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RO_0000086</IRI>
+        <Literal>has quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RO_0002233</IRI>
+        <Literal xml:lang="en">has input</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RO_0002234</IRI>
+        <Literal>has output</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
