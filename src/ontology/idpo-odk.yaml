@@ -18,6 +18,7 @@ import_group:
     - id: go
     - id: omo
     - id: dcterms
+    - id: bfo
 documentation:
   documentation_system: mkdocs
 robot_java_args: "-Xmx8G"
