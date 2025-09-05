@@ -14,6 +14,18 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000700"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00000</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000700"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00049</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000700"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00075</IRI>
+    </Annotation>
+    <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
         <Literal>It describes structural aspects of an IDP/IDR, self-functions and functions directly associated with their disordered state.</Literal>
     </Annotation>
@@ -177,6 +189,9 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000700"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
@@ -558,6 +573,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000115</IRI>
         <Literal>definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000700</IRI>
+        <Literal>has ontology root term</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
