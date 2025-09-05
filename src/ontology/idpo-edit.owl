@@ -188,10 +188,10 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000700"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000700"/>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
