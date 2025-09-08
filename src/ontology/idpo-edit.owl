@@ -65,6 +65,60 @@
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000553"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000554"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000555"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000556"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000557"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000558"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000559"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000560"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000561"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000562"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000563"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000564"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000565"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000566"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000567"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000568"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000569"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000570"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000571"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
     </Declaration>
     <Declaration>
@@ -246,8 +300,80 @@
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000551"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000554"/>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000555"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000554"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000556"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000555"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000557"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000558"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000559"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000560"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000561"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000562"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000555"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000563"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000554"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000564"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000565"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000564"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000566"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000565"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000567"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000565"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000568"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000565"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000569"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000565"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000570"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000564"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000571"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000556"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00025"/>
@@ -283,7 +409,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00033"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000557"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00034"/>
@@ -555,7 +681,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00511"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000564"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
@@ -686,6 +812,266 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000553</IRI>
         <Literal>likely disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000554</IRI>
+        <Literal>A molecular recognition process that occurs with a defined stoichiometric ratio between partners.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000554</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000554</IRI>
+        <Literal>stoichiometric molecular recognition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000555</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000555</IRI>
+        <Literal>transient molecular recognition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000556</IRI>
+        <Literal>A transient molecular recognition interaction that is mediated by a short interaction interfaces embedded in an intrinsically disordered protein region.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000556</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000556</IRI>
+        <Literal>interaction by short linear motif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000557</IRI>
+        <Literal>A short linear motif that serves as the recognition and cutting site for proteolytic enzymes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000557</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000557</IRI>
+        <Literal>cleavage site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000558</IRI>
+        <Literal>A short linear motif that directs protein polyubiquitylation and targets the protein to the proteasome for degradation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000558</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000558</IRI>
+        <Literal>degron motif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000559</IRI>
+        <Literal>A short linear motif that recruits a modifying enzyme using a site that is distinct from the active site.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000559</IRI>
+        <Literal>disorder function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000559</IRI>
+        <Literal>docking site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000560</IRI>
+        <Literal>A short linear motif that mediate binding of the ligand protein to its interaction partner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000560</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000560</IRI>
+        <Literal>ligand binding site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000561</IRI>
+        <Literal>A short linear motif that mediates subcellular targeting by interacting with localization machinery.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000561</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000561</IRI>
+        <Literal>targeting site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000562</IRI>
+        <Literal>Molecule that assist in the correct folding and stabilization of proteins or RNA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000562</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000562</IRI>
+        <Literal>chaperone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000563</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000563</IRI>
+        <Literal>stable molecular recognition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000564</IRI>
+        <Literal>A molecular recognition process that lacks fixed stoichiometry and is driven by multivalent, dynamic, or fuzzy interactions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000564</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000564</IRI>
+        <Literal>non-stoichiometric molecular recognition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000565</IRI>
+        <Literal>A molecule that promotes or participates in the formation of a biomolecular condensate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000565</IRI>
+        <Literal>disorder function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000565</IRI>
+        <Literal>condensate assembler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000566</IRI>
+        <Literal>Molecule with high interaction valence necessary and sufficient for liquid-liquid phase separation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000566</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000566</IRI>
+        <Literal>driver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000567</IRI>
+        <Literal>A molecule that strictly requires one or more partners to enable liquid–liquid phase separation, and unlike regulators, physically incorporates into the scaffold of the resulting condensate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000567</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000567</IRI>
+        <Literal>co-driver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000568</IRI>
+        <Literal>A molecule that facilitates or modulates the liquid–liquid phase separation of one or more driver or co-driver molecules without being physically incorporated into the resulting condensate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000568</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000568</IRI>
+        <Literal>regulator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000569</IRI>
+        <Literal>Molecule with lower valence recruited into condensates formed by scaffolds, but it is not required for and does not have an effect on liquid-liquid phase separation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000569</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000569</IRI>
+        <Literal>client</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000570</IRI>
+        <Literal>Process involving a non-native state of a protein in which isoluble intermolecular interactions are established to form a higher-order irreversible assembly, usually as result of aberrant liquid-liquid phase separation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000570</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000570</IRI>
+        <Literal>protein aggregate assembly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000571</IRI>
+        <Literal>A process leading to the formation of a protein aggregate lacking stable or ordered structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000571</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000571</IRI>
+        <Literal>amorphous aggregate formation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
