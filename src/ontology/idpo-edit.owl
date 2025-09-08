@@ -13,6 +13,7 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/idpo/imports/go_import.owl</Import>
     <Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000700"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00000</IRI>
@@ -49,6 +50,27 @@
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
         <Literal>Release 2025-06-01</Literal>
     </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0060090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0140313"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0140677"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0140678"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0140691"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990000"/>
+    </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
     </Declaration>
@@ -298,6 +320,34 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044183"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000562"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0060090"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000563"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0140313"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000564"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0140677"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000563"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0140678"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000563"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0140691"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000562"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000570"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000550"/>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
