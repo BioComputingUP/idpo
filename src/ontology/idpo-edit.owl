@@ -771,7 +771,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00000</IRI>
-        <Literal>The function of an IDP/IDR. Includes both active functions, i.e. performed on other proteins, and self-functions.</Literal>
+        <Literal>A molecular activity that arises from the lack of a fixed tertiary structure of a protein or protein region under physiological conditions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1186,7 +1186,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00024</IRI>
-        <Literal>Targeting post-translational modification.</Literal>
+        <Literal>A protein region that facilitates site-specific molecular recognition, serving as a platform for post-translational modifications.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1206,7 +1206,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00025</IRI>
-        <Literal>Guides the addition of a phosphate to the protein.</Literal>
+        <Literal>A molecular recognition site that enables the addition of a phosphate group to a protein, regulating activity, localization, or signaling pathways.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1226,7 +1226,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00026</IRI>
-        <Literal>Guides the addition of an acetyl group to the protein.</Literal>
+        <Literal>A molecular recognition site that enables the covalent attachment of an acetyl group to a residue of a protein.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1246,7 +1246,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00027</IRI>
-        <Literal>Guides the addition of a methyl group to the protein.</Literal>
+        <Literal>A molecular recognition site that supports the covalent addition of methyl groups to a protein, regulating transcriptional activity or protein–protein interactions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1266,7 +1266,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00028</IRI>
-        <Literal>Guides the addition of a sugar, such as a glycan, during chemical modification of the protein.</Literal>
+        <Literal>A molecular recognition site that facilitates the covalent addition of a sugar to a protein, modulating protein folding, stability, or cell–cell interactions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1286,7 +1286,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00029</IRI>
-        <Literal>Guides the addition of a ubiquitin moiety for regulating the function and/or degradation of the protein.</Literal>
+        <Literal>A molecular recognition site that enables the covalent attachment of ubiquitin to protein residues, marking the protein for degradation or altering its cellular localization or interactions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1306,7 +1306,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00030</IRI>
-        <Literal>Guides the addition of a fatty acyl group during chemical modification of the protein.</Literal>
+        <Literal>A molecular recognition site that facilitates the addition of fatty acyl groups to a protein, contributing to membrane association or signaling functions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1326,7 +1326,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00031</IRI>
-        <Literal>Guides the addition of a myristoyl group during chemical modification of the protein.</Literal>
+        <Literal>A molecular recognition site that enables the co-translational or post-translational attachment of a myristoyl group to a protein.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1346,7 +1346,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00032</IRI>
-        <Literal>Guides the addition of a palmitoyl group during chemical modification of the protein.</Literal>
+        <Literal>A molecular recognition site that facilitates the reversible attachment of palmitoyl groups to a protein, modulating membrane association and trafficking.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1366,7 +1366,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00033</IRI>
-        <Literal>Guides the regulatory cleavage of the polypeptide chain.</Literal>
+        <Literal>A molecular recognition site that marks a location for regulated cleavage of the polypeptide chain.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1386,7 +1386,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00034</IRI>
-        <Literal>Guides the addition of ADP-ribose moietie(s) to a protein, in cell signaling, DNA repair, gene regulation and apoptosis.</Literal>
+        <Literal>A molecular recognition site that enables the addition of one or more ADP-ribose moieties to a protein, typically involved in cellular regulatory processes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1406,7 +1406,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00049</IRI>
-        <Literal>The possible transitions occurring between different structural states.</Literal>
+        <Literal>A dynamic process in which a protein region undergoes a reversible or irreversible transformation between defined structural states.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1426,7 +1426,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00050</IRI>
-        <Literal>Transition from a disordered state to an ordered state.</Literal>
+        <Literal>A structural transition in which a protein region changes from a disordered state to a stable, ordered three-dimensional structure.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1446,7 +1446,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00051</IRI>
-        <Literal>Transition from a disordered state to a molten globule state.</Literal>
+        <Literal>A structural transition in which a disordered protein region adopts a compact conformation with native-like secondary structure but lacking specific tertiary interactions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1466,7 +1466,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00052</IRI>
-        <Literal>Transition from a disordered state to a pre-molten globule state.</Literal>
+        <Literal>A structural transition in which a disordered region partially condenses to form a loosely structured state with residual secondary structure.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1486,7 +1486,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00053</IRI>
-        <Literal>Transition from a molten globule state to an ordered state.</Literal>
+        <Literal>A structural transition in which a protein changes from a molten globule state to a fully ordered, stable tertiary structure.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1506,7 +1506,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00054</IRI>
-        <Literal>Transition from a molten globule state to a pre-molten globule state.</Literal>
+        <Literal>A structural transition in which a protein in a molten globule conformation loses compactness and becomes more conformationally flexible, transitioning to the pre-molten globule state.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1526,7 +1526,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00055</IRI>
-        <Literal>Transition from a pre-molten globule state to an ordered state.</Literal>
+        <Literal>A structural transition in which a protein region changes from a pre-molten globule to a stable, ordered structure with defined tertiary interactions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1546,7 +1546,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00056</IRI>
-        <Literal>Transition from an ordered state to a disordered state.</Literal>
+        <Literal>A structural transition in which an ordered protein region loses its defined three-dimensional conformation and adopts a disordered state.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1566,7 +1566,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00057</IRI>
-        <Literal>Transition from an ordered state to a molten globule state.</Literal>
+        <Literal>A structural transition in which an ordered protein loses specific tertiary interactions while retaining its secondary structure, resulting in a molten globule state.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1586,7 +1586,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00058</IRI>
-        <Literal>Transition from an ordered state to a pre-molten globule state.</Literal>
+        <Literal>A structural transition in which an ordered protein region becomes less compact and more flexible, forming a pre-molten globule state.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1606,7 +1606,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00059</IRI>
-        <Literal>Transition from a pre-molten globule state to a disordered state.</Literal>
+        <Literal>A structural transition in which a pre-molten globule loses residual structure and becomes fully disordered.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1626,7 +1626,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00060</IRI>
-        <Literal>Transition from a pre-molten globule state to a molten globule state.</Literal>
+        <Literal>A structural transition in which a loosely condensed protein region becomes more compact, adopting secondary structure characteristic of the molten globule state.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1646,7 +1646,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00061</IRI>
-        <Literal>Transition from a molten globule state to a disordered state.</Literal>
+        <Literal>A structural transition in which a molten globule loses its secondary structure and compactness, adopting a disordered conformation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1666,7 +1666,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00075</IRI>
-        <Literal>The possible structural state populated by a given protein region.</Literal>
+        <Literal>A structural property that a protein region can exhibit, defined by its conformational behavior under physiological conditions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1686,7 +1686,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00076</IRI>
-        <Literal>A non-compact state in which atoms lack a fixed or ordered three-dimensional structure.</Literal>
+        <Literal>A structural state of a protein region characterized by the absence of a stable, fixed three-dimensional structure, lacking persistent secondary and tertiary interactions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1706,7 +1706,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00077</IRI>
-        <Literal>A compact state, with native secondary structure but lacking specific native tertiary interactions.</Literal>
+        <Literal>A partially folded structural state in which a protein exhibits native-like secondary structure but lacks the specific, stable tertiary interactions of the fully folded state.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1726,7 +1726,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00078</IRI>
-        <Literal>A condensed but not compact state, with residual secondary structure, describing many native and non-native conformations in rapid equilibrium.</Literal>
+        <Literal>A loosely structured state of a protein characterized by low compactness and the presence of residual secondary structure, often representing an ensemble of rapidly interconverting conformations.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1746,7 +1746,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00079</IRI>
-        <Literal>A compact state in which atoms have a stable three-dimensional structure.</Literal>
+        <Literal>A structural state of a protein region in which atoms are arranged in a stable, well-defined three-dimensional conformation, including persistent secondary and tertiary structure.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1766,7 +1766,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
-        <Literal>Functions directly associated with the disordered state of proteins that stem from their ability to shift between conformational states without becoming structured. Includes entropic bristles, clocks and springs.</Literal>
+        <Literal>An intrinsically disordered region that performs a mechanical or regulatory function through its dynamic conformational flexibility, without adopting a stable tertiary structure.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1779,6 +1779,11 @@
         <Literal>IDPO:00501</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
+        <Literal>Examples include entropic bristles, entropic springs, and entropic clocks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
         <Literal>entropic chain</Literal>
@@ -1786,7 +1791,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00502</IRI>
-        <Literal>Unstructured region connecting, providing separation and permitting movement between adjacent functional regions, e.g. structured domains or disordered motifs.</Literal>
+        <Literal>An intrinsically disordered region that connects adjacent functional elements of a protein providing spatial separation and allowing conformational flexibility.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1806,7 +1811,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00503</IRI>
-        <Literal>Intrinsically disordered region localized at the N-terminus of a protein.</Literal>
+        <Literal>An intrinsically disordered region located at the N-terminal end of a protein that enables regulatory or interaction-based functions through its conformational flexibility.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1826,7 +1831,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00504</IRI>
-        <Literal>Intrinsically disordered region localized at the C-terminus of a protein.</Literal>
+        <Literal>An intrinsically disordered region located at the C-terminal end of a protein that enables regulatory or interaction-based functions through its conformational flexibility.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1846,7 +1851,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00505</IRI>
-        <Literal>Protein interaction in cis that auto-regulates the protein function or its assembly.</Literal>
+        <Literal>An intramolecular mechanism by which a protein modulates its own activity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1866,7 +1871,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00506</IRI>
-        <Literal>Protein interaction in cis that auto-inhibits the protein function.</Literal>
+        <Literal>A self-regulatory mechanism in which intramolecular interactions repress or prevent the functional activity of a protein.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1886,7 +1891,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00507</IRI>
-        <Literal>Protein interaction in cis that auto-activates the protein function.</Literal>
+        <Literal>A self-regulatory mechanism in which intramolecular interactions induce or enhance the functional activity of a protein.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1906,7 +1911,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00508</IRI>
-        <Literal>Protein interaction in cis required for dimerization or oligomerization of a protein.</Literal>
+        <Literal>A process by which distinct regions within a single protein interact to promote its conformational organization into higher-order structures.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1946,7 +1951,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00512</IRI>
-        <Literal>Transition from a disordered state to another disordered state.</Literal>
+        <Literal>A structural transition in which an intrinsically disordered region changes from one disordered conformational ensemble to another, without adopting a stable, ordered three-dimensional structure.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
