@@ -1358,6 +1358,11 @@
         <Literal>A biophysical process in which a biomolecular condensate undergoes a change in material state.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000024</IRI>
+        <Literal>https://doi.org/10.1016/j.tcb.2018.02.004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000024</IRI>
         <IRI>https://orcid.org/0000-0001-8042-9939</IRI>
@@ -1381,6 +1386,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000025</IRI>
         <Literal>A demixing phenomenon driven by weak, transient multivalent interactions, resulting in two separate liquid phases, a dense phase and a dilute phase, that then stably coexist.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000025</IRI>
+        <Literal>https://doi.org/10.1016/j.tcb.2018.02.004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
@@ -1418,6 +1428,11 @@
         <Literal>A time-dependent process in which biomolecular condensates progressively transition from a dynamic, liquid-like state to less dynamic gel-like, glass-like, or solid-like states.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000026</IRI>
+        <Literal>https://doi.org/10.1038/s41580-020-00326-6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000026</IRI>
         <IRI>https://orcid.org/0000-0001-8042-9939</IRI>
@@ -1453,6 +1468,11 @@
         <Literal>A physical process by which a liquid-like condensate transitions into a viscoelastic, crosslinked gel-like state, driven by increased concentration or multivalent interactions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000027</IRI>
+        <Literal>https://doi.org/10.1016/j.tcb.2018.02.004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000027</IRI>
         <IRI>https://orcid.org/0000-0001-8042-9939</IRI>
@@ -1481,6 +1501,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000028</IRI>
         <Literal>A physical process through which a disordered liquid state transitions into a more ordered glass-like state, characterized by slow relaxation and arrested molecular motion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000028</IRI>
+        <Literal>https://doi.org/10.1016/j.tcb.2018.02.004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
@@ -2333,6 +2358,11 @@
         <Literal>Molecule with high interaction valence necessary and sufficient for liquid-liquid phase separation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000062</IRI>
+        <Literal>https://doi.org/10.3390/ijms22063017</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000062</IRI>
         <IRI>https://orcid.org/0000-0001-8042-9939</IRI>
@@ -2363,6 +2393,11 @@
         <Literal>A molecule that strictly requires one or more partners to enable liquid–liquid phase separation, and unlike regulators, physically incorporates into the scaffold of the resulting condensate.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000063</IRI>
+        <Literal>https://doi.org/10.3390/ijms22063017</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000063</IRI>
         <IRI>https://orcid.org/0000-0001-8042-9939</IRI>
@@ -2386,6 +2421,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000064</IRI>
         <Literal>A molecule that facilitates or modulates the liquid–liquid phase separation of one or more driver or co-driver molecules without being physically incorporated into the resulting condensate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000064</IRI>
+        <Literal>https://doi.org/10.3390/ijms22063017</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
@@ -2413,6 +2453,11 @@
         <Literal>Molecule with lower valence recruited into condensates formed by scaffolds, but it is not required for and does not have an effect on liquid-liquid phase separation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000065</IRI>
+        <Literal>https://doi.org/10.3390/ijms22063017</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000065</IRI>
         <IRI>https://orcid.org/0000-0001-8042-9939</IRI>
@@ -2436,6 +2481,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000066</IRI>
         <Literal>Process involving a non-native state of a protein in which isoluble intermolecular interactions are established to form a higher-order irreversible assembly, usually as result of aberrant liquid-liquid phase separation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000066</IRI>
+        <Literal>https://doi.org/10.1038/s41580-020-00326-6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
