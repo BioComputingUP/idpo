@@ -7,11 +7,42 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/idpo/imports/go_import.owl>
-<http://purl.obolibrary.org/obo/idpo/releases/2025-09-01/imports/go_import.owl>
+<http://purl.obolibrary.org/obo/idpo/releases/2025-09-08/imports/go_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/go/releases/2025-07-22/go.owl>)
-Annotation(owl:versionInfo "2025-09-01")
+Annotation(owl:versionInfo "2025-09-08")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005488>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005515>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006457>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008152>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009987>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010467>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019538>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034337>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043170>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044183>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044238>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051082>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051604>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0060090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071840>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097435>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098772>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140311>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140313>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140677>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140678>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140691>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_1990000>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
@@ -27,6 +58,12 @@ Declaration(AnnotationProperty(rdfs:label))
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
 
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000700> (has ontology root term)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IAO_0000700> "external")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IAO_0000700> "has_ontology_root_term")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000700> "has ontology root term")
+
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> (has_obo_format_version)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "has_obo_format_version")
@@ -39,6 +76,237 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#id> "id")
 
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part of)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/BFO_0000050> "external")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000050> "part_of")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part of")
+InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (has part)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/BFO_0000051> "external")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000051> "has_part")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has part")
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/GO_0003674> (molecular_function)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0003674> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0003674> "GO:0003674")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003674> "molecular_function")
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005488> (binding)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0005488> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0005488> "GO:0005488")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005488> "binding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005488> <http://purl.obolibrary.org/obo/GO_0003674>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005515> (protein binding)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0005515> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0005515> "GO:0005515")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005515> "protein binding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005515> <http://purl.obolibrary.org/obo/GO_0005488>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006457> (protein folding)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0006457> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0006457> "GO:0006457")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006457> "protein folding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006457> <http://purl.obolibrary.org/obo/GO_0009987>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006457> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0051604>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0008150> (biological_process)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0008150> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0008150> "GO:0008150")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008150> "biological_process")
+
+# Class: <http://purl.obolibrary.org/obo/GO_0008152> (metabolic process)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0008152> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0008152> "GO:0008152")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008152> "metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008152> <http://purl.obolibrary.org/obo/GO_0009987>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0009058> (biosynthetic process)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0009058> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0009058> "GO:0009058")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009058> "biosynthetic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009058> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0009059> (macromolecule biosynthetic process)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0009059> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0009059> "GO:0009059")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009059> "macromolecule biosynthetic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009059> <http://purl.obolibrary.org/obo/GO_0009058>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009059> <http://purl.obolibrary.org/obo/GO_0043170>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0009987> (cellular process)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0009987> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0009987> "GO:0009987")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009987> "cellular process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009987> <http://purl.obolibrary.org/obo/GO_0008150>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0010467> (gene expression)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0010467> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0010467> "GO:0010467")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0010467> "gene expression")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0010467> <http://purl.obolibrary.org/obo/GO_0009059>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0016043> (cellular component organization)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0016043> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0016043> "GO:0016043")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0016043> "cellular component organization")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0016043> <http://purl.obolibrary.org/obo/GO_0071840>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0019538> (protein metabolic process)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0019538> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0019538> "GO:0019538")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0019538> "protein metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0019538> <http://purl.obolibrary.org/obo/GO_0043170>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0019538> <http://purl.obolibrary.org/obo/GO_0044238>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0034337> (RNA folding)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0034337> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0034337> "GO:0034337")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0034337> "RNA folding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0034337> <http://purl.obolibrary.org/obo/GO_0009987>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0043170> (macromolecule metabolic process)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0043170> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0043170> "GO:0043170")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043170> "macromolecule metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043170> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0044183> (protein folding chaperone)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0044183> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0044183> "GO:0044183")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044183> "protein folding chaperone")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0044183> <http://purl.obolibrary.org/obo/GO_0003674>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0044183> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0006457>))
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0044183> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0051082>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0044238> (primary metabolic process)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0044238> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0044238> "GO:0044238")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044238> "primary metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0044238> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0051082> (unfolded protein binding)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0051082> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0051082> "GO:0051082")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051082> "unfolded protein binding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051082> <http://purl.obolibrary.org/obo/GO_0005515>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0051604> (protein maturation)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0051604> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0051604> "GO:0051604")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051604> "protein maturation")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051604> <http://purl.obolibrary.org/obo/GO_0019538>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051604> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0010467>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0060090> (molecular adaptor activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0060090> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0060090> "GO:0060090")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0060090> "molecular adaptor activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0060090> <http://purl.obolibrary.org/obo/GO_0003674>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0060090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0005488>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0071840> (cellular component organization or biogenesis)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0071840> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0071840> "GO:0071840")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0071840> "cellular component organization or biogenesis")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0071840> <http://purl.obolibrary.org/obo/GO_0009987>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0097435> (supramolecular fiber organization)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0097435> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0097435> "GO:0097435")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0097435> "supramolecular fiber organization")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0097435> <http://purl.obolibrary.org/obo/GO_0016043>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0098772> (molecular function regulator activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0098772> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0098772> "GO:0098772")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0098772> "molecular function regulator activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0098772> <http://purl.obolibrary.org/obo/GO_0003674>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0098772> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0005515>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0140311> (protein sequestering activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0140311> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0140311> "GO:0140311")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0140311> "protein sequestering activity")
+EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0140311> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0140313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0005515>)))
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140311> <http://purl.obolibrary.org/obo/GO_0140313>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0005515>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0140313> (molecular sequestering activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0140313> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0140313> "GO:0140313")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0140313> "molecular sequestering activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140313> <http://purl.obolibrary.org/obo/GO_0003674>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0140677> (molecular function activator activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0140677> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0140677> "GO:0140677")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0140677> "molecular function activator activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140677> <http://purl.obolibrary.org/obo/GO_0098772>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0140678> (molecular function inhibitor activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0140678> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0140678> "GO:0140678")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0140678> "molecular function inhibitor activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140678> <http://purl.obolibrary.org/obo/GO_0098772>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0140691> (RNA folding chaperone)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0140691> "molecular_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0140691> "GO:0140691")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0140691> "RNA folding chaperone")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140691> <http://purl.obolibrary.org/obo/GO_0003674>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140691> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0034337>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_1990000> (amyloid fibril formation)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_1990000> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_1990000> "GO:1990000")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1990000> "amyloid fibril formation")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_1990000> <http://purl.obolibrary.org/obo/GO_0019538>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_1990000> <http://purl.obolibrary.org/obo/GO_0097435>)
 
 
 )
