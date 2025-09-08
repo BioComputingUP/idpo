@@ -53,6 +53,18 @@
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000550"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000551"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000552"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000553"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
     </Declaration>
     <Declaration>
@@ -217,6 +229,22 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000550"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000551"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000552"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000551"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000553"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000551"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
@@ -598,6 +626,66 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00000</IRI>
         <Literal>disorder function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000550</IRI>
+        <Literal>A highly extended and dynamic conformational state of intrinsically disordered proteins with minimal compaction, lacking stable secondary or tertiary structure and maintained by high net charge.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000550</IRI>
+        <Literal>structural_state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000550</IRI>
+        <Literal>random coil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000551</IRI>
+        <Literal>A structural classification assigned to a protein region for which a definitive structural state cannot be determined, as result from insufficient or ambiguous structural evidence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000551</IRI>
+        <Literal>structural_state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000551</IRI>
+        <Literal>undefined</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000552</IRI>
+        <Literal>A structural classification assigned to a protein region for which a definitive structural state cannot be determined, as result from insufficient or ambiguous structural evidence, but it suggests an ordered conformation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000552</IRI>
+        <Literal>structural_state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000552</IRI>
+        <Literal>likely order</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000553</IRI>
+        <Literal>A structural classification assigned to a protein region for which a definitive structural state cannot be determined, as result from insufficient or ambiguous structural evidence, but it suggests a disordered conformation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000553</IRI>
+        <Literal>structural_state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000553</IRI>
+        <Literal>likely disorder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
