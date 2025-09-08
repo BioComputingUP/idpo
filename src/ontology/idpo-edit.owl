@@ -46,27 +46,6 @@
         <Literal>1.2</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0044183"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0060090"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0140313"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0140677"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0140678"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0140691"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_1990000"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000001"/>
     </Declaration>
     <Declaration>
