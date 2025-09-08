@@ -39,7 +39,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
-        <Literal>idp_ontology</Literal>
+        <Literal>idpo</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
