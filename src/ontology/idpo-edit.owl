@@ -312,13 +312,22 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
@@ -870,14 +879,19 @@
         <Literal>A structural classification assigned to a protein region for which a definitive structural state cannot be determined, as result from insufficient or ambiguous structural evidence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_0000551</IRI>
-        <Literal>structural state not defined</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000551</IRI>
         <Literal>structural_state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000551</IRI>
+        <Literal>inconclusive structural state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000551</IRI>
+        <Literal>indeterminate structural state</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1520,6 +1534,16 @@
         <Literal>A molecular recognition site that facilitates the covalent addition of a sugar to a protein, modulating protein folding, stability, or cell–cell interactions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00028</IRI>
+        <Literal>N-linked glycosylation site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00028</IRI>
+        <Literal>O-linked glycosylation site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00028</IRI>
         <Literal>disorder_function</Literal>
@@ -1640,6 +1664,16 @@
         <Literal>A molecular recognition site that enables the addition of one or more ADP-ribose moieties to a protein, typically involved in cellular regulatory processes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00034</IRI>
+        <Literal>mono-ADP ribosylation site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00034</IRI>
+        <Literal>poly-ADP ribosylation site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00034</IRI>
         <Literal>disorder_function</Literal>
@@ -1683,6 +1717,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00050</IRI>
         <Literal>A structural transition in which a protein region changes from a disordered state to a stable, ordered three-dimensional structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00050</IRI>
+        <Literal>structural ordering</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -1803,6 +1842,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00056</IRI>
         <Literal>A structural transition in which an ordered protein region loses its defined three-dimensional conformation and adopts a disordered state.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00056</IRI>
+        <Literal>structural unfolding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
@@ -2030,6 +2074,11 @@
         <Literal>structured state</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00079</IRI>
+        <Literal>globular conformation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00079</IRI>
         <Literal>structural_state</Literal>
@@ -2050,6 +2099,21 @@
         <Literal>An intrinsically disordered region that performs a mechanical or regulatory function through its dynamic conformational flexibility, without adopting a stable tertiary structure.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
+        <Literal>entropic bristle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
+        <Literal>entropic clock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
+        <Literal>entropic spring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
         <Literal>disorder_function</Literal>
@@ -2058,11 +2122,6 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
         <Literal>IDPO:00501</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
-        <Literal>Examples include entropic bristles, entropic springs, and entropic clocks.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2105,6 +2164,11 @@
         <Literal>An intrinsically disordered region located at the N-terminal end of a protein that enables regulatory or interaction-based functions through its conformational flexibility.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00503</IRI>
+        <Literal>disordered terminal region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00503</IRI>
         <Literal>N-terminal flexible tail</Literal>
@@ -2138,6 +2202,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_00504</IRI>
         <Literal>An intrinsically disordered region located at the C-terminal end of a protein that enables regulatory or interaction-based functions through its conformational flexibility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_00504</IRI>
+        <Literal>disordered terminal region</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
