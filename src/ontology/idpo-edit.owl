@@ -46,6 +46,9 @@
         <Literal>1.2</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000000"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000001"/>
     </Declaration>
     <Declaration>
@@ -245,6 +248,27 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000074"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
@@ -310,32 +334,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0044183"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000053"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0060090"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000054"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0140313"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000055"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0140677"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000054"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0140678"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000054"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0140691"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000053"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_1990000"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000066"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000002"/>
@@ -775,6 +775,34 @@
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000067"/>
         <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000066"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000068"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000069"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000070"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000071"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000072"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000073"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000074"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IDPO_0000055"/>
+    </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002233"/>
@@ -833,6 +861,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000700</IRI>
         <Literal>has ontology root term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000000</IRI>
+        <Literal>A disorder to disorder structural transition in which an intrinsically disordered protein or region interacts with a binding partner while retaining conformational heterogeneity, leading to a bound ensemble rather than a single, fixed structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000000</IRI>
+        <IRI>https://orcid.org/0000-0001-8042-9939</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000000</IRI>
+        <Literal>structural_transition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000000</IRI>
+        <Literal>IDPO:0000000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000000</IRI>
+        <Literal>transition to a fuzzy state</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -1750,6 +1803,11 @@
         <Literal>stoichiometric molecular recognition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000035</IRI>
+        <Literal>As defined by the particular experimental approach, a transient interaction does not last for the entire duration of the experiment, rather, it is characterized by constant disssociation-association events (dynamics), which affect the measured physical observables.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000035</IRI>
         <IRI>https://orcid.org/0000-0001-8042-9939</IRI>
@@ -2190,6 +2248,11 @@
         <Literal>chaperone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000054</IRI>
+        <Literal>In contrast to a transient interaction, a stable interaction persists throughout the experiment&apos;s duration, yielding physical observables characteristic of the complex. This stability often allows for the determination of the complex&apos;s high-resolution structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000054</IRI>
         <IRI>https://orcid.org/0000-0001-8042-9939</IRI>
@@ -2563,6 +2626,221 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IDPO_0000067</IRI>
         <Literal>amorphous aggregate formation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000068</IRI>
+        <Literal>The generation of amyloid fibrils, insoluble fibrous protein aggregates exhibiting beta sheet structure, from proteins.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000068</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000068</IRI>
+        <Literal>amyloid fibril assembly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000068</IRI>
+        <Literal>amyloid structure assembly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000068</IRI>
+        <Literal>amyloid structure formation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000068</IRI>
+        <Literal>IDPO:0000068</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000068</IRI>
+        <Literal>amyloid fibril formation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000068</IRI>
+        <IRI>http://purl.obolibrary.org/obo/GO_1990000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000069</IRI>
+        <Literal>The binding activity of a molecule that brings together two or more molecules through a selective, non-covalent, often stoichiometric interaction, permitting those molecules to function in a coordinated way.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000069</IRI>
+        <Literal>protein complex scaffold activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000069</IRI>
+        <Literal>protein-containing complex scaffold activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000069</IRI>
+        <Literal>binding, bridging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000069</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000069</IRI>
+        <Literal>IDPO:0000069</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000069</IRI>
+        <Literal>molecular adaptor activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000069</IRI>
+        <IRI>http://purl.obolibrary.org/obo/GO_0060090</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000070</IRI>
+        <Literal>A molecular function regulator that activates or increases the activity of its target via non-covalent binding that does not result in covalent modification to the target.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000070</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000070</IRI>
+        <Literal>IDPO:0000070</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000070</IRI>
+        <Literal>molecular function activator activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000070</IRI>
+        <IRI>http://purl.obolibrary.org/obo/GO_0140677</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000071</IRI>
+        <Literal>A molecular function regulator that inhibits or decreases the activity of its target via non-covalent binding that does not result in covalent modification to the target.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000071</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000071</IRI>
+        <Literal>IDPO:0000071</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000071</IRI>
+        <Literal>molecular function inhibitor activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000071</IRI>
+        <IRI>http://purl.obolibrary.org/obo/GO_0140678</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000072</IRI>
+        <Literal>Binding to a protein or a protein-containing complex to assist the protein folding process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000072</IRI>
+        <Literal>chaperone activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000072</IRI>
+        <Literal>protein binding involved in protein folding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000072</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000072</IRI>
+        <Literal>IDPO:0000072</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000072</IRI>
+        <Literal>protein folding chaperone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000072</IRI>
+        <IRI>http://purl.obolibrary.org/obo/GO_0044183</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000073</IRI>
+        <Literal>Binding to an RNA or an RNA-containing complex to assist the folding process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000073</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000073</IRI>
+        <Literal>IDPO:0000073</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000073</IRI>
+        <Literal>RNA folding chaperone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000073</IRI>
+        <IRI>http://purl.obolibrary.org/obo/GO_0140691</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000074</IRI>
+        <Literal>Binding to a specific molecule to prevent it from interacting with other partners or to inhibit its localization to the area of the cell or complex where it is active.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000074</IRI>
+        <Literal>disorder_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000074</IRI>
+        <Literal>IDPO:0000074</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000074</IRI>
+        <Literal>molecular sequestering activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.obolibrary.org/obo/IDPO_0000074</IRI>
+        <IRI>http://purl.obolibrary.org/obo/GO_0140313</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
