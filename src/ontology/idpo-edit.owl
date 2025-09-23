@@ -1,1427 +1,891 @@
-<?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://purl.obolibrary.org/obo/idpo.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://purl.obolibrary.org/obo/idpo.owl"
-     versionIRI="http://purl.obolibrary.org/obo/idpo/releases/2025-06-01/idpo.owl">
-    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000700"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00000</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000700"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00049</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000700"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00075</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
-        <Literal>It describes structural aspects of an IDP/IDR, self-functions and functions directly associated with their disordered state.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
-        <IRI>https://creativecommons.org/licenses/by/4.0/</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
-        <Literal>Intrinsically Disordered Proteins Ontology</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
-        <Literal>idp_ontology</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
-        <Literal>1.2</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal>Release 2025-06-01</Literal>
-    </Annotation>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00025"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00026"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00027"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00028"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00029"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00030"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00031"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00032"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00033"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00034"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00049"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00050"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00051"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00052"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00053"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00054"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00055"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00057"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00058"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00059"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00060"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00061"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00075"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00501"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00502"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00503"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00504"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00505"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00506"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00507"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00508"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00511"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002233"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002234"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000700"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00025"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00026"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00027"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00028"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00029"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00030"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00031"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00032"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00033"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00034"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00050"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00049"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00050"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00050"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00051"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00051"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00051"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00052"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00052"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00052"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00053"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00050"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00053"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00053"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00054"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00054"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00054"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00055"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00050"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00055"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00055"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00049"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00057"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00057"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00057"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00058"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00056"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00058"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00058"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00059"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00059"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00059"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00060"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00060"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00060"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00061"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00061"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00061"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00075"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00077"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00078"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00079"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00075"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00501"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00502"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00501"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00503"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00501"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00504"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00501"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00505"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00511"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00506"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00505"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00507"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00505"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00508"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00511"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00511"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00000"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00049"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00512"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IDPO_00076"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00075"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IDPO_00075"/>
-    </ObjectPropertyDomain>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002233"/>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00513"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002234"/>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IDPO_00514"/>
-    </SubObjectPropertyOf>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000115</IRI>
-        <Literal>definition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000700</IRI>
-        <Literal>has ontology root term</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00000</IRI>
-        <Literal>The function of an IDP/IDR. Includes both active functions, i.e. performed on other proteins, and self-functions.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00000</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00000</IRI>
-        <Literal>IDPO:00000</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00000</IRI>
-        <Literal>disorder function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00024</IRI>
-        <Literal>Targeting post-translational modification.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00024</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00024</IRI>
-        <Literal>IDPO:00024</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00024</IRI>
-        <Literal>molecular recognition display site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00025</IRI>
-        <Literal>Guides the addition of a phosphate to the protein.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00025</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00025</IRI>
-        <Literal>IDPO:00025</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00025</IRI>
-        <Literal>phosphorylation display site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00026</IRI>
-        <Literal>Guides the addition of an acetyl group to the protein.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00026</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00026</IRI>
-        <Literal>IDPO:00026</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00026</IRI>
-        <Literal>acetylation display site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00027</IRI>
-        <Literal>Guides the addition of a methyl group to the protein.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00027</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00027</IRI>
-        <Literal>IDPO:00027</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00027</IRI>
-        <Literal>methylation display site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00028</IRI>
-        <Literal>Guides the addition of a sugar, such as a glycan, during chemical modification of the protein.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00028</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00028</IRI>
-        <Literal>IDPO:00028</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00028</IRI>
-        <Literal>glycosylation display site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00029</IRI>
-        <Literal>Guides the addition of a ubiquitin moiety for regulating the function and/or degradation of the protein.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00029</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00029</IRI>
-        <Literal>IDPO:00029</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00029</IRI>
-        <Literal>ubiquitination display site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00030</IRI>
-        <Literal>Guides the addition of a fatty acyl group during chemical modification of the protein.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00030</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00030</IRI>
-        <Literal>IDPO:00030</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00030</IRI>
-        <Literal>fatty acylation display site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00031</IRI>
-        <Literal>Guides the addition of a myristoyl group during chemical modification of the protein.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00031</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00031</IRI>
-        <Literal>IDPO:00031</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00031</IRI>
-        <Literal>myristoylation display site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00032</IRI>
-        <Literal>Guides the addition of a palmitoyl group during chemical modification of the protein.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00032</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00032</IRI>
-        <Literal>IDPO:00032</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00032</IRI>
-        <Literal>palmitoylation display site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00033</IRI>
-        <Literal>Guides the regulatory cleavage of the polypeptide chain.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00033</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00033</IRI>
-        <Literal>IDPO:00033</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00033</IRI>
-        <Literal>limited proteolysis display site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00034</IRI>
-        <Literal>Guides the addition of ADP-ribose moietie(s) to a protein, in cell signaling, DNA repair, gene regulation and apoptosis.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00034</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00034</IRI>
-        <Literal>IDPO:00034</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00034</IRI>
-        <Literal>ADP-ribosylation display site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00049</IRI>
-        <Literal>The possible transitions occurring between different structural states.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00049</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00049</IRI>
-        <Literal>IDPO:00049</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00049</IRI>
-        <Literal>structural transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00050</IRI>
-        <Literal>Transition from a disordered state to an ordered state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00050</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00050</IRI>
-        <Literal>IDPO:00050</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00050</IRI>
-        <Literal>disorder to order</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00051</IRI>
-        <Literal>Transition from a disordered state to a molten globule state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00051</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00051</IRI>
-        <Literal>IDPO:00051</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00051</IRI>
-        <Literal>disorder to molten globule</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00052</IRI>
-        <Literal>Transition from a disordered state to a pre-molten globule state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00052</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00052</IRI>
-        <Literal>IDPO:00052</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00052</IRI>
-        <Literal>disorder to pre-molten globule</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00053</IRI>
-        <Literal>Transition from a molten globule state to an ordered state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00053</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00053</IRI>
-        <Literal>IDPO:00053</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00053</IRI>
-        <Literal>molten globule to order</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00054</IRI>
-        <Literal>Transition from a molten globule state to a pre-molten globule state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00054</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00054</IRI>
-        <Literal>IDPO:00054</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00054</IRI>
-        <Literal>molten globule to pre-molten globule</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00055</IRI>
-        <Literal>Transition from a pre-molten globule state to an ordered state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00055</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00055</IRI>
-        <Literal>IDPO:00055</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00055</IRI>
-        <Literal>pre-molten globule to order</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00056</IRI>
-        <Literal>Transition from an ordered state to a disordered state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00056</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00056</IRI>
-        <Literal>IDPO:00056</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00056</IRI>
-        <Literal>order to disorder</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00057</IRI>
-        <Literal>Transition from an ordered state to a molten globule state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00057</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00057</IRI>
-        <Literal>IDPO:00057</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00057</IRI>
-        <Literal>order to molten globule</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00058</IRI>
-        <Literal>Transition from an ordered state to a pre-molten globule state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00058</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00058</IRI>
-        <Literal>IDPO:00058</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00058</IRI>
-        <Literal>order to pre-molten globule</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00059</IRI>
-        <Literal>Transition from a pre-molten globule state to a disordered state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00059</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00059</IRI>
-        <Literal>IDPO:00059</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00059</IRI>
-        <Literal>pre-molten globule to disorder</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00060</IRI>
-        <Literal>Transition from a pre-molten globule state to a molten globule state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00060</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00060</IRI>
-        <Literal>IDPO:00060</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00060</IRI>
-        <Literal>pre-molten globule to molten globule</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00061</IRI>
-        <Literal>Transition from a molten globule state to a disordered state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00061</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00061</IRI>
-        <Literal>IDPO:00061</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00061</IRI>
-        <Literal>molten globule to disorder</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00075</IRI>
-        <Literal>The possible structural state populated by a given protein region.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00075</IRI>
-        <Literal>structural_state</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00075</IRI>
-        <Literal>IDPO:00075</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00075</IRI>
-        <Literal>structural state</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00076</IRI>
-        <Literal>A non-compact state in which atoms lack a fixed or ordered three-dimensional structure.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00076</IRI>
-        <Literal>structural_state</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00076</IRI>
-        <Literal>IDPO:00076</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00076</IRI>
-        <Literal>disorder</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00077</IRI>
-        <Literal>A compact state, with native secondary structure but lacking specific native tertiary interactions.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00077</IRI>
-        <Literal>structural_state</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00077</IRI>
-        <Literal>IDPO:00077</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00077</IRI>
-        <Literal>molten globule</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00078</IRI>
-        <Literal>A condensed but not compact state, with residual secondary structure, describing many native and non-native conformations in rapid equilibrium.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00078</IRI>
-        <Literal>structural_state</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00078</IRI>
-        <Literal>IDPO:00078</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00078</IRI>
-        <Literal>pre-molten globule</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00079</IRI>
-        <Literal>A compact state in which atoms have a stable three-dimensional structure.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00079</IRI>
-        <Literal>structural_state</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00079</IRI>
-        <Literal>IDPO:00079</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00079</IRI>
-        <Literal>order</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
-        <Literal>Functions directly associated with the disordered state of proteins that stem from their ability to shift between conformational states without becoming structured. Includes entropic bristles, clocks and springs.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
-        <Literal>IDPO:00501</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00501</IRI>
-        <Literal>entropic chain</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00502</IRI>
-        <Literal>Unstructured region connecting, providing separation and permitting movement between adjacent functional regions, e.g. structured domains or disordered motifs.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00502</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00502</IRI>
-        <Literal>IDPO:00502</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00502</IRI>
-        <Literal>flexible linker/spacer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00503</IRI>
-        <Literal>Intrinsically disordered region localized at the N-terminus of a protein.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00503</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00503</IRI>
-        <Literal>IDPO:00503</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00503</IRI>
-        <Literal>flexible N-terminal tail</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00504</IRI>
-        <Literal>Intrinsically disordered region localized at the C-terminus of a protein.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00504</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00504</IRI>
-        <Literal>IDPO:00504</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00504</IRI>
-        <Literal>flexible C-terminal tail</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00505</IRI>
-        <Literal>Protein interaction in cis that auto-regulates the protein function or its assembly.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00505</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00505</IRI>
-        <Literal>IDPO:00505</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00505</IRI>
-        <Literal>self-regulatory activity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00506</IRI>
-        <Literal>Protein interaction in cis that auto-inhibits the protein function.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00506</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00506</IRI>
-        <Literal>IDPO:00506</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00506</IRI>
-        <Literal>self-inhibition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00507</IRI>
-        <Literal>Protein interaction in cis that auto-activates the protein function.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00507</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00507</IRI>
-        <Literal>IDPO:00507</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00507</IRI>
-        <Literal>self-activation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00508</IRI>
-        <Literal>Protein interaction in cis required for dimerization or oligomerization of a protein.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00508</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00508</IRI>
-        <Literal>IDPO:00508</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00508</IRI>
-        <Literal>self-assembly</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00511</IRI>
-        <Literal>Protein intramolecular interaction where one region of the protein engages with another region within the same protein, affecting its assembly or function.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00511</IRI>
-        <Literal>disorder_function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00511</IRI>
-        <Literal>IDPO:00511</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00511</IRI>
-        <Literal>self-interaction</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00512</IRI>
-        <Literal>Transition from a disordered state to another disordered state.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00512</IRI>
-        <IRI>https://orcid.org/0000-0003-4423-4370</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00512</IRI>
-        <Literal>structural_transition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00512</IRI>
-        <Literal>IDPO:00512</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00512</IRI>
-        <Literal xml:lang="en">disorder to disorder</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00513</IRI>
-        <Literal xml:lang="en">transition from structural state</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IDPO_00514</IRI>
-        <Literal xml:lang="en">transition to structural state</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/RO_0000086</IRI>
-        <Literal>has quality</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/RO_0002233</IRI>
-        <Literal xml:lang="en">has input</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/RO_0002234</IRI>
-        <Literal>has output</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion</IRI>
-        <Literal>has_obo_format_version</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.geneontology.org/formats/oboInOwl#hasOBONamespace</IRI>
-        <Literal>has_obo_namespace</Literal>
-    </AnnotationAssertion>
-</Ontology>
+Prefix(:=<http://purl.obolibrary.org/obo/idpo.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/idpo.owl>
+Import(<http://purl.obolibrary.org/obo/idpo/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/idpo/imports/omo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/idpo/imports/ro_import.owl>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000001>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000010>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000029>)
+Annotation(<http://purl.org/dc/terms/description> "It describes structural aspects of an IDP/IDR, self-functions and functions directly associated with their disordered state.")
+Annotation(<http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/>)
+Annotation(<http://purl.org/dc/terms/title> "Intrinsically Disordered Proteins Ontology")
+Annotation(<http://www.geneontology.org/formats/oboInOwl#default-namespace> "idpo")
+Annotation(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "1.2")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000073>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000074>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_00513>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_00514>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002234>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
+Declaration(AnnotationProperty(rdfs:label))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000700> (has ontology root term)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000700> "has ontology root term")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> (has_obo_format_version)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "has_obo_format_version")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (has_obo_namespace)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/IDPO_00513> (transition from structural state)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_00513> "transition from structural state"@en)
+
+# Object Property: <http://purl.obolibrary.org/obo/IDPO_00514> (transition to structural state)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_00514> "transition to structural state"@en)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (has quality)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000086> "has quality")
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002233> (has input)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002233> "has input"@en)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002234> (has output)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002234> "has output")
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+############################
+#   Classes
+############################
 
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000000> (transition to a fuzzy state)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000000> "A disorder to disorder structural transition in which an intrinsically disordered protein or region interacts with a binding partner while retaining conformational heterogeneity, leading to a bound ensemble rather than a single, fixed structure.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000000> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000000> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000000> "IDPO:0000000")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000000> "transition to a fuzzy state")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000000> <http://purl.obolibrary.org/obo/IDPO_0000017>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000001> (structural state)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000001> "A structural property that a protein region can exhibit, defined by its conformational behavior under physiological conditions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000001> "conformational state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000001> "structural_state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000001> "IDPO:0000001")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000001> "structural state")
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000002> (disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000002> "A structural state of a protein region characterized by the absence of a stable, fixed three-dimensional structure, lacking persistent secondary and tertiary interactions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000002> "intrinsic disorder")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000002> "structural disorder")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000002> "structural_state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000002> "IDPO:0000002")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000002> "disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000002> <http://purl.obolibrary.org/obo/IDPO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000003> (molten globule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000003> "A partially folded structural state in which a protein exhibits native-like secondary structure but lacks the specific, stable tertiary interactions of the fully folded state.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000003> "structural_state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000003> "IDPO:0000003")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000003> "molten globule")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000003> <http://purl.obolibrary.org/obo/IDPO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000004> (pre-molten globule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000004> "A loosely structured state of a protein characterized by low compactness and the presence of residual secondary structure, often representing an ensemble of rapidly interconverting conformations.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000004> "structural_state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000004> "IDPO:0000004")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000004> "pre-molten globule")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000004> <http://purl.obolibrary.org/obo/IDPO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000005> (random coil)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000005> "A highly extended and dynamic conformational state of intrinsically disordered proteins with minimal compaction, lacking stable secondary or tertiary structure and maintained by high net charge.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000005> "native coil")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000005> "structural_state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000005> "IDPO:0000005")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000005> "random coil")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000005> <http://purl.obolibrary.org/obo/IDPO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000006> (order)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000006> "A structural state of a protein region in which atoms are arranged in a stable, well-defined three-dimensional conformation, including persistent secondary and tertiary structure.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000006> "structural order")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000006> "structured state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000006> "globular conformation")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000006> "structural_state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000006> "IDPO:0000006")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000006> "order")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000006> <http://purl.obolibrary.org/obo/IDPO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000007> (undefined)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000007> "A structural classification assigned to a protein region for which a definitive structural state cannot be determined, as result from insufficient or ambiguous structural evidence.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000007> "structural_state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000007> "inconclusive structural state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000007> "indeterminate structural state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000007> "IDPO:0000007")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000007> "undefined")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000007> <http://purl.obolibrary.org/obo/IDPO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000008> (likely order)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000008> "A structural classification assigned to a protein region for which a definitive structural state cannot be determined, as result from insufficient or ambiguous structural evidence, but it suggests an ordered conformation.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000008> "presumed order")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000008> "probable order")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000008> "structural_state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000008> "IDPO:0000008")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000008> "likely order")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000008> <http://purl.obolibrary.org/obo/IDPO_0000007>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000009> (likely disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000009> "A structural classification assigned to a protein region for which a definitive structural state cannot be determined, as result from insufficient or ambiguous structural evidence, but it suggests a disordered conformation.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000009> "presumed disorder")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000009> "probable disorder")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000009> "structural_state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000009> "IDPO:0000009")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000009> "likely disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000009> <http://purl.obolibrary.org/obo/IDPO_0000007>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000010> (structural transition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000010> "A dynamic process in which a protein region undergoes a reversible or irreversible transformation between defined structural states.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000010> "conformational transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000010> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000010> "IDPO:0000010")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000010> "structural transition")
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000011> (disorder to order)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000011> "A structural transition in which a protein region changes from a disordered state to a stable, ordered three-dimensional structure.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/IDPO_0000011> "structural ordering")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000011> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000011> "IDPO:0000011")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000011> "disorder to order")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000011> <http://purl.obolibrary.org/obo/IDPO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000006>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000012> (molten globule to order)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000012> "A structural transition in which a protein changes from a molten globule state to a fully ordered, stable tertiary structure.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000012> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000012> "IDPO:0000012")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000012> "molten globule to order")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000012> <http://purl.obolibrary.org/obo/IDPO_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000006>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000013> (pre-molten globule to order)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000013> "A structural transition in which a protein region changes from a pre-molten globule to a stable, ordered structure with defined tertiary interactions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000013> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000013> "IDPO:0000013")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000013> "pre-molten globule to order")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000013> <http://purl.obolibrary.org/obo/IDPO_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000006>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000014> (order to disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000014> "A structural transition in which an ordered protein region loses its defined three-dimensional conformation and adopts a disordered state.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/IDPO_0000014> "structural unfolding")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000014> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000014> "IDPO:0000014")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000014> "order to disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000014> <http://purl.obolibrary.org/obo/IDPO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000015> (order to molten globule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000015> "A structural transition in which an ordered protein loses specific tertiary interactions while retaining its secondary structure, resulting in a molten globule state.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000015> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000015> "IDPO:0000015")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000015> "order to molten globule")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000015> <http://purl.obolibrary.org/obo/IDPO_0000014>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000003>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000016> (order to pre-molten globule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000016> "A structural transition in which an ordered protein region becomes less compact and more flexible, forming a pre-molten globule state.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000016> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000016> "IDPO:0000016")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000016> "order to pre-molten globule")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000016> <http://purl.obolibrary.org/obo/IDPO_0000014>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000004>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000017> (disorder to disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000017> "A structural transition in which an intrinsically disordered region changes from one disordered conformational ensemble to another, without adopting a stable, ordered three-dimensional structure.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000017> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000017> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000017> "IDPO:0000017")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000017> "disorder to disorder"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000017> <http://purl.obolibrary.org/obo/IDPO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000018> (disorder to molten globule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000018> "A structural transition in which a disordered protein region adopts a compact conformation with native-like secondary structure but lacking specific tertiary interactions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000018> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000018> "IDPO:0000018")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000018> "disorder to molten globule")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000018> <http://purl.obolibrary.org/obo/IDPO_0000017>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000003>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000019> (disorder to pre-molten globule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000019> "A structural transition in which a disordered region partially condenses to form a loosely structured state with residual secondary structure.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000019> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000019> "IDPO:0000019")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000019> "disorder to pre-molten globule")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000019> <http://purl.obolibrary.org/obo/IDPO_0000017>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000004>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000020> (molten globule to disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000020> "A structural transition in which a molten globule loses its secondary structure and compactness, adopting a disordered conformation.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000020> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000020> "IDPO:0000020")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000020> "molten globule to disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000020> <http://purl.obolibrary.org/obo/IDPO_0000017>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000021> (molten globule to pre-molten globule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000021> "A structural transition in which a protein in a molten globule conformation loses compactness and becomes more conformationally flexible, transitioning to the pre-molten globule state.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000021> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000021> "IDPO:0000021")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000021> "molten globule to pre-molten globule")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000021> <http://purl.obolibrary.org/obo/IDPO_0000017>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000004>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000022> (pre-molten globule to disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000022> "A structural transition in which a pre-molten globule loses residual structure and becomes fully disordered.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000022> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000022> "IDPO:0000022")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000022> "pre-molten globule to disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000022> <http://purl.obolibrary.org/obo/IDPO_0000017>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000023> (pre-molten globule to molten globule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000023> "A structural transition in which a loosely condensed protein region becomes more compact, adopting secondary structure characteristic of the molten globule state.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000023> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000023> "IDPO:0000023")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000023> "pre-molten globule to molten globule")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000023> <http://purl.obolibrary.org/obo/IDPO_0000017>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000003>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000024> (condensate transition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000024> "A biophysical process in which a biomolecular condensate undergoes a change in material state.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000024> "https://doi.org/10.1016/j.tcb.2018.02.004")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000024> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000024> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000024> "IDPO:0000024")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000024> "condensate transition")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000024> <http://purl.obolibrary.org/obo/IDPO_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000025> (liquid-liquid phase separation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000025> "A demixing phenomenon driven by weak, transient multivalent interactions, resulting in two separate liquid phases, a dense phase and a dilute phase, that then stably coexist.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000025> "https://doi.org/10.1016/j.tcb.2018.02.004")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000025> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000025> "LLPS")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000025> "liquid–liquid demixing")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000025> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000025> "IDPO:0000025")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000025> "liquid-liquid phase separation")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000025> <http://purl.obolibrary.org/obo/IDPO_0000024>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000026> (condensate ageing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000026> "A time-dependent process in which biomolecular condensates progressively transition from a dynamic, liquid-like state to less dynamic gel-like, glass-like, or solid-like states.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000026> "https://doi.org/10.1038/s41580-020-00326-6")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000026> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000026> "condensate hardening")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000026> "condensate maturation")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000026> "structural_state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000026> "IDPO:0000026")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000026> "condensate ageing")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000026> <http://purl.obolibrary.org/obo/IDPO_0000024>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000027> (gelation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000027> "A physical process by which a liquid-like condensate transitions into a viscoelastic, crosslinked gel-like state, driven by increased concentration or multivalent interactions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000027> "https://doi.org/10.1016/j.tcb.2018.02.004")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000027> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000027> "liquid to gel transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000027> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000027> "IDPO:0000027")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000027> "gelation")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000027> <http://purl.obolibrary.org/obo/IDPO_0000024>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000028> (crystallization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000028> "A physical process through which a disordered liquid state transitions into a more ordered glass-like state, characterized by slow relaxation and arrested molecular motion.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000028> "https://doi.org/10.1016/j.tcb.2018.02.004")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000028> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000028> "liquid to glass transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000028> "structural_transition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000028> "IDPO:0000028")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000028> "crystallization")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000028> <http://purl.obolibrary.org/obo/IDPO_0000024>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000029> (disorder function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000029> "A molecular activity that arises from the lack of a fixed tertiary structure of a protein or protein region under physiological conditions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000029> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000029> "IDPO:0000029")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000029> "disorder function")
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000030> (entropic chain)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000030> "An intrinsically disordered region that performs a mechanical or regulatory function through its dynamic conformational flexibility, without adopting a stable tertiary structure.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic bristle")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic clock")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic spring")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000030> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000030> "IDPO:0000030")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic chain")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000030> <http://purl.obolibrary.org/obo/IDPO_0000029>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000031> (flexible C-terminal tail)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000031> "An intrinsically disordered region located at the C-terminal end of a protein that enables regulatory or interaction-based functions through its conformational flexibility.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/IDPO_0000031> "disordered terminal region")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000031> "C-terminal flexible tail")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000031> "disordered C-terminal tail")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000031> "flexible C-terminus")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000031> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000031> "IDPO:0000031")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000031> "flexible C-terminal tail")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000031> <http://purl.obolibrary.org/obo/IDPO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000032> (flexible N-terminal tail)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000032> "An intrinsically disordered region located at the N-terminal end of a protein that enables regulatory or interaction-based functions through its conformational flexibility.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/IDPO_0000032> "disordered terminal region")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000032> "N-terminal flexible tail")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000032> "disordered N-terminal tail")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000032> "flexible N-terminus")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000032> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000032> "IDPO:0000032")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000032> "flexible N-terminal tail")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000032> <http://purl.obolibrary.org/obo/IDPO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000033> (flexible linker)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000033> "An intrinsically disordered region that connects adjacent functional elements of a protein providing spatial separation and allowing conformational flexibility.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000033> "disordered linker")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000033> "flexible spacer")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000033> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000033> "IDPO:0000033")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000033> "flexible linker")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000033> <http://purl.obolibrary.org/obo/IDPO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000034> (stoichiometric molecular recognition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000034> "A molecular recognition process that occurs with a defined stoichiometric ratio between partners.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000034> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000034> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000034> "IDPO:0000034")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000034> "stoichiometric molecular recognition")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000034> <http://purl.obolibrary.org/obo/IDPO_0000029>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000035> (transient molecular recognition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000035> "As defined by the particular experimental approach, a transient interaction does not last for the entire duration of the experiment, rather, it is characterized by constant disssociation-association events (dynamics), which affect the measured physical observables.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000035> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000035> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000035> "IDPO:0000035")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000035> "transient molecular recognition")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000035> <http://purl.obolibrary.org/obo/IDPO_0000034>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000036> (interaction by short linear motif)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000036> "A transient molecular recognition interaction that is mediated by a short interaction interfaces embedded in an intrinsically disordered protein region.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000036> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000036> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000036> "IDPO:0000036")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000036> "interaction by short linear motif")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000036> <http://purl.obolibrary.org/obo/IDPO_0000035>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000037> (molecular recognition display site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000037> "A protein region that facilitates site-specific molecular recognition, serving as a platform for post-translational modifications.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000037> "post-translational modification site")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000037> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000037> "IDPO:0000037")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000037> "molecular recognition display site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000037> <http://purl.obolibrary.org/obo/IDPO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000038> (ADP-ribosylation display site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000038> "A molecular recognition site that enables the addition of one or more ADP-ribose moieties to a protein, typically involved in cellular regulatory processes.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000038> "mono-ADP ribosylation site")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000038> "poly-ADP ribosylation site")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000038> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000038> "IDPO:0000038")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000038> "ADP-ribosylation display site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000038> <http://purl.obolibrary.org/obo/IDPO_0000037>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000039> (acetylation display site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000039> "A molecular recognition site that enables the covalent attachment of an acetyl group to a residue of a protein.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000039> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000039> "IDPO:0000039")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000039> "acetylation display site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000039> <http://purl.obolibrary.org/obo/IDPO_0000037>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000040> (fatty acylation display site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000040> "A molecular recognition site that facilitates the addition of fatty acyl groups to a protein, contributing to membrane association or signaling functions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000040> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000040> "IDPO:0000040")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000040> "fatty acylation display site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000040> <http://purl.obolibrary.org/obo/IDPO_0000037>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000041> (glycosylation display site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000041> "A molecular recognition site that facilitates the covalent addition of a sugar to a protein, modulating protein folding, stability, or cell–cell interactions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000041> "N-linked glycosylation site")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000041> "O-linked glycosylation site")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000041> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000041> "IDPO:0000041")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000041> "glycosylation display site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000041> <http://purl.obolibrary.org/obo/IDPO_0000037>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000042> (methylation display site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000042> "A molecular recognition site that supports the covalent addition of methyl groups to a protein, regulating transcriptional activity or protein–protein interactions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000042> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000042> "IDPO:0000042")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000042> "methylation display site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000042> <http://purl.obolibrary.org/obo/IDPO_0000037>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000043> (myristoylation display site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000043> "A molecular recognition site that enables the co-translational or post-translational attachment of a myristoyl group to a protein.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000043> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000043> "IDPO:0000043")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000043> "myristoylation display site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000043> <http://purl.obolibrary.org/obo/IDPO_0000037>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000044> (palmitoylation display site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000044> "A molecular recognition site that facilitates the reversible attachment of palmitoyl groups to a protein, modulating membrane association and trafficking.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000044> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000044> "IDPO:0000044")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000044> "palmitoylation display site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000044> <http://purl.obolibrary.org/obo/IDPO_0000037>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000045> (phosphorylation display site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000045> "A molecular recognition site that enables the addition of a phosphate group to a protein, regulating activity, localization, or signaling pathways.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000045> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000045> "IDPO:0000045")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000045> "phosphorylation display site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000045> <http://purl.obolibrary.org/obo/IDPO_0000037>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000046> (ubiquitination display site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000046> "A molecular recognition site that enables the covalent attachment of ubiquitin to protein residues, marking the protein for degradation or altering its cellular localization or interactions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000046> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000046> "IDPO:0000046")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000046> "ubiquitination display site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000046> <http://purl.obolibrary.org/obo/IDPO_0000037>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000047> (cleavage site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000047> "A short linear motif that serves as the recognition and cutting site for proteolytic enzymes.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000047> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000047> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000047> "IDPO:0000047")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000047> "cleavage site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000047> <http://purl.obolibrary.org/obo/IDPO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000048> (limited proteolysis display site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000048> "A molecular recognition site that marks a location for regulated cleavage of the polypeptide chain.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000048> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000048> "IDPO:0000048")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000048> "limited proteolysis display site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000048> <http://purl.obolibrary.org/obo/IDPO_0000047>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000049> (degron motif)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000049> "A short linear motif that directs protein polyubiquitylation and targets the protein to the proteasome for degradation.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000049> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000049> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000049> "IDPO:0000049")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000049> "degron motif")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000049> <http://purl.obolibrary.org/obo/IDPO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000050> (docking site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000050> "A short linear motif that recruits a modifying enzyme using a site that is distinct from the active site.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000050> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000050> "disorder function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000050> "IDPO:0000050")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000050> "docking site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000050> <http://purl.obolibrary.org/obo/IDPO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000051> (ligand binding site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000051> "A short linear motif that mediate binding of the ligand protein to its interaction partner.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000051> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000051> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000051> "IDPO:0000051")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000051> "ligand binding site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000051> <http://purl.obolibrary.org/obo/IDPO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000052> (targeting site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000052> "A short linear motif that mediates subcellular targeting by interacting with localization machinery.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000052> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000052> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000052> "IDPO:0000052")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000052> "targeting site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000052> <http://purl.obolibrary.org/obo/IDPO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000053> (chaperone)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000053> "Molecule that assist in the correct folding and stabilization of proteins or RNA.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000053> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000053> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000053> "IDPO:0000053")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000053> "chaperone")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000053> <http://purl.obolibrary.org/obo/IDPO_0000035>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000054> (stable molecular recognition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000054> "In contrast to a transient interaction, a stable interaction persists throughout the experiment's duration, yielding physical observables characteristic of the complex. This stability often allows for the determination of the complex's high-resolution structure.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000054> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000054> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000054> "IDPO:0000054")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000054> "stable molecular recognition")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000054> <http://purl.obolibrary.org/obo/IDPO_0000034>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000055> (non-stoichiometric molecular recognition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000055> "A molecular recognition process that lacks fixed stoichiometry and is driven by multivalent, dynamic, or fuzzy interactions.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000055> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000055> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000055> "IDPO:0000055")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000055> "non-stoichiometric molecular recognition")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000055> <http://purl.obolibrary.org/obo/IDPO_0000029>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000056> (self-interaction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000056> "Protein intramolecular interaction where one region of the protein engages with another region within the same protein, affecting its assembly or function.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000056> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000056> "IDPO:0000056")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000056> "self-interaction")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000056> <http://purl.obolibrary.org/obo/IDPO_0000055>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000057> (self-regulatory activity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000057> "An intramolecular mechanism by which a protein modulates its own activity.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000057> "autoregulatory activity")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000057> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000057> "IDPO:0000057")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000057> "self-regulatory activity")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000057> <http://purl.obolibrary.org/obo/IDPO_0000056>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000058> (self-activation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000058> "A self-regulatory mechanism in which intramolecular interactions induce or enhance the functional activity of a protein.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000058> "autoactivation")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000058> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000058> "IDPO:0000058")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000058> "self-activation")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000058> <http://purl.obolibrary.org/obo/IDPO_0000057>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000059> (self-inhibition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000059> "A self-regulatory mechanism in which intramolecular interactions repress or prevent the functional activity of a protein.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000059> "autoinhibition")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000059> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000059> "IDPO:0000059")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000059> "self-inhibition")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000059> <http://purl.obolibrary.org/obo/IDPO_0000057>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000060> (self-assembly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000060> "A process by which distinct regions within a single protein interact to promote its conformational organization into higher-order structures.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000060> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000060> "IDPO:0000060")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000060> "self-assembly")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000060> <http://purl.obolibrary.org/obo/IDPO_0000056>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000061> (condensate assembler)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000061> "A molecule that promotes or participates in the formation of a biomolecular condensate.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000061> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000061> "biomolecular condensate assembler")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000061> "disorder function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000061> "IDPO:0000061")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000061> "condensate assembler")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000061> <http://purl.obolibrary.org/obo/IDPO_0000055>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000062> (driver)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000062> "Molecule with high interaction valence necessary and sufficient for liquid-liquid phase separation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000062> "https://doi.org/10.3390/ijms22063017")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000062> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000062> "scaffold")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000062> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000062> "IDPO:0000062")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000062> "driver")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000062> <http://purl.obolibrary.org/obo/IDPO_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000063> (co-driver)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000063> "A molecule that strictly requires one or more partners to enable liquid–liquid phase separation, and unlike regulators, physically incorporates into the scaffold of the resulting condensate.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000063> "https://doi.org/10.3390/ijms22063017")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000063> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000063> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000063> "IDPO:0000063")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000063> "co-driver")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000063> <http://purl.obolibrary.org/obo/IDPO_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000064> (regulator)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000064> "A molecule that facilitates or modulates the liquid–liquid phase separation of one or more driver or co-driver molecules without being physically incorporated into the resulting condensate.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000064> "https://doi.org/10.3390/ijms22063017")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000064> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000064> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000064> "IDPO:0000064")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000064> "regulator")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000064> <http://purl.obolibrary.org/obo/IDPO_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000065> (client)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000065> "Molecule with lower valence recruited into condensates formed by scaffolds, but it is not required for and does not have an effect on liquid-liquid phase separation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000065> "https://doi.org/10.3390/ijms22063017")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000065> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000065> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000065> "IDPO:0000065")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000065> "client")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000065> <http://purl.obolibrary.org/obo/IDPO_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000066> (protein aggregate assembly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000066> "Process involving a non-native state of a protein in which isoluble intermolecular interactions are established to form a higher-order irreversible assembly, usually as result of aberrant liquid-liquid phase separation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000066> "https://doi.org/10.1038/s41580-020-00326-6")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000066> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000066> "aggregate formation")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000066> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000066> "IDPO:0000066")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000066> "protein aggregate assembly")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000066> <http://purl.obolibrary.org/obo/IDPO_0000055>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000067> (amorphous aggregate formation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000067> "A process leading to the formation of a protein aggregate lacking stable or ordered structure.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000067> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000067> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000067> "IDPO:0000067")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000067> "amorphous aggregate formation")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000067> <http://purl.obolibrary.org/obo/IDPO_0000066>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000068> (amyloid fibril formation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000068> "The generation of amyloid fibrils, insoluble fibrous protein aggregates exhibiting beta sheet structure, from proteins.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000068> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000068> "amyloid fibril assembly")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000068> "amyloid structure assembly")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000068> "amyloid structure formation")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000068> "IDPO:0000068")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000068> "amyloid fibril formation")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000068> <http://purl.obolibrary.org/obo/GO_1990000>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000068> <http://purl.obolibrary.org/obo/IDPO_0000066>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000069> (molecular adaptor activity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000069> "The binding activity of a molecule that brings together two or more molecules through a selective, non-covalent, often stoichiometric interaction, permitting those molecules to function in a coordinated way.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/IDPO_0000069> "protein complex scaffold activity")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/IDPO_0000069> "protein-containing complex scaffold activity")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000069> "binding, bridging")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000069> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000069> "IDPO:0000069")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000069> "molecular adaptor activity")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000069> <http://purl.obolibrary.org/obo/GO_0060090>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000069> <http://purl.obolibrary.org/obo/IDPO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000070> (molecular function activator activity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000070> "A molecular function regulator that activates or increases the activity of its target via non-covalent binding that does not result in covalent modification to the target.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000070> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000070> "IDPO:0000070")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000070> "molecular function activator activity")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000070> <http://purl.obolibrary.org/obo/GO_0140677>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000070> <http://purl.obolibrary.org/obo/IDPO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000071> (molecular function inhibitor activity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000071> "A molecular function regulator that inhibits or decreases the activity of its target via non-covalent binding that does not result in covalent modification to the target.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000071> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000071> "IDPO:0000071")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000071> "molecular function inhibitor activity")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000071> <http://purl.obolibrary.org/obo/GO_0140678>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000071> <http://purl.obolibrary.org/obo/IDPO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000072> (protein folding chaperone)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000072> "Binding to a protein or a protein-containing complex to assist the protein folding process.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/IDPO_0000072> "chaperone activity")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000072> "protein binding involved in protein folding")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000072> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000072> "IDPO:0000072")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000072> "protein folding chaperone")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000072> <http://purl.obolibrary.org/obo/GO_0044183>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000072> <http://purl.obolibrary.org/obo/IDPO_0000053>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000073> (RNA folding chaperone)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000073> "Binding to an RNA or an RNA-containing complex to assist the folding process.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000073> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000073> "IDPO:0000073")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000073> "RNA folding chaperone")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000073> <http://purl.obolibrary.org/obo/GO_0140691>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000073> <http://purl.obolibrary.org/obo/IDPO_0000053>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000074> (molecular sequestering activity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000074> "Binding to a specific molecule to prevent it from interacting with other partners or to inhibit its localization to the area of the cell or complex where it is active.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000074> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000074> "IDPO:0000074")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000074> "molecular sequestering activity")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000074> <http://purl.obolibrary.org/obo/GO_0140313>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000074> <http://purl.obolibrary.org/obo/IDPO_0000055>)
+
+
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0000086>) <http://purl.obolibrary.org/obo/IDPO_00513>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/RO_0000086>) <http://purl.obolibrary.org/obo/IDPO_00514>)
+)
