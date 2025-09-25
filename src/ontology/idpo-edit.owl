@@ -144,13 +144,13 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/IDPO_00513> (transition from structural state)
+# Object Property: <http://purl.obolibrary.org/obo/IDPO_00513> (has initial state)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_00513> "transition from structural state"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_00513> "has initial state"@en)
 
-# Object Property: <http://purl.obolibrary.org/obo/IDPO_00514> (transition to structural state)
+# Object Property: <http://purl.obolibrary.org/obo/IDPO_00514> (has final state)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_00514> "transition to structural state"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_00514> "has final state"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (has quality)
 
@@ -697,7 +697,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000060> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000061> (functional role in condensate assembly)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000061> "A molecule that promotes or participates in the formation of a biomolecular condensate.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000061> "A protein or protein region that promotes or participates in the formation of a biomolecular condensate.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000061> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000061> "biomolecular condensate assembler")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000061> "disorder_function")
@@ -707,7 +707,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000061> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000062> (driver)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000062> "Molecule with high interaction valence necessary and sufficient for liquid-liquid phase separation.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000062> "A protein or protein region with high interaction valence necessary and sufficient for liquid-liquid phase separation.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000062> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000062> "scaffold")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000062> "disorder_function")
@@ -717,7 +717,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000062> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000063> (co-driver)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000063> "A molecule that strictly requires one or more partners to enable liquid–liquid phase separation, and unlike regulators, physically incorporates into the scaffold of the resulting condensate.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000063> "A protein or protein region that strictly requires one or more partners to enable liquid–liquid phase separation, and unlike regulators, physically incorporates into the scaffold of the resulting condensate.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000063> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000063> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000063> "IDPO:0000063")
@@ -726,7 +726,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000063> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000064> (regulator)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000064> "A molecule that facilitates or modulates the liquid–liquid phase separation of one or more driver or co-driver molecules without being physically incorporated into the resulting condensate.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000064> "A protein or protein region that facilitates or modulates the liquid–liquid phase separation of one or more driver or co-driver molecules without being physically incorporated into the resulting condensate.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000064> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000064> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000064> "IDPO:0000064")
@@ -735,7 +735,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000064> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000065> (client)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000065> "Molecule with lower valence recruited into condensates formed by scaffolds, but it is not required for and does not have an effect on liquid-liquid phase separation.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000065> "A protein or protein region with lower valence recruited into condensates formed by scaffolds, but it is not required for and does not have an effect on liquid-liquid phase separation.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000065> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000065> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000065> "IDPO:0000065")
