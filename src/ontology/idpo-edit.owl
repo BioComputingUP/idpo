@@ -92,8 +92,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000083>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000084>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000085>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000086>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_00513>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_00514>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_0000087>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_0000088>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002234>))
@@ -148,17 +148,17 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/IDPO_00513> (has initial state)
+# Object Property: <http://purl.obolibrary.org/obo/IDPO_0000087> (has final state)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_00513> "has initial state"@en)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000080>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000000>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000087> "has final state")
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000080>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000000>)
 
-# Object Property: <http://purl.obolibrary.org/obo/IDPO_00514> (has final state)
+# Object Property: <http://purl.obolibrary.org/obo/IDPO_0000088> (has initial state)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_00514> "has final state"@en)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000080>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000000>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000088> "has initial state")
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000080>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000000>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (has quality)
 
@@ -300,8 +300,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000011> "IDPO:0000011")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000011> "disorder to order")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000011> <http://purl.obolibrary.org/obo/IDPO_0000081>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000002>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000002>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000012> (molten globule to order)
 
@@ -311,8 +311,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000012> "IDPO:0000012")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000012> "molten globule to order")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000012> <http://purl.obolibrary.org/obo/IDPO_0000081>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000003>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000013> (pre-molten globule to order)
 
@@ -322,8 +322,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000013> "IDPO:0000013")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000013> "pre-molten globule to order")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000013> <http://purl.obolibrary.org/obo/IDPO_0000081>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000004>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000004>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000014> (order to disorder)
 
@@ -334,8 +334,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000014> "IDPO:0000014")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000014> "order to disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000014> <http://purl.obolibrary.org/obo/IDPO_0000082>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000006>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000006>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000015> (order to molten globule)
 
@@ -344,8 +344,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000015> "IDPO:0000015")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000015> "order to molten globule")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000015> <http://purl.obolibrary.org/obo/IDPO_0000082>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000006>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000006>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000016> (order to pre-molten globule)
 
@@ -354,8 +354,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000016> "IDPO:0000016")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000016> "order to pre-molten globule")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000016> <http://purl.obolibrary.org/obo/IDPO_0000082>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000006>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000006>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000018> (disorder to molten globule)
 
@@ -365,8 +365,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000018> "IDPO:0000018")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000018> "disorder to molten globule")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000018> <http://purl.obolibrary.org/obo/IDPO_0000081>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000002>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000002>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000019> (disorder to pre-molten globule)
 
@@ -376,8 +376,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000019> "IDPO:0000019")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000019> "disorder to pre-molten globule")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000019> <http://purl.obolibrary.org/obo/IDPO_0000081>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000002>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000002>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000020> (molten globule to disorder)
 
@@ -386,8 +386,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000020> "IDPO:0000020")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000020> "molten globule to disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000020> <http://purl.obolibrary.org/obo/IDPO_0000082>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000003>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000021> (molten globule to pre-molten globule)
 
@@ -396,8 +396,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000021> "IDPO:0000021")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000021> "molten globule to pre-molten globule")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000021> <http://purl.obolibrary.org/obo/IDPO_0000082>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000003>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000022> (pre-molten globule to disorder)
 
@@ -406,8 +406,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000022> "IDPO:0000022")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000022> "pre-molten globule to disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000022> <http://purl.obolibrary.org/obo/IDPO_0000082>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000004>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000004>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000023> (pre-molten globule to molten globule)
 
@@ -417,8 +417,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000023> "IDPO:0000023")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000023> "pre-molten globule to molten globule")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000023> <http://purl.obolibrary.org/obo/IDPO_0000081>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000004>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000004>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000025> (liquid-liquid phase separation)
 
@@ -431,8 +431,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000025> "IDPO:0000025")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000025> "liquid-liquid phase separation")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000025> <http://purl.obolibrary.org/obo/IDPO_0000084>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000076>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000076>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000076>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000076>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000026> (condensate ageing)
 
@@ -444,8 +444,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000026> "transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000026> "IDPO:0000026")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000026> "condensate ageing")
-EquivalentClasses(<http://purl.obolibrary.org/obo/IDPO_0000026> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IDPO_0000083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000076>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> ObjectUnionOf(<http://purl.obolibrary.org/obo/IDPO_0000077> <http://purl.obolibrary.org/obo/IDPO_0000078> <http://purl.obolibrary.org/obo/IDPO_0000079>))))
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000026> <http://purl.obolibrary.org/obo/IDPO_0000083>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000076>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000027> (gelation)
 
@@ -457,8 +457,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000027> "IDPO:0000027")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000027> "gelation")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000027> <http://purl.obolibrary.org/obo/IDPO_0000083>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000076>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000077>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000077>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000076>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000028> (crystallization)
 
@@ -469,8 +469,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000028> "IDPO:0000028")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000028> "crystallization")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000028> <http://purl.obolibrary.org/obo/IDPO_0000083>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000076>))
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000078>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000078>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000076>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000029> (disorder function)
 
@@ -904,6 +904,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000086> "po
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000086> <http://purl.obolibrary.org/obo/IDPO_0000036>)
 
 
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0000086>) <http://purl.obolibrary.org/obo/IDPO_00513>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/RO_0000086>) <http://purl.obolibrary.org/obo/IDPO_00514>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0000086>) <http://purl.obolibrary.org/obo/IDPO_0000088>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/RO_0000086>) <http://purl.obolibrary.org/obo/IDPO_0000087>)
 )
