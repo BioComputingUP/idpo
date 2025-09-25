@@ -131,6 +131,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "def
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000700> "has ontology root term")
 
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
+
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> (has_obo_format_version)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "has_obo_format_version")
@@ -220,6 +224,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000004> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000005> (random coil)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000005> "A highly extended and dynamic conformational state of intrinsically disordered proteins with minimal compaction, lacking stable secondary or tertiary structure and maintained by high net charge.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000005> "PMID:36368411")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000005> "native coil")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000005> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000005> "IDPO:0000005")
@@ -254,6 +259,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000007> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000008> (likely order)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000008> "A structural classification for a protein region for which a definitive structural state cannot be determined, yet available data suggest it is ordered.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000008> "PMID:38519511")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000008> "presumed order")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000008> "probably order")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000008> "state")
@@ -413,6 +419,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000023> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29602697") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000025> "A demixing phenomenon driven by weak, transient multivalent interactions, resulting in two separate liquid phases, a dense phase and a dilute phase, that then stably coexist.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000025> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000025> "PMID:38287572")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000025> "LLPS")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000025> "liquid–liquid demixing")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000025> "transition")
@@ -424,6 +431,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000025> <http://purl.obolibrary
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000026> "A time-dependent process in which biomolecular condensates progressively transition from a dynamic, liquid-like state to less dynamic gel-like, glass-like, or solid-like states.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000026> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000026> "PMID:29358076")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000026> "condensate hardening")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000026> "condensate maturation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000026> "transition")
@@ -435,6 +443,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000026> <http://purl.obolibrary
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29602697") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000027> "A physical process by which a liquid-like condensate transitions into a viscoelastic, crosslinked gel-like state, driven by increased concentration or multivalent interactions.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000027> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000027> "PMID:22579281")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000027> "liquid to gel transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000027> "transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000027> "IDPO:0000027")
@@ -620,6 +629,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000048> <http://purl.obolibrary
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24214962") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000049> "A short linear motif that directs protein polyubiquitylation and targets the protein to the proteasome for degradation.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000049> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000049> "PMID:12820959")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000049> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000049> "IDPO:0000049")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000049> "degron motif")
@@ -629,6 +639,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000049> <http://purl.obolibrary
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24214962") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000050> "A short linear motif that recruits a modifying enzyme using a site that is distinct from the active site.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000050> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000050> "PMID:8684460")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000050> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000050> "IDPO:0000050")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000050> "docking motif")
@@ -638,6 +649,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000050> <http://purl.obolibrary
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21909575") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000051> "A short linear motif that mediate binding of the ligand protein to its interaction partner.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000051> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000051> "PMID:26888287")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000051> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000051> "IDPO:0000051")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000051> "ligand binding motif")
@@ -647,6 +659,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000051> <http://purl.obolibrary
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19920119") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000052> "A short linear motif that mediates recognition and targeting to subcellular compartments.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000052> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000052> "PMID:12417334")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000052> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000052> "IDPO:0000052")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000052> "targeting motif")
@@ -746,6 +759,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000065> <http://purl.obolibrary
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000066> "Process involving a non-native state of a protein in which isoluble intermolecular interactions are established to form a higher-order irreversible assembly, usually as result of aberrant liquid-liquid phase separation.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000066> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000066> "PMID:38825008")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000066> "aggregate formation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000066> "transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000066> "IDPO:0000066")
@@ -756,6 +770,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000066> <http://purl.obolibrary
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:40324497") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000067> "A process leading to the formation of a protein aggregate lacking stable or ordered structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000067> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000067> "PMID:26735904")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000067> "transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000067> "IDPO:0000067")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000067> "amorphous aggregate formation")
@@ -773,6 +788,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000075> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000076> (liquid-like state)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000076> "A state characterized by dynamic fusion, fission, dripping behavior, and rapid internal molecular rearrangements. Often represents the initial phase-separated state with high internal mobility and exchange rates.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000076> "PMID:38287572")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000076> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000076> "liquid-like condensate")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000076> "IDPO:0000076")
@@ -782,6 +798,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000076> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000077> (gel-like state)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000077> "A viscoelastic state with physical crosslinks between components, showing partial solid-like behavior while retaining some molecular mobility. Often arises through gelation processes.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000077> "PMID:34102212")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000077> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000077> "gel-like condensate")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000077> "IDPO:0000077")
@@ -800,6 +817,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000078> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000079> (solid-like state)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000079> "A rigid state with minimal internal molecular motion, typically arising through irreversible interactions or pathological ageing processes such as amyloid formation.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000079> "PMID:34095780")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000079> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000079> "solid-like condensate")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000079> "IDPO:0000079")
@@ -860,6 +878,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000085> <http://purl.obolibrary
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25038412") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000086> "A short linear motif that directs site-specific post-translational modification.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000086> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000086> "PMID:11463845")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000086> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000086> "IDPO:0000086")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000086> "post-translational modification motif")
