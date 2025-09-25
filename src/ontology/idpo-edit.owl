@@ -51,8 +51,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000033>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000034>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000036>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000038>))
@@ -70,9 +68,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000049>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000050>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000051>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000052>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000053>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000054>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000055>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000056>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000057>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000058>))
@@ -85,12 +80,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000066>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000067>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000069>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000070>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000071>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000072>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000073>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000075>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000076>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000077>))
@@ -101,6 +90,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000081>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000083>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000084>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000085>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000086>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_00513>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_00514>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
@@ -462,14 +453,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000028> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000029> (disorder function)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000029> "A molecular activity that arises from the lack of a fixed tertiary structure of a protein or protein region under physiological conditions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000029> "A functional capability or feature related to the intrinsic disorder nature of a protein or protein region, encompassing both its active functions with other molecules and the intrinsic features that may enable additional activities.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000029> "disorder feature")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000029> "intrinsic disorder function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000029> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000029> "IDPO:0000029")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000029> "disorder function")
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000030> (entropic chain)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000030> "An intrinsically disordered region that performs a mechanical or regulatory function through its dynamic conformational flexibility, without adopting a stable tertiary structure.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:12022860") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000030> "An intrinsically disordered region that enables a mechanical or regulatory function through its dynamic conformational flexibility, without adopting a stable tertiary structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic bristle")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic clock")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic spring")
@@ -504,7 +497,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000032> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000033> (flexible linker)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000033> "An intrinsically disordered region that connects adjacent functional elements of a protein providing spatial separation and allowing conformational flexibility.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:12022860") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000033> "An intrinsically disordered region that connects adjacent functional elements of a protein, providing spatial separation that permits independent yet coordinated activity.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000033> "disordered linker")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000033> "flexible spacer")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000033> "disorder_function")
@@ -512,45 +505,27 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000033> "flexible linker")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000033> <http://purl.obolibrary.org/obo/IDPO_0000030>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000034> (stoichiometric molecular recognition)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000036> (short linear motif)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000034> "A molecular recognition process that occurs with a defined stoichiometric ratio between partners.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000034> <https://orcid.org/0000-0001-8042-9939>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000034> "disorder_function")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000034> "IDPO:0000034")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000034> "stoichiometric molecular recognition")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000034> <http://purl.obolibrary.org/obo/IDPO_0000029>)
-
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000035> (transient molecular recognition)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000035> "As defined by the particular experimental approach, a transient interaction does not last for the entire duration of the experiment, rather, it is characterized by constant disssociation-association events (dynamics), which affect the measured physical observables.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000035> <https://orcid.org/0000-0001-8042-9939>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000035> "disorder_function")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000035> "IDPO:0000035")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000035> "transient molecular recognition")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000035> <http://purl.obolibrary.org/obo/IDPO_0000034>)
-
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000036> (interaction by short linear motif)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000036> "A transient molecular recognition interaction that is mediated by a short interaction interfaces embedded in an intrinsically disordered protein region.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25038412") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000036> "A transient molecular recognition interaction that is mediated by a short interaction interfaces enriched in an intrinsically disordered protein region.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000036> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000036> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000036> "IDPO:0000036")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000036> "interaction by short linear motif")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000036> <http://purl.obolibrary.org/obo/IDPO_0000035>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000036> "short linear motif")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000036> <http://purl.obolibrary.org/obo/IDPO_0000085>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000037> (molecular recognition display site)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000037> (display site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000037> "A protein region that facilitates site-specific molecular recognition, serving as a platform for post-translational modifications.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000037> "A protein region or residue that facilitates site-specific molecular recognition, serving as a platform for post-translational modifications.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000037> "post-translational modification site")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000037> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000037> "IDPO:0000037")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000037> "molecular recognition display site")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000037> <http://purl.obolibrary.org/obo/IDPO_0000036>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000037> "display site")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000037> <http://purl.obolibrary.org/obo/IDPO_0000085>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000038> (ADP-ribosylation display site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000038> "A molecular recognition site that enables the addition of one or more ADP-ribose moieties to a protein, typically involved in cellular regulatory processes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000038> "A molecular recognition site that serves as the target for the addition of one or more ADP-ribose moietyes.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000038> "mono-ADP ribosylation site")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000038> "poly-ADP ribosylation site")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000038> "disorder_function")
@@ -560,7 +535,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000038> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000039> (acetylation display site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000039> "A molecular recognition site that enables the covalent attachment of an acetyl group to a residue of a protein.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000039> "A molecular recognition site that serves as the target for the covalent attachment of an acetyl group.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000039> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000039> "IDPO:0000039")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000039> "acetylation display site")
@@ -568,7 +543,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000039> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000040> (fatty acylation display site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000040> "A molecular recognition site that facilitates the addition of fatty acyl groups to a protein, contributing to membrane association or signaling functions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000040> "A molecular recognition site that serves as the target for the addition of fatty acyl groups.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000040> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000040> "IDPO:0000040")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000040> "fatty acylation display site")
@@ -576,7 +551,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000040> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000041> (glycosylation display site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000041> "A molecular recognition site that facilitates the covalent addition of a sugar to a protein, modulating protein folding, stability, or cell–cell interactions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000041> "A molecular recognition site that serves as the target for the covalent addition of a sugar.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000041> "N-linked glycosylation site")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000041> "O-linked glycosylation site")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000041> "disorder_function")
@@ -586,7 +561,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000041> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000042> (methylation display site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000042> "A molecular recognition site that supports the covalent addition of methyl groups to a protein, regulating transcriptional activity or protein–protein interactions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000042> "A molecular recognition site that serves as the target for the covalent addition of a methyl groups.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000042> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000042> "IDPO:0000042")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000042> "methylation display site")
@@ -594,7 +569,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000042> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000043> (myristoylation display site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000043> "A molecular recognition site that enables the co-translational or post-translational attachment of a myristoyl group to a protein.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000043> "A molecular recognition site that serves as the target for the co-translational or post-translational attachment of a myristoyl group.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000043> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000043> "IDPO:0000043")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000043> "myristoylation display site")
@@ -602,7 +577,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000043> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000044> (palmitoylation display site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000044> "A molecular recognition site that facilitates the reversible attachment of palmitoyl groups to a protein, modulating membrane association and trafficking.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000044> "A molecular recognition site that serves as the target for the reversible attachment of a palmitoyl groups.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000044> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000044> "IDPO:0000044")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000044> "palmitoylation display site")
@@ -610,7 +585,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000044> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000045> (phosphorylation display site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000045> "A molecular recognition site that enables the addition of a phosphate group to a protein, regulating activity, localization, or signaling pathways.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000045> "A molecular recognition site that serves as the target for the covalent addition of a phosphate group.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000045> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000045> "IDPO:0000045")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000045> "phosphorylation display site")
@@ -618,91 +593,64 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000045> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000046> (ubiquitination display site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000046> "A molecular recognition site that enables the covalent attachment of ubiquitin to protein residues, marking the protein for degradation or altering its cellular localization or interactions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000046> "A molecular recognition site that serves as the target for the covalent attachment of a ubiquitin moeity.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000046> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000046> "IDPO:0000046")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000046> "ubiquitination display site")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000046> <http://purl.obolibrary.org/obo/IDPO_0000037>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000047> (cleavage site)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000047> (cleavage motif)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000047> "A short linear motif that serves as the recognition and cutting site for proteolytic enzymes.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19920119") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000047> "A short linear motif that serves as the recognition site for proteolytic enzymes.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000047> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000047> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000047> "IDPO:0000047")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000047> "cleavage site")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000047> "cleavage motif")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000047> <http://purl.obolibrary.org/obo/IDPO_0000036>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000048> (limited proteolysis display site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000048> "A molecular recognition site that marks a location for regulated cleavage of the polypeptide chain.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000048> "A molecular recognition site that serves as the target of the cleavage of the polypeptide chain.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000048> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000048> "IDPO:0000048")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000048> "limited proteolysis display site")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000048> <http://purl.obolibrary.org/obo/IDPO_0000047>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000048> <http://purl.obolibrary.org/obo/IDPO_0000037>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000049> (degron motif)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000049> "A short linear motif that directs protein polyubiquitylation and targets the protein to the proteasome for degradation.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24214962") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000049> "A short linear motif that directs protein polyubiquitylation and targets the protein to the proteasome for degradation.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000049> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000049> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000049> "IDPO:0000049")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000049> "degron motif")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000049> <http://purl.obolibrary.org/obo/IDPO_0000036>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000050> (docking site)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000050> (docking motif)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000050> "A short linear motif that recruits a modifying enzyme using a site that is distinct from the active site.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24214962") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000050> "A short linear motif that recruits a modifying enzyme using a site that is distinct from the active site.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000050> <https://orcid.org/0000-0001-8042-9939>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000050> "disorder function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000050> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000050> "IDPO:0000050")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000050> "docking site")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000050> "docking motif")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000050> <http://purl.obolibrary.org/obo/IDPO_0000036>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000051> (ligand binding site)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000051> (ligand binding motif)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000051> "A short linear motif that mediate binding of the ligand protein to its interaction partner.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21909575") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000051> "A short linear motif that mediate binding of the ligand protein to its interaction partner.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000051> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000051> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000051> "IDPO:0000051")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000051> "ligand binding site")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000051> "ligand binding motif")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000051> <http://purl.obolibrary.org/obo/IDPO_0000036>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000052> (targeting site)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000052> (targeting motif)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000052> "A short linear motif that mediates subcellular targeting by interacting with localization machinery.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19920119") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000052> "A short linear motif that mediates recognition and targeting to subcellular compartments.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000052> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000052> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000052> "IDPO:0000052")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000052> "targeting site")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000052> "targeting motif")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000052> <http://purl.obolibrary.org/obo/IDPO_0000036>)
-
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000053> (chaperone)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000053> "Molecule that assist in the correct folding and stabilization of proteins or RNA.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000053> <https://orcid.org/0000-0001-8042-9939>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000053> "disorder_function")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000053> "IDPO:0000053")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000053> "chaperone")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000053> <http://purl.obolibrary.org/obo/IDPO_0000035>)
-
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000054> (stable molecular recognition)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000054> "In contrast to a transient interaction, a stable interaction persists throughout the experiment's duration, yielding physical observables characteristic of the complex. This stability often allows for the determination of the complex's high-resolution structure.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000054> <https://orcid.org/0000-0001-8042-9939>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000054> "disorder_function")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000054> "IDPO:0000054")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000054> "stable molecular recognition")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000054> <http://purl.obolibrary.org/obo/IDPO_0000034>)
-
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000055> (non-stoichiometric molecular recognition)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000055> "A molecular recognition process that lacks fixed stoichiometry and is driven by multivalent, dynamic, or fuzzy interactions.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000055> <https://orcid.org/0000-0001-8042-9939>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000055> "disorder_function")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000055> "IDPO:0000055")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000055> "non-stoichiometric molecular recognition")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000055> <http://purl.obolibrary.org/obo/IDPO_0000029>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000056> (self-interaction)
 
@@ -710,7 +658,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000056> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000056> "IDPO:0000056")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000056> "self-interaction")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000056> <http://purl.obolibrary.org/obo/IDPO_0000055>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000056> <http://purl.obolibrary.org/obo/IDPO_0000085>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000057> (self-regulatory activity)
 
@@ -747,20 +695,19 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000060> "self-assembly")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000060> <http://purl.obolibrary.org/obo/IDPO_0000056>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000061> (condensate assembler)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000061> (functional role in condensate assembly)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000061> "A molecule that promotes or participates in the formation of a biomolecular condensate.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000061> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000061> "biomolecular condensate assembler")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000061> "disorder function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000061> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000061> "IDPO:0000061")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000061> "condensate assembler")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000061> <http://purl.obolibrary.org/obo/IDPO_0000055>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000061> "functional role in condensate assembly")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000061> <http://purl.obolibrary.org/obo/IDPO_0000029>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000062> (driver)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000062> "Molecule with high interaction valence necessary and sufficient for liquid-liquid phase separation.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000062> "https://doi.org/10.3390/ijms22063017")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000062> "Molecule with high interaction valence necessary and sufficient for liquid-liquid phase separation.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000062> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000062> "scaffold")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000062> "disorder_function")
@@ -770,8 +717,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000062> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000063> (co-driver)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000063> "A molecule that strictly requires one or more partners to enable liquid–liquid phase separation, and unlike regulators, physically incorporates into the scaffold of the resulting condensate.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000063> "https://doi.org/10.3390/ijms22063017")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000063> "A molecule that strictly requires one or more partners to enable liquid–liquid phase separation, and unlike regulators, physically incorporates into the scaffold of the resulting condensate.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000063> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000063> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000063> "IDPO:0000063")
@@ -780,8 +726,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000063> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000064> (regulator)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000064> "A molecule that facilitates or modulates the liquid–liquid phase separation of one or more driver or co-driver molecules without being physically incorporated into the resulting condensate.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000064> "https://doi.org/10.3390/ijms22063017")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000064> "A molecule that facilitates or modulates the liquid–liquid phase separation of one or more driver or co-driver molecules without being physically incorporated into the resulting condensate.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000064> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000064> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000064> "IDPO:0000064")
@@ -790,8 +735,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000064> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000065> (client)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000065> "Molecule with lower valence recruited into condensates formed by scaffolds, but it is not required for and does not have an effect on liquid-liquid phase separation.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IDPO_0000065> "https://doi.org/10.3390/ijms22063017")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000065> "Molecule with lower valence recruited into condensates formed by scaffolds, but it is not required for and does not have an effect on liquid-liquid phase separation.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000065> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000065> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000065> "IDPO:0000065")
@@ -816,65 +760,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000067> "IDPO:0000067")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000067> "amorphous aggregate formation")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000067> <http://purl.obolibrary.org/obo/IDPO_0000066>)
-
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000069> (molecular adaptor activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000069> "The binding activity of a molecule that brings together two or more molecules through a selective, non-covalent, often stoichiometric interaction, permitting those molecules to function in a coordinated way.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/IDPO_0000069> "protein complex scaffold activity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/IDPO_0000069> "protein-containing complex scaffold activity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000069> "binding, bridging")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000069> "disorder_function")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000069> "IDPO:0000069")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000069> "molecular adaptor activity")
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000069> <http://purl.obolibrary.org/obo/GO_0060090>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000069> <http://purl.obolibrary.org/obo/IDPO_0000054>)
-
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000070> (molecular function activator activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000070> "A molecular function regulator that activates or increases the activity of its target via non-covalent binding that does not result in covalent modification to the target.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000070> "disorder_function")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000070> "IDPO:0000070")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000070> "molecular function activator activity")
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000070> <http://purl.obolibrary.org/obo/GO_0140677>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000070> <http://purl.obolibrary.org/obo/IDPO_0000054>)
-
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000071> (molecular function inhibitor activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000071> "A molecular function regulator that inhibits or decreases the activity of its target via non-covalent binding that does not result in covalent modification to the target.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000071> "disorder_function")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000071> "IDPO:0000071")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000071> "molecular function inhibitor activity")
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000071> <http://purl.obolibrary.org/obo/GO_0140678>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000071> <http://purl.obolibrary.org/obo/IDPO_0000054>)
-
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000072> (protein folding chaperone)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000072> "Binding to a protein or a protein-containing complex to assist the protein folding process.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/IDPO_0000072> "chaperone activity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000072> "protein binding involved in protein folding")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000072> "disorder_function")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000072> "IDPO:0000072")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000072> "protein folding chaperone")
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000072> <http://purl.obolibrary.org/obo/GO_0044183>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000072> <http://purl.obolibrary.org/obo/IDPO_0000053>)
-
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000073> (RNA folding chaperone)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000073> "Binding to an RNA or an RNA-containing complex to assist the folding process.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000073> "disorder_function")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000073> "IDPO:0000073")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000073> "RNA folding chaperone")
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000073> <http://purl.obolibrary.org/obo/GO_0140691>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000073> <http://purl.obolibrary.org/obo/IDPO_0000053>)
-
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000074> (molecular sequestering activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000074> "Binding to a specific molecule to prevent it from interacting with other partners or to inhibit its localization to the area of the cell or complex where it is active.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000074> "disorder_function")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000074> "IDPO:0000074")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000074> "molecular sequestering activity")
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000074> <http://purl.obolibrary.org/obo/GO_0140313>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000074> <http://purl.obolibrary.org/obo/IDPO_0000055>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000075> (material state)
 
@@ -962,6 +847,23 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000084> "IDPO:0000084")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000084> "biomolecular condensate formation")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000084> <http://purl.obolibrary.org/obo/IDPO_0000083>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000085> (molecular recognition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000085> "A functional capability of a molecule or molecular region to selectively interact with a partner or itself, recognition may be transient or stable and may be mediated by domains, short linear motifs, or disordered regions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000085> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000085> "IDPO:0000085")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000085> "molecular recognition")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000085> <http://purl.obolibrary.org/obo/IDPO_0000029>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000086> (post-translational modification motif)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25038412") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000086> "A short linear motif that directs site-specific post-translational modification.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000086> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000086> "disorder_function")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000086> "IDPO:0000086")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000086> "post-translational modification motif")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000086> <http://purl.obolibrary.org/obo/IDPO_0000036>)
 
 
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0000086>) <http://purl.obolibrary.org/obo/IDPO_00513>)
