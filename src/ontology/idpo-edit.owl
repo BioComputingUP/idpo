@@ -151,10 +151,14 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 # Object Property: <http://purl.obolibrary.org/obo/IDPO_00513> (has initial state)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_00513> "has initial state"@en)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000080>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000000>)
 
 # Object Property: <http://purl.obolibrary.org/obo/IDPO_00514> (has final state)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_00514> "has final state"@en)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000080>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000000>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (has quality)
 
@@ -180,6 +184,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000000> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000000> "IDPO:0000000")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000000> "state")
+DisjointClasses(<http://purl.obolibrary.org/obo/IDPO_0000000> <http://purl.obolibrary.org/obo/IDPO_0000080>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000001> (structural state)
 
@@ -426,6 +431,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000025> "IDPO:0000025")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000025> "liquid-liquid phase separation")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000025> <http://purl.obolibrary.org/obo/IDPO_0000084>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000076>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000076>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000026> (condensate ageing)
 
@@ -437,6 +444,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000026> "transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000026> "IDPO:0000026")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000026> "condensate ageing")
+EquivalentClasses(<http://purl.obolibrary.org/obo/IDPO_0000026> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IDPO_0000083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000076>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> ObjectUnionOf(<http://purl.obolibrary.org/obo/IDPO_0000077> <http://purl.obolibrary.org/obo/IDPO_0000078> <http://purl.obolibrary.org/obo/IDPO_0000079>))))
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000026> <http://purl.obolibrary.org/obo/IDPO_0000083>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000027> (gelation)
@@ -449,6 +457,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000027> "IDPO:0000027")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000027> "gelation")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000027> <http://purl.obolibrary.org/obo/IDPO_0000083>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000076>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000077>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000028> (crystallization)
 
@@ -459,6 +469,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000028> "IDPO:0000028")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000028> "crystallization")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000028> <http://purl.obolibrary.org/obo/IDPO_0000083>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00513> <http://purl.obolibrary.org/obo/IDPO_0000076>))
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IDPO_00514> <http://purl.obolibrary.org/obo/IDPO_0000078>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000029> (disorder function)
 
@@ -491,6 +503,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000031> "IDPO:0000031")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000031> "flexible C-terminal tail")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000031> <http://purl.obolibrary.org/obo/IDPO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/IDPO_0000002>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000032> (flexible N-terminal tail)
 
@@ -503,6 +516,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000032> "IDPO:0000032")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000032> "flexible N-terminal tail")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000032> <http://purl.obolibrary.org/obo/IDPO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/IDPO_0000002>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000033> (flexible linker)
 
@@ -513,6 +527,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000033> "IDPO:0000033")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000033> "flexible linker")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000033> <http://purl.obolibrary.org/obo/IDPO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/IDPO_0000002>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000036> (short linear motif)
 
@@ -727,6 +742,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000062> "IDPO:0000062")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000062> "driver")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000062> <http://purl.obolibrary.org/obo/IDPO_0000061>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/IDPO_0000025>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000063> (co-driver)
 
@@ -736,6 +752,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000063> "IDPO:0000063")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000063> "co-driver")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000063> <http://purl.obolibrary.org/obo/IDPO_0000061>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/IDPO_0000025>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000064> (regulator)
 
@@ -745,6 +762,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000064> "IDPO:0000064")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000064> "regulator")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000064> <http://purl.obolibrary.org/obo/IDPO_0000061>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/IDPO_0000025>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000065> (client)
 
@@ -754,6 +772,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000065> "IDPO:0000065")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000065> "client")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000065> <http://purl.obolibrary.org/obo/IDPO_0000061>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/IDPO_0000025>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000066> (protein aggregate formation)
 
