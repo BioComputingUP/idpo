@@ -104,6 +104,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_00514>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002234>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000112>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
@@ -113,6 +114,7 @@ Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
@@ -123,6 +125,10 @@ Declaration(AnnotationProperty(rdfs:label))
 ############################
 #   Annotation Properties
 ############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000112> (example of usage)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
 
@@ -189,6 +195,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000001> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000002> (disorder)
 
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> <https://disprot.org/DP04431r001>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:35107780") <http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IDPO_0000002> "Annotation DP04431r001")
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:11910019") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000002> "A structural state of a protein region characterized by the absence of a stable, fixed three-dimensional structure, lacking persistent secondary and/or tertiary interactions.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000002> "intrinsic disorder")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000002> "structural disorder")
@@ -201,6 +208,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000002> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000003> (molten globule)
 
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> <https://disprot.org/DP01799r004>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21961597") <http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IDPO_0000003> "Annotation DP01799r004")
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:11910019") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000003> "A compact structural state in which a protein region exhibits native-like secondary structure but lacks stable tertiary interactions.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000003> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000003> "IDPO:0000003")
@@ -209,6 +217,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000003> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000004> (pre-molten globule)
 
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> <https://disprot.org/DP04101r003>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20817927") <http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IDPO_0000004> "Annotation DP04101r003")
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:11910019") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000004> "A partially condensed state of a protein region characterized by low compactness and the presence of residual or transiently populated secondary structure, often representing an ensemble of rapidly interconverting conformations.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000004> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000004> "IDPO:0000004")
@@ -226,6 +235,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000005> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000006> (order)
 
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> <https://disprot.org/DP04243r003>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29499137") <http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IDPO_0000006> "Annotation DP04243r003")
 AnnotationAssertion(Annotation(rdfs:comment "PMID:11910019") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000006> "A structural state of a protein region in which atoms are arranged in a stable, well-defined three-dimensional conformation, including persistent secondary and tertiary structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000006> "structural order")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000006> "structured state")
