@@ -10,16 +10,15 @@ Ontology(<http://purl.obolibrary.org/obo/idpo.owl>
 Import(<http://purl.obolibrary.org/obo/idpo/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/idpo/imports/omo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/idpo/imports/ro_import.owl>)
-Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000000>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000029>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000080>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000089>)
 Annotation(<http://purl.org/dc/terms/description> "It describes structural aspects of an IDP/IDR, self-functions and functions directly associated with their disordered state.")
 Annotation(<http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(<http://purl.org/dc/terms/title> "Intrinsically Disordered Proteins Ontology")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#default-namespace> "IDPO")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "1.2")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000003>))
@@ -92,6 +91,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000083>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000084>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000085>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000089>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_0000087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_0000088>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
@@ -152,13 +152,13 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000087> "has final state")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000080>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000000>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000089>)
 
 # Object Property: <http://purl.obolibrary.org/obo/IDPO_0000088> (has initial state)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000088> "has initial state")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000080>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000000>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000089>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (has quality)
 
@@ -178,14 +178,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002234> "has 
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000000> (state)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000000> "A quality of a protein or protein region that describes its organization, conformation, or material properties at a given time, under specific conditions, and that can change dynamically.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000000> "state")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000000> "IDPO:0000000")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000000> "state")
-DisjointClasses(<http://purl.obolibrary.org/obo/IDPO_0000000> <http://purl.obolibrary.org/obo/IDPO_0000080>)
-
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000001> (structural state)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000001> "A  structural property that a protein region can exhibit, defined by its conformational behavior.")
@@ -193,7 +185,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000001> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000001> "IDPO:0000001")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000001> "structural state")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000001> <http://purl.obolibrary.org/obo/IDPO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000001> <http://purl.obolibrary.org/obo/IDPO_0000089>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000002> (disorder)
 
@@ -802,7 +794,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000075> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000075> "IDPO:0000075")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000075> "material state")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000075> <http://purl.obolibrary.org/obo/IDPO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000075> <http://purl.obolibrary.org/obo/IDPO_0000089>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000076> (liquid-like state)
 
@@ -849,6 +841,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000080> "transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000080> "IDPO:0000080")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000080> "transition")
+DisjointClasses(<http://purl.obolibrary.org/obo/IDPO_0000080> <http://purl.obolibrary.org/obo/IDPO_0000089>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000081> (transition to a more ordered state)
 
@@ -902,6 +895,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000086> "IDPO:0000086")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000086> "post-translational modification motif")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000086> <http://purl.obolibrary.org/obo/IDPO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000089> (state)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000089> "A quality of a protein or protein region that describes its organization, conformation, or material properties at a given time, under specific conditions, and that can change dynamically.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000089> "state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000089> "IDPO:0000089")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000089> "state")
 
 
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0000086>) <http://purl.obolibrary.org/obo/IDPO_0000088>)
