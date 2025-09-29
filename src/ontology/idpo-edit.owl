@@ -666,6 +666,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000050> <http://purl.obolibrary
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21909575") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000051> "A short linear motif that mediate binding of the ligand protein to its interaction partner.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000051> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000051> "PMID:26888287")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000051> "ligand-binding motif")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000051> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000051> "IDPO:0000051")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000051> "ligand binding motif")
