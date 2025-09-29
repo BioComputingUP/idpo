@@ -812,43 +812,43 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000075> "material state")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000075> <http://purl.obolibrary.org/obo/IDPO_0000089>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000076> (liquid like state)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000076> (liquid-like state)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000076> "A state characterized by dynamic fusion, fission, dripping behavior, and rapid internal molecular rearrangements. Often represents the initial phase-separated state with high internal mobility and exchange rates.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000076> "PMID:38287572")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000076> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000076> "liquid-like condensate")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000076> "IDPO:0000076")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000076> "liquid like state")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000076> "liquid-like state")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000076> <http://purl.obolibrary.org/obo/IDPO_0000075>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000077> (gel like state)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000077> (gel-like state)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000077> "A viscoelastic state with physical crosslinks between components, showing partial solid-like behavior while retaining some molecular mobility. Often arises through gelation processes.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000077> "PMID:34102212")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000077> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000077> "gel-like condensate")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000077> "IDPO:0000077")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000077> "gel like state")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000077> "gel-like state")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000077> <http://purl.obolibrary.org/obo/IDPO_0000075>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000078> (glass like state)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000078> (glass-like state)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000078> "A metastable, non-crystalline state with gradually evolving mechanical properties and no characteristic timescale for structural solidification. Formed via a glass transition process.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000078> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000078> "glass-like condensate")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000078> "IDPO:0000078")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000078> "glass like state")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000078> "glass-like state")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000078> <http://purl.obolibrary.org/obo/IDPO_0000075>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000079> (solid like state)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000079> (solid-like state)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000079> "A rigid state with minimal internal molecular motion, typically arising through irreversible interactions or pathological ageing processes such as amyloid formation.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000079> "PMID:34095780")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000079> "state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000079> "solid-like condensate")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000079> "IDPO:0000079")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000079> "solid like state")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000079> "solid-like state")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000079> <http://purl.obolibrary.org/obo/IDPO_0000075>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000080> (transition)
@@ -876,13 +876,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000082> "transition to a more disordered state")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000082> <http://purl.obolibrary.org/obo/IDPO_0000010>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000083> (higher order assembly transition)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000083> (higher-order assembly transition)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000083> "A biophysical process in which a biomolecular condensate or aggregate is formed or undergoes a change in material state.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000083> "higher-order assembly transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000083> "transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000083> "IDPO:0000083")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000083> "higher order assembly transition")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000083> "higher-order assembly transition")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000083> <http://purl.obolibrary.org/obo/IDPO_0000080>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000084> (biomolecular condensate formation)
