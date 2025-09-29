@@ -855,7 +855,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000079> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000080> (transition)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000080> "A temporally extended process in which a protein or protein region changes from one state to another, under specific conditions.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000080> "conformational transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000080> "transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000080> "IDPO:0000080")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000080> "transition")
