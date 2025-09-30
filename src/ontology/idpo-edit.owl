@@ -480,6 +480,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000029> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000029> "IDPO:0000029")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000029> "disorder function")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000029> <http://purl.obolibrary.org/obo/BFO_0000034>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000030> (entropic chain)
 
@@ -785,8 +786,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000065> ObjectSomeValuesFrom(<h
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000066> "Process involving a non-native state of a protein in which isoluble intermolecular interactions are established to form a higher-order irreversible assembly, usually as result of aberrant liquid-liquid phase separation.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000066> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000066> "PMID:38825008")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000066> "aggregate formation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000066> "aggregate assembly")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000066> "aggregate formation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000066> "protein aggregation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000066> "transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000066> "IDPO:0000066")
