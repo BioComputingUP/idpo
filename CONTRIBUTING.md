@@ -38,7 +38,7 @@ either as a primary term or a synonym term. You can search for your term using [
 - **Can you provide a definition for the term?** It should be very clear what the term means, and you should be
 able to provide a concise definition, ideally with a scientific reference.
 - **Is the ontology in scope for the term?** Sometimes, it is hard to tell whether a term "belongs" in
-and ontology. A rule of thumb is "if a similar term already exists, the new term is probably in scope."
+an ontology. A rule of thumb is "if a similar term already exists, the new term is probably in scope."
 It can be very helpful to mention a very similar concept as part of the term request!
 
 #### Who can request a term?
