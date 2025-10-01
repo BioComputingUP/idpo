@@ -121,30 +121,6 @@ Declaration(AnnotationProperty(rdfs:label))
 #   Annotation Properties
 ############################
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000112> (example of usage)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage")
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000700> (has ontology root term)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000700> "has ontology root term")
-
-# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003000> (abbreviation)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003000> "abbreviation")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> (has_obo_format_version)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "has_obo_format_version")
-
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (has_obo_namespace)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace")
@@ -165,18 +141,6 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000088> "has initial state")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000080>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000089>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (has quality)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000086> "has quality")
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002233> (has input)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002233> "has input"@en)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002234> (has output)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002234> "has output")
 
 
 
@@ -703,7 +667,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000057> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000058> (self activation)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000058> "A self-regulatory mechanism in which intramolecular interactions induce or enhance the functional activity of a protein.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000058> "A self regulatory mechanism in which intramolecular interactions induce or enhance the functional activity of a protein.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000058> "autoactivation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000058> "self-activation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000058> "disorder_function")
@@ -713,7 +677,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000058> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000059> (self inhibition)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000059> "A self-regulatory mechanism in which intramolecular interactions repress or prevent the functional activity of a protein.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000059> "A self regulatory mechanism in which intramolecular interactions repress or prevent the functional activity of a protein.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000059> "autoinhibition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000059> "self-inhibition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000059> "disorder_function")
@@ -783,7 +747,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000065> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000066> (protein aggregate formation)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000066> "Process involving a non-native state of a protein in which isoluble intermolecular interactions are established to form a higher-order irreversible assembly, usually as result of aberrant liquid-liquid phase separation.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000066> "Process involving a non-native state of a protein in which insoluble intermolecular interactions are established to form a higher-order irreversible assembly, usually as result of aberrant liquid-liquid phase separation.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000066> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000066> "PMID:38825008")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000066> "aggregate assembly")
