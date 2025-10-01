@@ -121,30 +121,6 @@ Declaration(AnnotationProperty(rdfs:label))
 #   Annotation Properties
 ############################
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000112> (example of usage)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage")
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000700> (has ontology root term)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000700> "has ontology root term")
-
-# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003000> (abbreviation)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003000> "abbreviation")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> (has_obo_format_version)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "has_obo_format_version")
-
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (has_obo_namespace)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace")
@@ -165,18 +141,6 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000088> "has initial state")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000080>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000089>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000086> (has quality)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000086> "has quality")
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002233> (has input)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002233> "has input"@en)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002234> (has output)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002234> "has output")
 
 
 
