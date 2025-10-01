@@ -667,7 +667,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000057> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000058> (self activation)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000058> "A self-regulatory mechanism in which intramolecular interactions induce or enhance the functional activity of a protein.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000058> "A self regulatory mechanism in which intramolecular interactions induce or enhance the functional activity of a protein.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000058> "autoactivation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000058> "self-activation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000058> "disorder_function")
@@ -677,7 +677,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000058> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000059> (self inhibition)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000059> "A self-regulatory mechanism in which intramolecular interactions repress or prevent the functional activity of a protein.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000059> "A self regulatory mechanism in which intramolecular interactions repress or prevent the functional activity of a protein.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000059> "autoinhibition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000059> "self-inhibition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000059> "disorder_function")
