@@ -7,9 +7,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/idpo.owl>
-Import(<http://purl.obolibrary.org/obo/idpo/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/idpo/imports/omo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/idpo/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/idpo/imports/merged_import.owl>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000029>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000080>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000089>)
