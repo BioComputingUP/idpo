@@ -13,14 +13,21 @@ export_formats:
   - obo
   - json
 import_group:
+  use_base_merging: TRUE
+  slme_individuals: exclude
   products:
     - id: ro
+      use_base: TRUE
     - id: omo
     - id: bfo
+    - id: go
+      use_base: TRUE
+    - id: iao
 documentation:
   documentation_system: mkdocs
 robot_java_args: "-Xmx8G"
 robot_report:
+  use_base_iris: TRUE
   use_labels: TRUE
   fail_on: ERROR
   custom_profile: TRUE
