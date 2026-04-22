@@ -139,13 +139,13 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 # Object Property: <http://purl.obolibrary.org/obo/IDPO_0000087> (has final state)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000087> "has final state")
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/IDPO_0000080>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/BFO_0000019>)
 
 # Object Property: <http://purl.obolibrary.org/obo/IDPO_0000088> (has initial state)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000088> "has initial state")
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/IDPO_0000080>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/BFO_0000019>)
 
 
@@ -259,7 +259,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000010> "transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000010> "IDPO:0000010")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000010> "structural transition")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000010> <http://purl.obolibrary.org/obo/IDPO_0000080>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000010> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000011> (disorder to order)
 
@@ -779,8 +779,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000067> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000075> (condensate material state)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29602697") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000075> "A quality that describes the viscoelastic behavior and internal molecular organization of a condensate under given conditions, used to characterize proteins or protein regions that are part of the condensate.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000075> "physical state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000075> "material state")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000075> "physical state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000075> "condensate material state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000075> "IDPO:0000075")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000075> "condensate material state")
@@ -826,13 +826,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000079> "solid-like condensate state")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000079> <http://purl.obolibrary.org/obo/IDPO_0000075>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000080> (transition)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000080> (DEPRECATED transition)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000080> "A temporally extended process in which a protein or protein region changes from one state to another, under specific conditions.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000080> "transition")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000080> "IDPO:0000080")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000080> "transition")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000080> <http://purl.obolibrary.org/obo/BFO_0000015>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/IDPO_0000080> "Obsolete due to semantic ambiguity and excessive generality.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000080> "DEPRECATED transition")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000080> <http://purl.obolibrary.org/obo/IDPO_0000010>)
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000080> <http://purl.obolibrary.org/obo/IDPO_0000083>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/IDPO_0000080> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000081> (transition to a more ordered state)
 
@@ -856,7 +856,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000083> "transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000083> "IDPO:0000083")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000083> "higher-order assembly transition")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000083> <http://purl.obolibrary.org/obo/IDPO_0000080>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000083> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000084> (biomolecular condensate formation)
 
