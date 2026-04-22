@@ -90,6 +90,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000084>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000085>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000086>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000089>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000091>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000092>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000093>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000095>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000096>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000097>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000098>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_0000087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_0000088>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
@@ -884,6 +892,62 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000089> "IDPO:0000089")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000089> "state")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000089> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000091> (compound)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000091> "A molecule composed of two or more distinct chemical components.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000091> "IDPO:0000091")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000091> "compound")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000091> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000092> (condensate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000092> "A compound formed via phase separation or related physicochemical processes.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000092> "IDPO:0000092")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000092> "condensate")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000092> <http://purl.obolibrary.org/obo/IDPO_0000091>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000093> (biomolecular condensate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000093> "A condensate composed of biomolecules such as proteins, protein regions, or nucleic acid strands, typically formed through phase separation driven by weak multivalent interactions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000093> "IDPO:0000093")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000093> "biomolecular condensate")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000093> <http://purl.obolibrary.org/obo/IDPO_0000092>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000094> (protein)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000094> "A molecule composed of one or more polypeptide chains.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000094> "IDPO:0000094")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000094> "protein")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000094> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000095> (protein region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000095> "A contiguous segment of a protein that can be distinguished by its structural, functional, or sequence properties.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000095> "IDPO:0000095")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000095> "protein region")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000095> <http://purl.obolibrary.org/obo/IDPO_0000094>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000096> (intrinsically disordered protein)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000096> "A protein that wholly lacks a stable, fixed three-dimensional structure under physiological conditions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000096> "IDPO:0000096")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000096> "intrinsically disordered protein")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000096> <http://purl.obolibrary.org/obo/IDPO_0000094>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000097> (intrinsically disordered region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000097> "A protein region that lacks a stable, fixed three-dimensional structure under physiological conditions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000097> "IDPO:0000097")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000097> "intrinsically disordered region")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000097> <http://purl.obolibrary.org/obo/IDPO_0000095>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000098> (ordered region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000098> "A protein region that adopts a stable, fixed three-dimensional structure under physiological conditions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000098> "IDPO:0000098")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000098> "ordered region")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000098> <http://purl.obolibrary.org/obo/IDPO_0000095>)
 
 
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0000086>) <http://purl.obolibrary.org/obo/IDPO_0000088>)
