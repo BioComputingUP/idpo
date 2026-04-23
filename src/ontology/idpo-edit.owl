@@ -8,9 +8,11 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://purl.obolibrary.org/obo/idpo.owl>
 Import(<http://purl.obolibrary.org/obo/idpo/imports/merged_import.owl>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000001>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000010>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000029>)
-Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000080>)
-Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000089>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000075>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000083>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000100>)
 Annotation(<http://purl.org/dc/terms/description> "It describes structural aspects of an IDP/IDR, self-functions and functions directly associated with their disordered state.")
 Annotation(<http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/>)
