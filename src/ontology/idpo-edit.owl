@@ -737,6 +737,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000061> "IDPO:0000061")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000061> "role in condensate assembly")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000061> <http://purl.obolibrary.org/obo/IDPO_0000100>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/IDPO_0000084>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000062> (driver role in condensate assembly)
 
@@ -748,6 +749,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000062> "IDPO:0000062")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000062> "driver role in condensate assembly")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000062> <http://purl.obolibrary.org/obo/IDPO_0000061>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/IDPO_0000084>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000063> (co-driver role in condensate assembly)
 
@@ -758,6 +760,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000063> "IDPO:0000063")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000063> "co-driver role in condensate assembly")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000063> <http://purl.obolibrary.org/obo/IDPO_0000061>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/IDPO_0000084>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000064> (regulator role in condensate assembly)
 
@@ -768,6 +771,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000064> "IDPO:0000064")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000064> "regulator role in condensate assembly")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000064> <http://purl.obolibrary.org/obo/IDPO_0000061>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/IDPO_0000084>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000065> (client role in condensate assembly)
 
@@ -777,6 +781,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000065> "IDPO:0000065")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000065> "client role in condensate assembly")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000065> <http://purl.obolibrary.org/obo/IDPO_0000061>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/IDPO_0000084>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000066> (protein aggregate formation)
 
