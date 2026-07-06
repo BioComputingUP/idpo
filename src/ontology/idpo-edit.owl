@@ -105,6 +105,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000097>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000098>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000099>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000102>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_0000087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_0000088>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
@@ -567,10 +569,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000040> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000041> (glycosylation target role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000041> "A post-translational modification target role role that inheres in an intrinsically disordered protein region in virtue of its recognition by a glycosyltransferase, and is realized in the covalent addition of a sugar moiety to that region.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000041> "A post-translational modification target role that inheres in an intrinsically disordered protein region in virtue of its recognition by a glycosylation machinery, and is realized in the covalent addition of a sugar moiety to that region.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000041> "glycosylation display site")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000041> "N-linked glycosylation site")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000041> "O-linked glycosylation site")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000041> "disorder_role")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000041> "IDPO:0000041")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000041> "glycosylation target role")
@@ -1014,6 +1014,26 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000100> "disorder role")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000100> <http://purl.obolibrary.org/obo/BFO_0000023>)
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/IDPO_0000095>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000101> (N-glycosylation target role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000101> "A glycosylation target role that inheres in an intrinsically disordered protein region in virtue of its recognition by an N-glycosylation machinery, and is realized in the covalent addition of a sugar moiety to a nitrogen atom of an amino acid side chain in that region.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000101> "N-glycosylation display site")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000101> "N-linked glycosylation target role")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000101> "disorder_role")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000101> "IDPO:0000101")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000101> "N-glycosylation target role")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000101> <http://purl.obolibrary.org/obo/IDPO_0000041>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000102> (O-glycosylation target role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000102> "A glycosylation target role that inheres in an intrinsically disordered protein region in virtue of its recognition by an O-glycosylation machinery, and is realized in the covalent addition of a sugar moiety to an oxygen atom of an amino acid side chain in that region.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000102> "O-glycosylation display site")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000102> "O-linked glycosylation target role")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000102> "disorder_role")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000102> "IDPO:0000102")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000102> "O-glycosylation target role")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000102> <http://purl.obolibrary.org/obo/IDPO_0000041>)
 
 
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0000086>) <http://purl.obolibrary.org/obo/IDPO_0000088>)
