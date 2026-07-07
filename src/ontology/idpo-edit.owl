@@ -392,7 +392,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000022> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000023> (pre-molten globule to molten globule)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> <https://disprot.org/DP00015r024>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32338601") <http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IDPO_0000023> "Annotation DP00015r024")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000023> "A structural transition in which a protein region changes from a pre-molten glouble state to a molten globule state, by gaining native-like secondary structure elements.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000023> "A structural transition in which a protein region changes from a pre-molten globule state to a molten globule state, by gaining native-like secondary structure elements.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000023> "protein_structural_transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000023> "IDPO:0000023")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000023> "pre-molten globule to molten globule")
@@ -467,7 +467,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000029> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000030> (entropic chain function)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:12022860") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000030> "A disorder function that is either mechanical or regulatory and enabled by the dynamic conformational flexibility of an intrincally disordered protein region that lacks a stable tertiary structure.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:12022860") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000030> "A disorder function that is either mechanical or regulatory and enabled by the dynamic conformational flexibility of an intrinsically disordered protein region that lacks a stable tertiary structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic chain")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic bristle")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic clock")
