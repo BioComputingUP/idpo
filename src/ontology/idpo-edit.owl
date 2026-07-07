@@ -121,6 +121,7 @@ Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#consider>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
@@ -135,6 +136,10 @@ Declaration(AnnotationProperty(rdfs:label))
 ############################
 #   Annotation Properties
 ############################
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#consider> (consider)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#consider> "consider")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (has_obo_namespace)
 
@@ -860,12 +865,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000079> "solid-like condensate state")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000079> <http://purl.obolibrary.org/obo/IDPO_0000075>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000080> (DEPRECATED transition)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000080> (obsolete transition)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000080> "OBSOLETE. A temporally extended process in which a protein or protein region changes from one state to another, under specific conditions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#consider> <http://purl.obolibrary.org/obo/IDPO_0000080> <http://purl.obolibrary.org/obo/IDPO_0000010>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#consider> <http://purl.obolibrary.org/obo/IDPO_0000080> <http://purl.obolibrary.org/obo/IDPO_0000083>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/IDPO_0000080> "Obsolete due to semantic ambiguity and excessive generality.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000080> "DEPRECATED transition")
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000080> <http://purl.obolibrary.org/obo/IDPO_0000010>)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000080> <http://purl.obolibrary.org/obo/IDPO_0000083>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000080> "obsolete transition")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/IDPO_0000080> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000081> (transition to a more ordered state)
@@ -923,12 +929,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000086> "post-translational modification motif role")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000086> <http://purl.obolibrary.org/obo/IDPO_0000036>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000089> (DEPRECATED state)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000089> (obsolete state)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000089> "OBSOLETE. A quality of a protein or protein region that describes its organization, conformation, or material properties at a given time, under specific conditions, and that can change dynamically.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#consider> <http://purl.obolibrary.org/obo/IDPO_0000089> <http://purl.obolibrary.org/obo/IDPO_0000001>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#consider> <http://purl.obolibrary.org/obo/IDPO_0000089> <http://purl.obolibrary.org/obo/IDPO_0000075>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/IDPO_0000089> "The term was originally introduced as a high-level grouping class but is now obsolete because it is overly general and semantically ambiguous.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000089> "DEPRECATED state")
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000089> <http://purl.obolibrary.org/obo/IDPO_0000001>)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000089> <http://purl.obolibrary.org/obo/IDPO_0000075>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000089> "obsolete state")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/IDPO_0000089> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000091> (compound)
