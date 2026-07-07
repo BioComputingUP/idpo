@@ -105,6 +105,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000097>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000098>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000099>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IDPO_0000102>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_0000087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IDPO_0000088>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
@@ -119,6 +121,7 @@ Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#consider>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
@@ -134,6 +137,10 @@ Declaration(AnnotationProperty(rdfs:label))
 #   Annotation Properties
 ############################
 
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#consider> (consider)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#consider> "consider")
+
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (has_obo_namespace)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace")
@@ -145,12 +152,14 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 # Object Property: <http://purl.obolibrary.org/obo/IDPO_0000087> (has final state)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000087> "A relation between a process and a quality that inheres in a participant of the process at the temporal end of that process.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000087> "has final state")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/BFO_0000019>)
 
 # Object Property: <http://purl.obolibrary.org/obo/IDPO_0000088> (has initial state)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000088> "A relation between a process and a quality that inheres in a participant of the process at the temporal beginning of that process.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000088> "has initial state")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/BFO_0000019>)
@@ -390,7 +399,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000022> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000023> (pre-molten globule to molten globule)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> <https://disprot.org/DP00015r024>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32338601") <http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IDPO_0000023> "Annotation DP00015r024")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000023> "A structural transition in which a protein region changes from a pre-molten glouble state to a molten globule state, by gaining native-like secondary structure elements.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000023> "A structural transition in which a protein region changes from a pre-molten globule state to a molten globule state, by gaining native-like secondary structure elements.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000023> "protein_structural_transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000023> "IDPO:0000023")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000023> "pre-molten globule to molten globule")
@@ -465,7 +474,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000029> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000030> (entropic chain function)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:12022860") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000030> "A disorder function that is either mechanical or regulatory and enabled by the dynamic conformational flexibility of an intrincally disordered protein region that lacks a stable tertiary structure.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:12022860") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000030> "A disorder function that is either mechanical or regulatory and enabled by the dynamic conformational flexibility of an intrinsically disordered protein region that lacks a stable tertiary structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic chain")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic bristle")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000030> "entropic clock")
@@ -567,10 +576,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000040> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000041> (glycosylation target role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000041> "A post-translational modification target role role that inheres in an intrinsically disordered protein region in virtue of its recognition by a glycosyltransferase, and is realized in the covalent addition of a sugar moiety to that region.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000041> "A post-translational modification target role that inheres in an intrinsically disordered protein region in virtue of its recognition by a glycosylation machinery, and is realized in the covalent addition of a sugar moiety to that region.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000041> "glycosylation display site")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000041> "N-linked glycosylation site")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000041> "O-linked glycosylation site")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000041> "disorder_role")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000041> "IDPO:0000041")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000041> "glycosylation target role")
@@ -860,12 +867,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000079> "solid-like condensate state")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000079> <http://purl.obolibrary.org/obo/IDPO_0000075>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000080> (DEPRECATED transition)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000080> (obsolete transition)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000080> "OBSOLETE. A temporally extended process in which a protein or protein region changes from one state to another, under specific conditions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#consider> <http://purl.obolibrary.org/obo/IDPO_0000080> <http://purl.obolibrary.org/obo/IDPO_0000010>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#consider> <http://purl.obolibrary.org/obo/IDPO_0000080> <http://purl.obolibrary.org/obo/IDPO_0000083>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/IDPO_0000080> "Obsolete due to semantic ambiguity and excessive generality.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000080> "DEPRECATED transition")
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000080> <http://purl.obolibrary.org/obo/IDPO_0000010>)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000080> <http://purl.obolibrary.org/obo/IDPO_0000083>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000080> "obsolete transition")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/IDPO_0000080> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000081> (transition to a more ordered state)
@@ -923,12 +931,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000086> "post-translational modification motif role")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000086> <http://purl.obolibrary.org/obo/IDPO_0000036>)
 
-# Class: <http://purl.obolibrary.org/obo/IDPO_0000089> (DEPRECATED state)
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000089> (obsolete state)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000089> "OBSOLETE. A quality of a protein or protein region that describes its organization, conformation, or material properties at a given time, under specific conditions, and that can change dynamically.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#consider> <http://purl.obolibrary.org/obo/IDPO_0000089> <http://purl.obolibrary.org/obo/IDPO_0000001>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#consider> <http://purl.obolibrary.org/obo/IDPO_0000089> <http://purl.obolibrary.org/obo/IDPO_0000075>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/IDPO_0000089> "The term was originally introduced as a high-level grouping class but is now obsolete because it is overly general and semantically ambiguous.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000089> "DEPRECATED state")
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000089> <http://purl.obolibrary.org/obo/IDPO_0000001>)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/IDPO_0000089> <http://purl.obolibrary.org/obo/IDPO_0000075>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000089> "obsolete state")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/IDPO_0000089> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000091> (compound)
@@ -1014,6 +1023,26 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000100> "disorder role")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000100> <http://purl.obolibrary.org/obo/BFO_0000023>)
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/IDPO_0000095>))
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000101> (N-glycosylation target role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000101> "A glycosylation target role that inheres in an intrinsically disordered protein region in virtue of its recognition by an N-glycosylation machinery, and is realized in the covalent addition of a sugar moiety to a nitrogen atom of an amino acid side chain in that region.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000101> "N-glycosylation display site")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000101> "N-linked glycosylation target role")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000101> "disorder_role")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000101> "IDPO:0000101")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000101> "N-glycosylation target role")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000101> <http://purl.obolibrary.org/obo/IDPO_0000041>)
+
+# Class: <http://purl.obolibrary.org/obo/IDPO_0000102> (O-glycosylation target role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000102> "A glycosylation target role that inheres in an intrinsically disordered protein region in virtue of its recognition by an O-glycosylation machinery, and is realized in the covalent addition of a sugar moiety to an oxygen atom of an amino acid side chain in that region.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000102> "O-glycosylation display site")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000102> "O-linked glycosylation target role")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000102> "disorder_role")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000102> "IDPO:0000102")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000102> "O-glycosylation target role")
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000102> <http://purl.obolibrary.org/obo/IDPO_0000041>)
 
 
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0000086>) <http://purl.obolibrary.org/obo/IDPO_0000088>)
