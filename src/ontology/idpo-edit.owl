@@ -152,12 +152,14 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 # Object Property: <http://purl.obolibrary.org/obo/IDPO_0000087> (has final state)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000087> "A relation between a process and a quality that inheres in a participant of the process at the temporal end of that process.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000087> "has final state")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000087> <http://purl.obolibrary.org/obo/BFO_0000019>)
 
 # Object Property: <http://purl.obolibrary.org/obo/IDPO_0000088> (has initial state)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000088> "A relation between a process and a quality that inheres in a participant of the process at the temporal beginning of that process.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000088> "has initial state")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/IDPO_0000088> <http://purl.obolibrary.org/obo/BFO_0000019>)
