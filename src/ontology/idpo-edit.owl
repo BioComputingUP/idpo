@@ -946,7 +946,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000091> "compound")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000091> "IDPO:0000091")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000091> "compound")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000091> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000091> <http://purl.obolibrary.org/obo/BFO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000092> (condensate)
 
@@ -954,7 +954,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000092> "compound")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000092> "IDPO:0000092")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000092> "condensate")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000092> <http://purl.obolibrary.org/obo/IDPO_0000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000092> <http://purl.obolibrary.org/obo/BFO_0000027>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000093> (biomolecular condensate)
 
@@ -970,7 +970,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000094> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000094> "IDPO:0000094")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000094> "protein")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000094> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000094> <http://purl.obolibrary.org/obo/BFO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000095> (protein region)
 
@@ -978,7 +978,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000095> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000095> "IDPO:0000095")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000095> "protein region")
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000095> <http://purl.obolibrary.org/obo/IDPO_0000094>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000095> <http://purl.obolibrary.org/obo/BFO_0000024>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000096> (intrinsically disordered protein)
 
