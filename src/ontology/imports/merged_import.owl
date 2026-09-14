@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/idpo/imports/merged_import.owl>
-<http://purl.obolibrary.org/obo/idpo/releases/2026-07-07/imports/merged_import.owl>
-Annotation(owl:versionInfo "2026-07-07")
+<http://purl.obolibrary.org/obo/idpo/releases/2026-09-14/imports/merged_import.owl>
+Annotation(owl:versionInfo "2026-09-14")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -20,6 +20,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
@@ -34,6 +37,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000102>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000225>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000409>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000055>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000062>))
@@ -54,10 +59,12 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000092>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002086>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002090>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002222>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002234>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002323>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002328>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002352>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002353>))
@@ -167,7 +174,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.gen
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "has broad synonym"@en)
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "has_broad_synonym")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (has cross-reference)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "disease characteristic (MONDO:0021125) has cross-reference (http://www.geneontology.org/formats/oboInOwl#hasDbXref) \"NCIT:C41009\"^^xsd:string")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "An annotation property that links an ontology entity or a statement to a prefixed identifier or URI.")
@@ -194,6 +201,27 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 ############################
 #   Object Properties
 ############################
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part of)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000050> "my brain is part of my body (continuant parthood, two material entities)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000050> "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000050> "this day is part of this year (occurrent parthood)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000050> "a core relation that holds between a part and its whole"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part of"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002131>)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>)
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (has part)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000051> "my body has part my brain (continuant parthood, two material entities)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000051> "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000051> "this year has part this day (occurrent parthood)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000051> "a core relation that holds between a whole and its part"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has part"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0002131>)
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>)
 
 # Object Property: <http://purl.obolibrary.org/obo/BFO_0000054> (realized in)
 
@@ -367,6 +395,13 @@ InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002090> "immediately precedes"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002090> <http://purl.obolibrary.org/obo/BFO_0000063>)
 
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002131> (overlaps)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002131> "x overlaps y if and only if there exists some z such that x has part z and z part of y")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002131> "overlaps"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/RO_0002323>)
+SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>)
+
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002222> (temporally related to)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002222> <https://en.wikipedia.org/wiki/Allen%27s_interval_algebra>)
@@ -395,6 +430,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002314> <http://www.ncbi.nlm.nih.gov/pubmed/20064205>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002314> "characteristic of part of"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/RO_0002502>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002323> (mereotopologically related to)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002323> "A mereological relationship or a topological relationship")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002323> "mereotopologically related to"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002328> (functionally related to)
 
@@ -564,13 +604,17 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000001> "ent
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000002> "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000002> "continuant"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000001>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000002>))
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000003>)
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000003> "An entity that has temporal parts and that happens, unfolds or develops through time."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000003> "occurrent"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000003> <http://purl.obolibrary.org/obo/BFO_0000001>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000003> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000003>))
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000002>))
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)
 
@@ -586,6 +630,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000004> "the interior of your mouth"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000004> "independent continuant"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000004>))
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020>)
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000031>)
 
@@ -621,6 +666,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000017> "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000017> "realizable entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000017> <http://purl.obolibrary.org/obo/BFO_0000020>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000017> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000017>))
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000017> <http://purl.obolibrary.org/obo/BFO_0000019>)
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000019> (quality)
@@ -633,6 +679,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000019> "the shape of your nostril"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000019> "quality"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000019> <http://purl.obolibrary.org/obo/BFO_0000020>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000019> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000019>))
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)
 
@@ -649,6 +696,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000020> "the smell of this portion of mozzarella"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000020> "specifically dependent continuant"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000020> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000020>))
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031>)
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000023> (role)
@@ -664,6 +712,52 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000023> "role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/BFO_0000017>)
 
+# Class: <http://purl.obolibrary.org/obo/BFO_0000024> (fiat object part)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000024> "or with divisions drawn by cognitive subjects for practical reasons, such as the division of a cake (before slicing) into (what will become) slices (and thus member parts of an object aggregate). However, this does not mean that fiat object parts are dependent for their existence on divisions or delineations effected by cognitive subjects. If, for example, it is correct to conceive geological layers of the Earth as fiat object parts of the Earth, then even though these layers were first delineated in recent times, still existed long before such delineation and what holds of these layers (for example that the oldest layers are also the lowest layers) did not begin to hold because of our acts of delineation.Treatment of material entity in BFOExamples viewed by some as problematic cases for the trichotomy of fiat object part, object, and object aggregate include: a mussel on (and attached to) a rock, a slime mold, a pizza, a cloud, a galaxy, a railway train with engine and multiple carriages, a clonal stand of quaking aspen, a bacterial community (biofilm), a broken femur. Note that, as Aristotle already clearly recognized, such problematic cases – which lie at or near the penumbra of instances defined by the categories in question – need not invalidate these categories. The existence of grey objects does not prove that there are not objects which are black and objects which are white; the existence of mules does not prove that there are not objects which are donkeys and objects which are horses. It does, however, show that the examples in question need to be addressed carefully in order to show how they can be fitted into the proposed scheme, for example by recognizing additional subdivisions [29"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000024> "the FMA:regional parts of an intact human body."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000024> "the Western hemisphere of the Earth"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000024> "the division of the brain into regions"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000024> "the division of the planet into hemispheres"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000024> "the dorsal and ventral surfaces of the body"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000024> "the upper and lower lobes of the left lung"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000024> "fiat object part"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000024> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000027> (object aggregate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "a collection of cells in a blood biobank."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "a swarm of bees is an aggregate of members who are linked together through natural bonds"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "a symphony orchestra"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "an organization is an aggregate whose member parts have roles of specific types (for example in a jazz band, a chess club, a football team)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "defined by fiat: the aggregate of members of an organization"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "defined through physical attachment: the aggregate of atoms in a lump of granite"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "defined through physical containment: the aggregate of molecules of carbon dioxide in a sealed container"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "defined via attributive delimitations such as: the patients in this hospital"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "the aggregate of bearings in a constant velocity axle joint"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "the aggregate of blood cells in your body"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "the nitrogen atoms in the atmosphere"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "the restaurants in Palo Alto"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "your collection of Meissen ceramic plates."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000027> "object aggregate"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000027> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000030> (object)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000030> "atom"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000030> "cell"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000030> "cells and organisms"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000030> "engineered artifacts"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000030> "grain of sand"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000030> "molecule"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000030> "organelle"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000030> "organism"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000030> "planet"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000030> "solid portions of matter"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000030> "star"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000030> "object"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000030> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
 # Class: <http://purl.obolibrary.org/obo/BFO_0000031> (generically dependent continuant)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000031> "The entries in your database are patterns instantiated as quality instances in your hard drive. The database itself is an aggregate of such patterns. When you create the database you create a particular instance of the generically dependent continuant type database. Each entry in the database is an instance of the generically dependent continuant type IAO: information content entity."@en)
@@ -671,6 +765,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000031> "the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000031> "generically dependent continuant"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000031> <http://purl.obolibrary.org/obo/BFO_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000031> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000031>))
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000034> (function)
 
@@ -897,8 +992,17 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0001000> "out of scope")
 
 
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002131>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000062>) <http://purl.obolibrary.org/obo/BFO_0000062>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000063>) <http://purl.obolibrary.org/obo/BFO_0000063>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/RO_0000052>) <http://purl.obolibrary.org/obo/RO_0000057>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0000057>) <http://purl.obolibrary.org/obo/RO_0000057>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0002131>) <http://purl.obolibrary.org/obo/RO_0002131>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/RO_0002404>) <http://purl.obolibrary.org/obo/RO_0009501>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002131>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/RO_0002233>) <http://purl.obolibrary.org/obo/RO_0002413>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002314>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002418>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0009501> <http://purl.obolibrary.org/obo/RO_0002233>) <http://purl.obolibrary.org/obo/RO_0004028>)
 DLSafeRule(Body(ClassAtom(<http://purl.obolibrary.org/obo/BFO_0000016> Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0000053> Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0000091> Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
 DLSafeRule(Body(ClassAtom(<http://purl.obolibrary.org/obo/BFO_0000019> Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0000053> Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0000086> Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
