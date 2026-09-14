@@ -963,6 +963,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000093> "IDPO:0000093")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000093> "biomolecular condensate")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000093> <http://purl.obolibrary.org/obo/IDPO_0000092>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000093> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/IDPO_0000084>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000094> (protein)
 
@@ -979,6 +980,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000095> "IDPO:0000095")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000095> "protein region")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000095> <http://purl.obolibrary.org/obo/BFO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/IDPO_0000094>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000096> (intrinsically disordered protein)
 
@@ -987,6 +989,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/OMO_0003000> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000096> "material_entity")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000096> "IDPO:0000096")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000096> "intrinsically disordered protein")
+EquivalentClasses(<http://purl.obolibrary.org/obo/IDPO_0000096> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IDPO_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/IDPO_0000002>)))
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000096> <http://purl.obolibrary.org/obo/IDPO_0000094>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000097> (intrinsically disordered region)
@@ -996,6 +999,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/OMO_0003000> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000097> "material_entity")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000097> "IDPO:0000097")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000097> "intrinsically disordered region")
+EquivalentClasses(<http://purl.obolibrary.org/obo/IDPO_0000097> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IDPO_0000095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/IDPO_0000002>)))
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000097> <http://purl.obolibrary.org/obo/IDPO_0000095>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000098> (ordered region)
@@ -1004,6 +1008,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000098> "material_entity")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000098> "IDPO:0000098")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000098> "ordered region")
+EquivalentClasses(<http://purl.obolibrary.org/obo/IDPO_0000098> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IDPO_0000095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/IDPO_0000006>)))
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000098> <http://purl.obolibrary.org/obo/IDPO_0000095>)
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000099> (SUMOylation target role)
