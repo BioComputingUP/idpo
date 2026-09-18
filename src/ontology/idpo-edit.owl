@@ -822,7 +822,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000075> "IDPO:0000075")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000075> "condensate material state")
 SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000075> <http://purl.obolibrary.org/obo/BFO_0000019>)
-SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <http://purl.obolibrary.org/obo/IDPO_0000092>))
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000076> (liquid-like condensate state)
 
@@ -975,7 +974,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/IDPO_0000094>
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000095> (protein region)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000095> "A fiat object part that is a contiguous portion of a protein distinguishable by its structural, functional, or sequence properties.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000095> "A fiat object part that is a contiguous portion of a protein.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000095> "material_entity")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000095> "IDPO:0000095")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000095> "protein region")
