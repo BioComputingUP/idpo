@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                98b52c17665ae96ff0faa9ab8d0db7ef77748df8fe2cf20122e9cab3604e090b
+CONFIG_HASH=                7b81db2dfb9d6b1b60d5081ec9ff3101008a1dd872d7573a3fac3c2821f98c57
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  ro omo bfo go iao
+IMPORTS =  ro omo bfo go iao pr cob
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -408,6 +408,11 @@ ALL_TERMS = $(foreach imp, $(IMPORTS), $(IMPORTDIR)/$(imp)_terms.txt)
 $(IMPORTDIR)/merged_import.owl: $(MIRRORDIR)/merged.owl $(ALL_TERMS) \
 				$(IMPORTSEED) | all_robot_plugins
 	$(ROBOT) merge --input $< \
+		 remove --select "<http://purl.obolibrary.org/obo/CHEBI_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/SO_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/UBERON_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/CL_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/NCBITaxon_*>" \
 		 extract $(foreach f, $(ALL_TERMS), --term-file $(f)) $(T_IMPORTSEED) \
 		         --force true --copy-ontology-annotations false \
 		         --individuals exclude \
@@ -491,6 +496,24 @@ mirror-go: | $(TMPDIR)
 mirror-iao: | $(TMPDIR)
 	curl -L $(OBOBASE)/iao.owl --create-dirs -o $(TMPDIR)/iao-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/iao-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: pr
+.PHONY: mirror-pr
+.PRECIOUS: $(MIRRORDIR)/pr.owl
+ifeq ($(IMP_LARGE),true)
+mirror-pr: | $(TMPDIR)
+	curl -L $(OBOBASE)/pr.owl.gz --create-dirs -o $(MIRRORDIR)/pr.owl.gz --retry 4 --max-time 200 && \
+	$(ROBOT) remove -i $(MIRRORDIR)/pr.owl.gz --base-iri http://purl.obolibrary.org/obo/PR --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
+endif
+
+
+## ONTOLOGY: cob
+.PHONY: mirror-cob
+.PRECIOUS: $(MIRRORDIR)/cob.owl
+mirror-cob: | $(TMPDIR)
+	curl -L $(OBOBASE)/cob/cob-base.owl --create-dirs -o $(TMPDIR)/cob-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/cob-download.owl -o $(TMPDIR)/$@.owl
 
 ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
 MERGE_MIRRORS = true

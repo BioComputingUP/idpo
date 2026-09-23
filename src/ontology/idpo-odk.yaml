@@ -15,6 +15,12 @@ export_formats:
 import_group:
   use_base_merging: TRUE
   slme_individuals: exclude
+  exclude_iri_patterns:
+    - <http://purl.obolibrary.org/obo/CHEBI_*>
+    - <http://purl.obolibrary.org/obo/SO_*>
+    - <http://purl.obolibrary.org/obo/UBERON_*>
+    - <http://purl.obolibrary.org/obo/CL_*>
+    - <http://purl.obolibrary.org/obo/NCBITaxon_*>
   products:
     - id: ro
       use_base: TRUE
@@ -23,6 +29,12 @@ import_group:
     - id: go
       use_base: TRUE
     - id: iao
+    - id: pr
+      use_gzipped: TRUE
+      is_large: TRUE
+      make_base: TRUE
+    - id: cob
+      use_base: TRUE
 documentation:
   documentation_system: mkdocs
 robot_java_args: "-Xmx8G"
