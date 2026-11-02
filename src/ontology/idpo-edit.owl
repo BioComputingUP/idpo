@@ -232,7 +232,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000005> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000006> (order state)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> <https://disprot.org/DP04243r003>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29499137") <http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IDPO_0000006> "Annotation DP04243r003")
-AnnotationAssertion(Annotation(rdfs:comment "PMID:11910019") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000006> "A protein structural state of a protein region in which atoms are arranged in a stable, well-defined three-dimensional conformation, including persistent secondary and tertiary structure.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:11910019") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000006> "A protein structural state of a protein region in which atoms are arranged in a stable, well-defined three-dimensional conformation, including persistent secondary and tertiary structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000006> "structural order")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000006> "structured state")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000006> "folded state")
