@@ -743,7 +743,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000060> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000061> (role in condensate assembly)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000061> "A disorder role that inheres in a protein or protein region in virtue of its physicochemical properties that promote or enable participation in condensate formation, and is realized in the formation of or participation in a biomolecular condensate.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000061> "A role that inheres in a protein or protein region in virtue of its physicochemical properties that promote or enable participation in condensate formation, and is realized in the formation of or participation in a biomolecular condensate.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000061> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000061> "biomolecular condensate assembler")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000061> "disorder_role")
@@ -915,7 +915,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000084> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000085> (role in molecular recognition)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000085> "A disorder role that inheres in an intrinsically disordered protein region in virtue of its sequence or structural properties being recognized by a molecular partner, and is realized in a molecular recognition process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000085> "A role that inheres in an intrinsically disordered protein region in virtue of its sequence or structural properties being recognized by a molecular partner, and is realized in a molecular recognition process.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000085> "molecular recognition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000085> "disorder_role")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000085> "IDPO:0000085")
