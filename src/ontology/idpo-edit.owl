@@ -786,7 +786,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/IDPO_0000065>
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000066> (protein aggregate formation)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000066> "A higher-order assembly transition involving a non-native state of a protein in which insoluble intermolecular interactions are established to form a higher-order irreversible assembly, usually as result of aberrant liquid-liquid phase separation.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000066> "A higher-order assembly transition involving a non-native state of a protein in which insoluble intermolecular interactions are established to form a higher-order irreversible assembly, usually as a result of aberrant liquid-liquid phase separation.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000066> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000066> "PMID:38825008")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000066> "aggregate assembly")
@@ -913,7 +913,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000085> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000086> (post-translational modification motif role)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25038412") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000086> "A short linear motif role that inheres in a protein region in virtue of its recognition by a PTM enzyme, and is realized in the direction of site-specific post-translational modification of the protein, either at that region or at a proximal site.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25038412") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000086> "A short linear motif role that inheres in a protein region in virtue of its recognition by a post-translational modification enzyme, and is realized in the direction of site-specific post-translational modification of the protein, either at that region or at a proximal site.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000086> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000086> "PMID:11463845")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000086> "disorder_role")
