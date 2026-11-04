@@ -12,6 +12,22 @@ export_formats:
   - owl
   - obo
   - json
+  
+use_mappings: true
+
+sssom_mappingset_group:
+  release_mappings: true
+  products:
+    - id: idpo-mappings
+      maintenance: manual
+
+components:
+  products:
+    - filename: idpo-mappings.owl
+      use_mappings: true
+      mappings:
+        - idpo-mappings.sssom.tsv
+
 import_group:
   use_base_merging: TRUE
   slme_individuals: exclude
