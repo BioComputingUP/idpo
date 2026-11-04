@@ -4,9 +4,13 @@ Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
+Prefix(sssom:=<https://w3id.org/sssom/>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/idpo.owl>
+Import(<http://purl.obolibrary.org/obo/idpo/components/idpo-mappings.owl>)
 Import(<http://purl.obolibrary.org/obo/idpo/imports/merged_import.owl>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000001>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000010>)
@@ -17,9 +21,9 @@ Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000095>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000096>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/IDPO_0000103>)
-Annotation(<http://purl.org/dc/terms/description> "It describes structural aspects of an IDP/IDR, self-functions and functions directly associated with their disordered state.")
-Annotation(<http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/>)
-Annotation(<http://purl.org/dc/terms/title> "Intrinsically Disordered Proteins Ontology")
+Annotation(dcterms:description "It describes structural aspects of an IDP/IDR, self-functions and functions directly associated with their disordered state.")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
+Annotation(dcterms:title "Intrinsically Disordered Proteins Ontology")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#default-namespace> "IDPO")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "1.2")
 
@@ -124,10 +128,10 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003000>))
-Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
-Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
-Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
-Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(dcterms:contributor))
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#consider>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>))
@@ -417,7 +421,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000023> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000025> (liquid-liquid phase separation)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29602697") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000025> "A biomolecular condensate formation involving a demixing driven by weak, transient multivalent interactions, resulting in two separate liquid phases, a dense phase and a dilute phase, that then stably coexist.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000025> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000025> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000025> "PMID:38287572")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000025> "LLPS")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000025> "liquid-liquid demixing")
@@ -429,7 +433,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000025> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000026> (condensate ageing)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000026> "A higher-order assembly transition in which biomolecular condensates progressively transition from a dynamic, liquid-like state to less dynamic gel-like, glass-like, or solid-like states.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000026> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000026> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000026> "PMID:29358076")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000026> "condensate hardening")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000026> "condensate maturation")
@@ -442,7 +446,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000026> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000027> (gelation)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29602697") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000027> "A higher-order assembly transition by which a liquid-like condensate transitions into a viscoelastic, crosslinked gel-like state, driven by increased concentration or multivalent interactions.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000027> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000027> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000027> "PMID:22579281")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000027> "liquid to gel transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000027> "condensate gelation")
@@ -456,7 +460,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000027> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000028> (crystallization)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29602697") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000028> "A higher-order assembly transition through which a disordered liquid state transitions into a more ordered glass-like state, characterized by slow relaxation and arrested molecular motion.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000028> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000028> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000028> "liquid to glass transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/IDPO_0000028> "condensate crystallization")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000028> "higher-order_assembly_transition")
@@ -529,7 +533,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000033> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000036> (short linear motif role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25038412") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000036> "A role in molecular recognition that inheres in a short intrinsically disordered protein region in virtue of its sequence complementarity to a specific binding partner, and is realized in a transient interaction with that partner.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000036> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000036> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000036> "disorder_role")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000036> "IDPO:0000036")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000036> "short linear motif role")
@@ -631,7 +635,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000046> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000047> (cleavage motif role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19920119") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000047> "A short linear motif role that inheres in a protein region in virtue of its recognition by a proteolytic enzyme, and is realized in the cleavage of the polypeptide chain at that region.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000047> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000047> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000047> "disorder_role")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000047> "IDPO:0000047")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000047> "cleavage motif role")
@@ -649,7 +653,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000048> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000049> (degron motif role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24214962") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000049> "A short linear motif role that inheres in a protein region in virtue of its recognition by a ubiquitin ligase complex, and is realized in the direction of protein polyubiquitylation and targeting to the proteasome for degradation.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000049> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000049> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000049> "PMID:12820959")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000049> "disorder_role")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000049> "IDPO:0000049")
@@ -659,7 +663,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000049> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000050> (docking motif role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24214962") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000050> "A short linear motif role that inheres in a protein region in virtue of its recognition by a modifying enzyme at an allosteric or regulatory site distinct from the enzyme's active site, and is realized in the recruitment of that enzyme to the substrate.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000050> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000050> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000050> "PMID:8684460")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000050> "disorder_role")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000050> "IDPO:0000050")
@@ -669,7 +673,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000050> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000051> (ligand binding motif role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21909575") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000051> "A short linear motif role that inheres in a protein region in virtue of its sequence complementarity to a specific interaction partner, and is realized in the binding of the protein to that partner.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000051> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000051> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000051> "PMID:26888287")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000051> "disorder_role")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000051> "IDPO:0000051")
@@ -679,7 +683,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000051> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000052> (targeting motif role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19920119") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000052> "A short linear motif role that inheres in a protein region in virtue of its recognition by subcellular targeting machinery, and is realized in the targeting of the protein to a specific subcellular compartment.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000052> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000052> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000052> "PMID:12417334")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000052> "disorder_role")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000052> "IDPO:0000052")
@@ -787,7 +791,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/IDPO_0000065>
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000066> (protein aggregate formation)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33510441") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000066> "A higher-order assembly transition involving a non-native state of a protein in which insoluble intermolecular interactions are established to form a higher-order irreversible assembly, usually as a result of aberrant liquid-liquid phase separation.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000066> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000066> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000066> "PMID:38825008")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000066> "aggregate assembly")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000066> "aggregate formation")
@@ -800,7 +804,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000066> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000067> (amorphous aggregate formation)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:40324497") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000067> "A protein aggregate formation leading to the formation of a protein aggregate lacking stable or ordered structure.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000067> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000067> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000067> "PMID:26735904")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000067> "higher-order_assembly_transition")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000067> "IDPO:0000067")
@@ -914,7 +918,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000085> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000086> (post-translational modification motif role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25038412") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000086> "A short linear motif role that inheres in a protein region in virtue of its recognition by a post-translational modification enzyme, and is realized in the direction of site-specific post-translational modification of the protein, either at that region or at a proximal site.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000086> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000086> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IDPO_0000086> "PMID:11463845")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000086> "disorder_role")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000086> "IDPO:0000086")
@@ -1055,7 +1059,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000103> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000104> (function in condensate assembly)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000104> "A function that inheres in a protein or protein region in virtue of its physicochemical properties that promote or enable participation in condensate formation, and is realized in the formation of or participation in a biomolecular condensate.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000104> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000104> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IDPO_0000104> "biomolecular condensate assembler")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000104> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000104> "IDPO:0000104")
@@ -1066,7 +1070,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000104> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000105> (client function in condensate assembly)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000105> "A function in condensate assembly that inheres in a protein or protein region in virtue of its low interaction valence, and is realized in its recruitment into a condensate formed by scaffold molecules without contributing to or affecting the phase separation process itself.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000105> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000105> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000105> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000105> "IDPO:0000105")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IDPO_0000105> "client function in condensate assembly")
@@ -1075,7 +1079,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000105> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000106> (co-driver function in condensate assembly)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000106> "A function in condensate assembly that inheres in a protein or protein region in virtue of its capacity to promote liquid-liquid phase separation strictly in the presence of one or more partner molecules, and is realized in phase separation with physical incorporation of the bearer into the condensate scaffold.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000106> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000106> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000106> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000106> "co-driver")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000106> "IDPO:0000106")
@@ -1085,7 +1089,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000106> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000107> (driver function in condensate assembly)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000107> "A function in condensate assembly that inheres in a protein or protein region in virtue of its high interaction valence, and is realized in the nucleation and maintenance of liquid-liquid phase separation.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000107> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000107> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000107> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000107> "driver")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000107> "scaffold")
@@ -1096,7 +1100,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IDPO_0000107> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/IDPO_0000108> (regulator function in condensate assembly)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33809541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IDPO_0000108> "A function in condensate assembly that inheres in a protein or protein region in virtue of its capacity to modulate the phase separation of driver or co-driver molecules, and is realized in the facilitation or inhibition of liquid-liquid phase separation without physical incorporation of the bearer into the condensate.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/IDPO_0000108> <https://orcid.org/0000-0001-8042-9939>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/IDPO_0000108> <https://orcid.org/0000-0001-8042-9939>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/IDPO_0000108> "disorder_function")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/IDPO_0000108> "regulator")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/IDPO_0000108> "IDPO:0000108")

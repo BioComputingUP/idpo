@@ -2,5 +2,6 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
   <group id="odk-managed-catalog" prefer="public">
     <uri name="http://purl.obolibrary.org/obo/idpo/imports/merged_import.owl" uri="imports/merged_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/idpo/components/idpo-mappings.owl" uri="components/idpo-mappings.owl" />
   </group>
 </catalog>

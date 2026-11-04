@@ -1,0 +1,26 @@
+# curie_map:
+#   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+#   CHMO: http://purl.obolibrary.org/obo/CHMO_
+#   GO: http://purl.obolibrary.org/obo/GO_
+#   IDPO: http://purl.obolibrary.org/obo/IDPO_
+#   MI: http://purl.obolibrary.org/obo/MI_
+#   PATO: http://purl.obolibrary.org/obo/PATO_
+#   SBO: http://purl.obolibrary.org/obo/SBO_
+#   TXPO: http://purl.obolibrary.org/obo/TXPO_
+#   semapv: https://w3id.org/semapv/vocab/
+#   skos: http://www.w3.org/2004/02/skos/core#
+# mapping_set_id: http://purl.obolibrary.org/obo/idpo/mappings/idpo-mappings.sssom.tsv
+# mapping_set_title: IDPO mappings to related terms in other ontologies
+# mapping_set_description: Manually curated SKOS mappings from IDPO classes to related terms in other OBO ontologies, reviewed during the IDPO OBO Foundry review.
+# license: https://creativecommons.org/licenses/by/4.0/
+# mapping_date: 2026-11-03
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+IDPO:0000002	disorder state	skos:broadMatch	PATO:0001412	unstructured	semapv:ManualMappingCuration	Genuine specialization. PATO's bearer is unrestricted ('inhering in a bearer') while the IDPO quality inheres only in a protein region. The differentiae also differ: PATO says 'lacking distinct structure', whereas an IDR does have structure (transient secondary structure, defined conformational ensembles) and lacks specifically a stable fixed tertiary arrangement. Not equivalent, so not a reuse case.
+IDPO:0000010	protein structural transition	skos:closeMatch	SBO:0000181	conformational transition	semapv:ManualMappingCuration	Overlapping but neither subsumes the other. SBO's genus is 'biochemical reaction' and its bearer is any reactant; IDPO's genus is BFO process and its bearer is a protein region moving between defined structural states. IDPO is broader on the process axis and narrower on the bearer axis, so closeMatch rather than broad/narrow.
+IDPO:0000027	gelation	skos:broadMatch	CHMO:0001646	gelation	semapv:ManualMappingCuration	CHMO describes the general formation of a gel; IDPO's term is that process restricted to a liquid-like biomolecular condensate crosslinking into a gel-like state, i.e. a specialization.
+IDPO:0000056	intramolecular interaction function	skos:relatedMatch	MI:1126	self interaction	semapv:ManualMappingCuration	Category difference confirmed by the definitions: MI:1126 denotes the intra-molecular interaction itself, while IDPO:0000056 is a BFO function borne by a protein region. The MI term names the process in which the IDPO function is realized, so the relation runs through 'realized in' rather than subsumption.
+IDPO:0000060	intramolecular assembly function	skos:relatedMatch	CHMO:0001305	self-assembly	semapv:ManualMappingCuration	Two differences. CHMO:0001305 is a process, IDPO:0000060 is a BFO function borne by a protein region. CHMO also describes association of separate components into higher-order structures (intermolecular), whereas the IDPO term covers association between regions of the same protein (intramolecular).
+IDPO:0000108	regulator function in condensate assembly	skos:relatedMatch	MI:2274	regulator	semapv:ManualMappingCuration	MI:2274 is defined as an entity ('Entity whose activity exerts an effect...'), whereas IDPO:0000108 is a BFO function borne by such an entity. MI's term is also unrestricted as to target, while the IDPO function is specific to liquid-liquid phase separation and excludes bearers incorporated into the condensate.
+IDPO:0000066	protein aggregate formation	skos:broadMatch	TXPO:0002661	protein aggregation	semapv:ManualMappingCuration	TXPO:0002661 is generic ('the aggregation, arrangement and bonding together of molecules'), with no commitment to solubility, reversibility, or native state. IDPO:0000066 adds insoluble intermolecular interactions, irreversibility, a non-native protein state and an aberrant LLPS origin. A clear specialization.
+IDPO:0000084	biomolecular condensate formation	skos:narrowMatch	GO:0140694	membraneless organelle assembly	semapv:ManualMappingCuration	GO's definition requires the product to be a non-membrane-bounded organelle, which confines it to a cellular context. IDPO:0000084 also covers in vitro condensate formation, which accounts for the majority of DisProt curation. GO's term is therefore the narrower of the two.
+IDPO:0000096	intrinsically disordered protein	skos:closeMatch	CHEBI:194424	unfolded protein	semapv:ManualMappingCuration	Despite the label, ChEBI does not define this as a denatured state: it describes a protein lacking well-defined tertiary structure, flexible, non-compact, with little or no ordered secondary structure under physiological conditions, which is close to equivalent to the IDPO definition. IDPO retains its own term because the community label 'unfolded' conventionally denotes a denatured state of a protein that has a native fold, and because IDPO:0000096 carries a logical definition ('has quality' some 'disorder state') that ChEBI does not.
