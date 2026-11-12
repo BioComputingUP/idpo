@@ -4,25 +4,26 @@ idspace: IDPO
 base_url: /obo/idpo
 
 products:
-- idpo.owl: https://raw.githubusercontent.com/BioComputingUP/idpo/main/idpo.owl
-- idpo.obo: https://raw.githubusercontent.com/BioComputingUP/idpo/main/idpo.obo
+- idpo.owl: https://github.com/BioComputingUP/idpo/releases/latest/download/idpo.owl
+- idpo.obo: https://github.com/BioComputingUP/idpo/releases/latest/download/idpo.obo
+- idpo.json: https://github.com/BioComputingUP/idpo/releases/latest/download/idpo.json
 
-term_browser: ontobee
+term_browser: ols
 example_terms:
-- IDPO_0000000
+- IDPO_0000002
 
 entries:
 
 - prefix: /releases/
-  replacement: https://raw.githubusercontent.com/BioComputingUP/idpo/v
+  replacement: https://github.com/BioComputingUP/idpo/releases/download/v
 
 - prefix: /tracker/
   replacement: https://github.com/BioComputingUP/idpo/issues
 
 - prefix: /about/
-  replacement: http://www.ontobee.org/ontology/IDPO?iri=http://purl.obolibrary.org/obo/
+  replacement: https://www.ebi.ac.uk/ols/ontologies/idpo/terms?iri=http://purl.obolibrary.org/obo/
 
 ## generic fall-through, serve direct from github by default
 - prefix: /
-  replacement: https://raw.githubusercontent.com/BioComputingUP/idpo/main/
+  replacement: https://github.com/BioComputingUP/idpo/releases/latest/download/
 
